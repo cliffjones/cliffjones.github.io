@@ -1,0 +1,26 @@
+.App {
+  background-color: hsl(150, 50%, 15%);
+  color: hsl(50, 90%, 95%);
+  font-size: calc(10px + 2vmin);
+
+  a {
+    border-color: hsla(40, 90%, 70%, 0.5);
+    border-style: dotted;
+    border-width: 0 0 2px;
+    color: hsl(40, 90%, 70%);
+    text-decoration: none;
+
+    &:hover {
+      border-color: hsla(50, 100%, 80%, 0.75);
+      color: hsl(50, 100%, 80%);
+    }
+  }
+
+  &-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+  }
+}

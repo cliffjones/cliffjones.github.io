@@ -1,25 +1,21 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
-import './App.css';
-
-import logo from './logo.svg';
+import './App.scss';
 import welcomePath from './welcome.md';
 
 function App() {
   const [mdContent, setMdContent] = useState('');
-
-  fetch(welcomePath)
-    .then((response) => response.text())
-    .then((content) => setMdContent(content));
+  axios.get(welcomePath)
+    .then((response) => setMdContent(response.data));
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <main className="App-content">
         <ReactMarkdown children={mdContent} remarkPlugins={[remarkGfm]} />
-      </header>
+      </main>
     </div>
   );
 }
