@@ -1,0 +1,5 @@
+{
+  "searchApi": "https://api.giphy.com/v1/gifs/search",
+  "apiKey": "pToF9vgGtxRuCD192XkxmfWlB0CelCQb",
+  "typingDebounceDelay": 500
+}

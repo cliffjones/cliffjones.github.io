@@ -1,0 +1,59 @@
+$main-bg-color: hsl(155, 50%, 15%);
+$main-text-color: hsl(25, 50%, 95%);
+$main-link-color: hsl(40, 90%, 70%);
+$main-link-line-color: hsla(40, 90%, 70%, 0.25);
+$main-link-color-focus: hsl(50, 100%, 80%);
+$main-link-line-color-focus: hsla(50, 100%, 80%, 0.5);
+
+$focus-time: 250ms;
+
+.App {
+  background-color: $main-bg-color;
+  color: $main-text-color;
+  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+
+  &-title {
+    margin: 0 0.5rem 2rem;
+  }
+
+  &-results {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &-card {
+    align-items: center;
+    background-color: hsl(300, 80%, 15%);
+    display: flex;
+    margin: 20px 5px;
+    padding: 5px;
+  }
+}
+
+.Content {
+  padding: 0.5rem;
+
+  &-link {
+    color: $main-link-color;
+    text-decoration-color: $main-link-line-color;
+    text-decoration-style: dotted;
+    transition-duration: $focus-time;
+    transition-property: color, text-decoration-color;
+
+    &:focus,
+    &:hover {
+      color: $main-link-color-focus;
+      text-decoration-color: $main-link-line-color-focus;
+    }
+
+    &--external {
+      text-decoration-style: solid;
+    }
+  }
+
+  &-image {
+    max-width: 60%;
+  }
+}
