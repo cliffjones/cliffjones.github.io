@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b9d8f2a.css",
-    "main.js": "/static/js/main.ba2cece5.js",
-    "static/js/787.41c211b0.chunk.js": "/static/js/787.41c211b0.chunk.js",
+    "main.css": "/static/css/main.63f8d8a9.css",
+    "main.js": "/static/js/main.62b4d210.js",
+    "static/js/787.9597edb0.chunk.js": "/static/js/787.9597edb0.chunk.js",
+    "static/media/cliff-welcome.md": "/static/media/cliff-welcome.3950319b4300abc79fd7.md",
     "index.html": "/index.html",
-    "static/media/welcome.md": "/static/media/welcome.b4480c1422fca39ae115.md",
-    "main.8b9d8f2a.css.map": "/static/css/main.8b9d8f2a.css.map",
-    "main.ba2cece5.js.map": "/static/js/main.ba2cece5.js.map",
-    "787.41c211b0.chunk.js.map": "/static/js/787.41c211b0.chunk.js.map"
+    "main.63f8d8a9.css.map": "/static/css/main.63f8d8a9.css.map",
+    "main.62b4d210.js.map": "/static/js/main.62b4d210.js.map",
+    "787.9597edb0.chunk.js.map": "/static/js/787.9597edb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b9d8f2a.css",
-    "static/js/main.ba2cece5.js"
+    "static/css/main.63f8d8a9.css",
+    "static/js/main.62b4d210.js"
   ]
 }
