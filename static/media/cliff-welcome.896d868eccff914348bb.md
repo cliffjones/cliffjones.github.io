@@ -1,5 +1,3 @@
-[![>Cliff Jones Jr.](/media/cliff-2021_400.jpg?200.webp,200.jpg,400.webp,400.jpg,800.webp,800.jpg,1000.webp,1000.jpg)](https://cliffjonesjr.com/social)
-
-I’m a [software developer](https://cliffjonesjr.com/coding) and a [fiction writer](https://cliffjonesjr.com/writing) with a background in [linguistics](https://cliffjonesjr.com/language). I also make [art](https://cliffjonesjr.com/art) from time to time.
+[![>Cliff Jones Jr.](/media/cliff-2021_400.jpg?200.webp,200.jpg,400.webp,400.jpg,800.webp,800.jpg,1000.webp,1000.jpg)](https://cliffjonesjr.com/social) I’m a [software developer](https://cliffjonesjr.com/coding) and a [fiction writer](https://cliffjonesjr.com/writing) with a background in [linguistics](https://cliffjonesjr.com/language). I also make [art](https://cliffjonesjr.com/art) from time to time.
 
 My big focus lately has been on the niche genre of [dreampunk](https://whatisdreampunk.com/). You’ve probably seen it, you may have read it, and you might actually be a fan—even if you’ve never heard the term before. I love this type of trippy, creepy, surreal fiction so much I’ve even put together a multi-author [anthology](https://whatisdreampunk.com/mirrormaze) of it (with [another](https://whatisdreampunk.com/somniscope) in the works).
