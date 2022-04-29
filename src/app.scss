@@ -1,20 +1,46 @@
-$main-bg-color: hsl(155, 50%, 15%);
-$main-text-color: hsl(25, 50%, 95%);
-$main-link-color: hsl(40, 90%, 70%);
-$main-link-line-color: hsla(40, 90%, 70%, 0.25);
-$main-link-color-focus: hsl(50, 100%, 80%);
-$main-link-line-color-focus: hsla(50, 100%, 80%, 0.5);
+$heading-font: 'Righteous';
+
+$bg-color: hsl(155, 50%, 15%);
+$text-color: hsl(25, 50%, 95%);
+$special-color: hsl(210, 90%, 80%);
+$line-color: hsl(290, 80%, 10%);
+$link-color: hsl(45, 90%, 65%);
+$link-focus-color: hsl(45, 100%, 80%);
+$link-line-color: hsla(210, 90%, 65%, 0.3);
+$link-line-focus-color: hsla(210, 100%, 70%, 0.6);
+$link-line-special-color: hsla(340, 90%, 65%, 0.3);
+$link-line-special-focus-color: hsla(340, 100%, 70%, 0.6);
+$section-bg-color: hsla(290, 80%, 10%, 0.3);
+
+$line-thickness: 0.1em;
+$box-radius: 0.5em;
+$box-padding: 1.5vw;
+$vertical-space: calc(0.5rem + 1.5vw);
 
 $focus-time: 250ms;
 
 .App {
-  background-color: $main-bg-color;
-  color: $main-text-color;
+  background-color: $bg-color;
+  color: $text-color;
   font-size: calc(10px + 2vmin);
   min-height: 100vh;
 
+  hr {
+    border: 0;
+    border-top: $line-thickness solid $line-color;
+    clear: both;
+    margin: $vertical-space 0;
+  }
+
   &-title {
-    margin: 0 0.5rem 2rem;
+    color: $special-color;
+    font-family: $heading-font;
+    font-size: calc(120% + 3vw);
+    font-weight: normal;
+    line-height: 1;
+    margin: 0 $box-padding;
+    padding-top: $box-padding;
+    text-shadow: 0 0 $line-thickness $line-color;
   }
 
   &-results {
@@ -33,27 +59,93 @@ $focus-time: 250ms;
 }
 
 .Content {
-  padding: 0.5rem;
+  padding: $box-padding;
+
+  &-section {
+    background: $section-bg-color;
+    border: $line-thickness solid $line-color;
+    border-radius: $box-radius;
+    margin: $vertical-space 0;
+    padding: $box-padding;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-heading {
+    color: $special-color;
+    font-family: $heading-font;
+    font-weight: normal;
+  }
 
   &-link {
-    color: $main-link-color;
-    text-decoration-color: $main-link-line-color;
-    text-decoration-style: dotted;
+    color: $link-color;
+    text-decoration-color: $link-line-color;
     transition-duration: $focus-time;
     transition-property: color, text-decoration-color;
 
     &:focus,
     &:hover {
-      color: $main-link-color-focus;
-      text-decoration-color: $main-link-line-color-focus;
+      color: $link-focus-color;
+      text-decoration-color: $link-line-focus-color;
     }
 
     &--external {
-      text-decoration-style: solid;
+      text-decoration-color: $link-line-special-color;
+
+      &:focus,
+      &:hover {
+        text-decoration-color: $link-line-special-focus-color;
+
+        .Content-image {
+          border-color: $link-line-special-focus-color;
+        }
+      }
+
+      .Content-image {
+        border-color: $link-line-special-color;
+      }
+    }
+
+    .Content-image {
+      border-color: $link-line-color;
+
+      &:focus,
+      &:hover {
+        border-color: $link-line-focus-color;
+      }
     }
   }
 
   &-image {
-    max-width: 60%;
+    border: $line-thickness solid $line-color;
+    border-radius: $box-radius;
+    max-height: 100vh;
+    max-width: 50%;
+    transition-duration: $focus-time;
+    transition-property: border-color;
+
+    &--left {
+      float: left;
+      margin-bottom: $box-padding;
+      margin-right: $box-padding;
+    }
+
+    &--right {
+      float: right;
+      margin-bottom: $box-padding;
+      margin-left: $box-padding;
+    }
+
+    &--center {
+      display: block;
+      margin: 0 auto;
+      max-width: none;
+    }
   }
 }

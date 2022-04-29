@@ -10,72 +10,112 @@ import content from './content.json';
 import config from './config.json';
 import welcomePath from './content/cliff-welcome.md';
 
-// Add a given class to a supplied props object.
+// Adds a given class to a supplied props object.
 function addClassName(props: any, className: string) {
   props.className = props.className ? `${props.className} ${className}` : className;
 }
 
-const mdConfig: any = {
+// Customizes heading formatting in Markdown content.
+function formatHeading({ node, children, ...props }) {
+  const newProps = { ...props };
+  delete newProps.level; // Remove this auto-generated non-standard attribute.
+  addClassName(newProps, 'Content-heading');
+
   // Demote headings one level to let Markdown files be more stand-alone.
-  h1: 'h2',
-  h2: 'h3',
-  h3: 'h4',
-  h4: 'h5',
-  h5: 'h6',
+  let level = parseInt(node.tagName[node.tagName.length - 1], 10);
+  if (level === 1) {
+    return <h2 {...newProps}>{children}</h2>;
+  }
+  if (level === 2) {
+    return <h3 {...newProps}>{children}</h3>;
+  }
+  if (level === 3) {
+    return <h4 {...newProps}>{children}</h4>;
+  }
+  if (level === 4) {
+    return <h5 {...newProps}>{children}</h5>;
+  }
+  return <h6 {...newProps}>{children}</h6>;
+}
 
-  // Customize links.
-  a: ({ node, children, ...props }) => {
-    const newChildren = Array.isArray(children) ? [...children] : [children];
-    const newProps = { ...props };
-    addClassName(newProps, 'Content-link');
+// Customizes link formatting in Markdown content.
+function formatLink({ node, children, ...props }) {
+  const newChildren = Array.isArray(children) ? [...children] : [children];
+  const newProps = { ...props };
+  addClassName(newProps, 'Content-link');
 
-    // Make links starting with "+" open in a new tab.
-    if (children[0]?.[0] === '+') {
-      newChildren[0] = newChildren[0].substr(1);
-      newProps.target = '_blank';
-      newProps.rel = 'noopener';
-      addClassName(newProps, 'Content-link--external');
+  // Make links starting with "+" open in a new tab.
+  console.log('newChildren', typeof newChildren, newChildren);
+  if (typeof newChildren?.[0] === 'string' && newChildren[0].startsWith('+')) {
+    newChildren[0] = newChildren[0].slice(1);
+    newProps.target = '_blank';
+    newProps.rel = 'noopener';
+    addClassName(newProps, 'Content-link--external');
+  }
+
+  return <a {...newProps}>{newChildren}</a>;
+}
+
+// Customizes image formatting in Markdown content.
+function formatImage({ node, ...props }) {
+  const newProps = { ...props };
+  addClassName(newProps, 'Content-image');
+
+  // Add an alignment class based on special starting characters in the alt text.
+  let alignment = '';
+  if (newProps.alt.startsWith('<')) {
+    alignment = 'left';
+  } else if (newProps.alt.startsWith('>')) {
+    alignment = 'right';
+  } else if (newProps.alt.startsWith('^')) {
+    alignment = 'center';
+  }
+  if (alignment) {
+    addClassName(newProps, `Content-image--${alignment}`);
+    newProps.alt = newProps.alt.slice(1);
+  }
+
+  // Make images progressive when alternates are specified.
+  if (newProps.src.includes('?')) {
+    // Remove the alternate image specs from the `src` attribute.
+    const srcChunks: string[] = newProps.src.split('?', 2);
+    newProps.src = srcChunks[0];
+
+    // Extract a base file name with no extension or size.
+    let baseSrc: string = newProps.src;
+    if (baseSrc.includes('.') || baseSrc.includes('_')) {
+      baseSrc = baseSrc.split(/(_|\.)/, 2)[0];
     }
 
-    return <a {...newProps}>{newChildren}</a>;
-  },
-
-  // Customize images.
-  img: ({ node, ...props }) => {
-    const newProps = { ...props };
-    addClassName(newProps, 'Content-image');
-
-    // Make images progressive when alternates are specified.
-    if (newProps.src.includes('?')) {
-      // Remove the alternate image specs from the `src` attribute.
-      const srcChunks: string[] = newProps.src.split('?', 2);
-      newProps.src = srcChunks[0];
-
-      // Extract a base file name with no extension or size.
-      let baseSrc: string = newProps.src;
-      if (baseSrc.includes('.') || baseSrc.includes('_')) {
-        baseSrc = baseSrc.split(/(_|\.)/, 2)[0];
-      }
-
-      // Compile a `srcset` value from the alternate images.
-      const setChunks: string[] = srcChunks.pop().split(',');
-      for (let i: number = 0; i < setChunks.length; i++) {
-        const chunk: string = setChunks[i];
-        const width: number = parseInt(chunk, 10);
-        setChunks[i] = `${baseSrc}_${chunk} ${width}w`;
-      }
-      newProps.srcSet = setChunks.join();
-
-      // Assume images might be around half the screen width.
-      newProps.sizes = '50vw';
+    // Compile a `srcset` value from the alternate images.
+    const setChunks: string[] = srcChunks.pop().split(',');
+    for (let i: number = 0; i < setChunks.length; i++) {
+      const chunk: string = setChunks[i];
+      const width: number = parseInt(chunk, 10);
+      setChunks[i] = `${baseSrc}_${chunk} ${width}w`;
     }
+    newProps.srcSet = setChunks.join();
 
-    return <img {...newProps} />;
-  },
+    // Assume images might be most of the screen width.
+    newProps.sizes = '90vw';
+  }
+
+  return <img {...newProps} />;
+}
+
+const mdConfig: any = {
+  h1: formatHeading,
+  h2: formatHeading,
+  h3: formatHeading,
+  h4: formatHeading,
+  h5: formatHeading,
+  a: formatLink,
+  img: formatImage,
 };
 
 let searchTimer: ReturnType<typeof setTimeout>;
 
+// The base component for the site.
 function App() {
   const [mdContent, setMdContent] = useState<string>('');
   const [searchText, setSearchText] = useState<string>('');
@@ -113,34 +153,33 @@ function App() {
     <div className='App'>
       <h1 className='App-title'>{content.title}</h1>
 
-      <main className='Content'>
-        <ReactMarkdown
-          children={mdContent}
-          components={mdConfig} // Customize how certain tags are handled.
-          remarkPlugins={[
-            remarkGfm, // Use GitHub-Flavored Markdown.
-            // remarkAttr, // Add curly-brace syntax to allow attribute setting.
-          ]}
-          rehypePlugins={[
-            rehypeRaw, // Enable embedded HTML.
-          ]}
-        />
+      <main>
+        <div className='Content'>
+          <section className='Content-section'>
+            <ReactMarkdown
+              children={mdContent}
+              components={mdConfig} // Customize how certain tags are handled.
+              remarkPlugins={[
+                remarkGfm, // Use GitHub-Flavored Markdown.
+                // remarkAttr, // Add curly-brace syntax to allow attribute setting.
+              ]}
+              rehypePlugins={[
+                rehypeRaw, // Enable embedded HTML.
+              ]}
+            />
+          </section>
+        </div>
+
+        {/* <input type='search' onChange={onSearchChange} /> */}
+
+        <section className='App-results'>
+          {results.map((result) => (
+            <div key={result?.id} className='App-card'>
+              <img src={result?.images?.fixed_width?.url} alt={result?.title} />
+            </div>
+          ))}
+        </section>
       </main>
-
-      <hr />
-
-      <input
-        type='search'
-        onChange={onSearchChange}
-      />
-
-      <section className='App-results'>
-        {results.map((result) => (
-          <div key={result?.id} className='App-card'>
-            <img src={result?.images?.fixed_width?.url} alt={result?.title} />
-          </div>
-        ))}
-      </section>
     </div>
   );
 }
