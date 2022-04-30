@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.591c996b.css",
-    "main.js": "/static/js/main.c7dddb25.js",
+    "main.css": "/static/css/main.bebbad1c.css",
+    "main.js": "/static/js/main.12c7a343.js",
     "static/js/787.9597edb0.chunk.js": "/static/js/787.9597edb0.chunk.js",
-    "static/media/cliff-welcome.md": "/static/media/cliff-welcome.896d868eccff914348bb.md",
+    "static/media/social.md": "/static/media/social.2783ffe11a90a6fbcfb6.md",
+    "static/media/mirrormaze-blurb.md": "/static/media/mirrormaze-blurb.5af0e51d89ea086a8161.md",
     "index.html": "/index.html",
-    "main.591c996b.css.map": "/static/css/main.591c996b.css.map",
-    "main.c7dddb25.js.map": "/static/js/main.c7dddb25.js.map",
+    "static/media/welcome.md": "/static/media/welcome.a01b1bf3c5c1b7143b6c.md",
+    "static/media/missing.md": "/static/media/missing.d06a0c9829828a204fe6.md",
+    "main.bebbad1c.css.map": "/static/css/main.bebbad1c.css.map",
+    "main.12c7a343.js.map": "/static/js/main.12c7a343.js.map",
     "787.9597edb0.chunk.js.map": "/static/js/787.9597edb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.591c996b.css",
-    "static/js/main.c7dddb25.js"
+    "static/css/main.bebbad1c.css",
+    "static/js/main.12c7a343.js"
   ]
 }
