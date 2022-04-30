@@ -1,0 +1,20 @@
+$heading-font: 'Righteous';
+
+$bg-color: hsl(155, 50%, 15%);
+$text-color: hsl(25, 50%, 95%);
+$special-color: hsl(210, 90%, 80%);
+$line-color: hsl(290, 80%, 10%);
+$link-color: hsl(45, 90%, 65%);
+$link-focus-color: hsl(45, 100%, 80%);
+$link-line-color: hsla(210, 90%, 65%, 0.3);
+$link-line-focus-color: hsla(210, 100%, 70%, 0.6);
+$link-line-special-color: hsla(340, 90%, 65%, 0.3);
+$link-line-special-focus-color: hsla(340, 100%, 70%, 0.6);
+$section-bg-color: hsla(290, 80%, 10%, 0.3);
+
+$line-thickness: 0.1em;
+$box-radius: 0.5em;
+$box-padding: 1.5vw;
+$vertical-space: calc(1rem + 2.5vw);
+
+$focus-time: 250ms;

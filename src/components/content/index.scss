@@ -1,0 +1,101 @@
+@import '../../tokens.scss';
+
+.Content {
+  &-section {
+    background: $section-bg-color;
+    border: $line-thickness solid $line-color;
+    border-radius: $box-radius;
+    margin: $vertical-space $box-padding;
+    padding: $box-padding;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-heading {
+    color: $special-color;
+    font-family: $heading-font;
+    font-weight: normal;
+  }
+
+  &-link {
+    color: $link-color;
+    text-decoration-color: $link-line-color;
+    transition-duration: $focus-time;
+    transition-property: color, text-decoration-color;
+
+    &:focus,
+    &:hover {
+      color: $link-focus-color;
+      text-decoration-color: $link-line-focus-color;
+    }
+
+    &--external {
+      text-decoration-color: $link-line-special-color;
+
+      &:focus,
+      &:hover {
+        text-decoration-color: $link-line-special-focus-color;
+
+        .Content-image {
+          border-color: $link-line-special-focus-color;
+        }
+      }
+
+      .Content-image {
+        border-color: $link-line-special-color;
+      }
+    }
+
+    .Content-image {
+      border-color: $link-line-color;
+
+      &:focus,
+      &:hover {
+        border-color: $link-line-focus-color;
+      }
+    }
+  }
+
+  &-image {
+    border: $line-thickness solid $line-color;
+    border-radius: $box-radius;
+    max-height: 100vh;
+    max-width: 50%;
+    transition-duration: $focus-time;
+    transition-property: border-color;
+
+    &--left {
+      float: left;
+      margin-bottom: $box-padding;
+      margin-right: $box-padding;
+    }
+
+    &--right {
+      float: right;
+      margin-bottom: $box-padding;
+      margin-left: $box-padding;
+    }
+
+    &--center {
+      display: block;
+      margin: 0 auto;
+      max-width: none;
+    }
+
+    &--no-max {
+      max-height: none;
+      max-width: none;
+    }
+
+    &--no-border {
+      border: 0;
+      border-radius: 0;
+    }
+  }
+}
