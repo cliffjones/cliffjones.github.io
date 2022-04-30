@@ -65,6 +65,7 @@
   &-image {
     border: $line-thickness solid $line-color;
     border-radius: $box-radius;
+    box-sizing: border-box;
     max-height: 100vh;
     max-width: 50%;
     transition-duration: $focus-time;
@@ -85,12 +86,12 @@
     &--center {
       display: block;
       margin: 0 auto;
-      max-width: none;
+      max-width: 100%;
     }
 
     &--no-max {
       max-height: none;
-      max-width: none;
+      max-width: 100%;
     }
 
     &--no-border {
