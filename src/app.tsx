@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import './app.scss';
 import content from './content.json';
@@ -47,13 +47,11 @@ function App() {
       <h1 className='App-title'><a href='/'>{content.title}</a></h1>
 
       <main>
-        <BrowserRouter>
-          <Routes>
-            <Route index element={<Page paths={[welcomePath, mirrormazeBlurbPath]} />} />
-            <Route path='social' element={<Content path={socialPath} />} />
-            <Route path='*' element={<Content path={missingPath} />} />
-          </Routes>
-        </BrowserRouter>
+        <Routes>
+          <Route index element={<Page paths={[welcomePath, mirrormazeBlurbPath]} />} />
+          <Route path='/social' element={<Content path={socialPath} />} />
+          <Route path='*' element={<Content path={missingPath} />} />
+        </Routes>
 
         {/* <input type='search' onChange={onSearchChange} /> */}
 
