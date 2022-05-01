@@ -9,6 +9,28 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+    <script>
+      // Check the query string for a redirect value, and add it to the browser history.
+      // Based on `https://github.com/rafgraph/spa-github-pages`.
+      (function (loc) {
+        var AND_CODE = '~A~';
+        if (loc.search[1] === '/' ) {
+          var newLoc = [
+            loc.pathname.slice(0, -1),
+            loc.search
+              .slice(1)
+              .split('&')
+              .map(function (segment) {
+                return segment.replace(new RegExp(AND_CODE, 'g'), '&');
+              })
+              .join('?'),
+            loc.hash,
+          ].join('');
+          window.history.replaceState(null, '', newLoc);
+        }
+      }(window.location));
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
