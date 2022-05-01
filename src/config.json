@@ -1,4 +1,15 @@
 {
+  "image": {
+    "url": "https://ik.imagekit.io/cliff/",
+    "transform": "?tr=w-",
+    "widths": [
+      400,
+      800,
+      1200,
+      1600
+    ]
+  },
+
   "searchApi": "https://api.giphy.com/v1/gifs/search",
   "apiKey": "pToF9vgGtxRuCD192XkxmfWlB0CelCQb",
   "typingDebounceDelay": 500

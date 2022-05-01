@@ -6,6 +6,7 @@ import remarkGfm from 'remark-gfm';
 // import remarkAttr from 'remark-attr';
 
 import './index.scss';
+import config from '../../config.json';
 
 // Adds a given class to a supplied props object.
 function addClassName(props: any, className: string) {
@@ -79,29 +80,17 @@ function formatImage({ node, ...props }) {
     newProps.alt = newProps.alt.slice(1);
   }
 
-  // Make images progressive when alternates are specified.
-  if (newProps.src.includes('?')) {
-    // Remove the alternate image specs from the `src` attribute.
-    const srcChunks: string[] = newProps.src.split('?', 2);
-    newProps.src = srcChunks[0];
+  // Make the image progressive if a simple file name is specified.
+  if (!newProps.src.includes('/')) {
+    const { url, transform, widths } = config.image;
+    newProps.src = `${url}${newProps.src}`;
 
-    // Extract a base file name with no extension or size.
-    let baseSrc: string = newProps.src;
-    if (baseSrc.includes('.') || baseSrc.includes('_')) {
-      baseSrc = baseSrc.split(/(_|\.)/, 2)[0];
+    // Compile a `srcset` value from the available variants.
+    const variants = [];
+    for (let i: number = 0; i < widths.length; i++) {
+      variants.push(`${newProps.src}${transform}${widths[i]} ${widths[i]}w`);
     }
-
-    // Compile a `srcset` value from the alternate images.
-    const setChunks: string[] = srcChunks.pop().split(',');
-    for (let i: number = 0; i < setChunks.length; i++) {
-      const chunk: string = setChunks[i];
-      const width: number = parseInt(chunk, 10);
-      setChunks[i] = `${baseSrc}_${chunk} ${width}w`;
-    }
-    newProps.srcSet = setChunks.join();
-
-    // Assume images might be most of the screen width.
-    newProps.sizes = '90vw';
+    newProps.srcSet = variants.join(', ');
   }
 
   return <img {...newProps} />;
