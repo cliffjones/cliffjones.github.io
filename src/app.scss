@@ -31,18 +31,4 @@ body {
       text-decoration: none;
     }
   }
-
-  &-results {
-    justify-content: space-evenly;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  &-card {
-    align-items: center;
-    background-color: hsl(300, 80%, 15%);
-    display: flex;
-    margin: 20px 5px;
-    padding: 5px;
-  }
 }

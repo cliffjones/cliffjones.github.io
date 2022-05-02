@@ -1,5 +1,8 @@
 {
-  "image": {
+  "delays": {
+    "debounceTyping": 500
+  },
+  "imageKit": {
     "url": "https://ik.imagekit.io/cliff/",
     "transform": "?tr=w-",
     "widths": [
@@ -9,8 +12,8 @@
       1600
     ]
   },
-
-  "searchApi": "https://api.giphy.com/v1/gifs/search",
-  "apiKey": "pToF9vgGtxRuCD192XkxmfWlB0CelCQb",
-  "typingDebounceDelay": 500
+  "giphy": {
+    "searchApi": "https://api.giphy.com/v1/gifs/search",
+    "apiKey": "pToF9vgGtxRuCD192XkxmfWlB0CelCQb"
+  }
 }

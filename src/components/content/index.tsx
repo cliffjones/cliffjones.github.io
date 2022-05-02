@@ -82,7 +82,7 @@ function formatImage({ node, ...props }) {
 
   // Make the image progressive if a simple file name is specified.
   if (!newProps.src.includes('/')) {
-    const { url, transform, widths } = config.image;
+    const { url, transform, widths } = config.imageKit;
     newProps.src = `${url}${newProps.src}`;
 
     // Compile a `srcset` value from the available variants.

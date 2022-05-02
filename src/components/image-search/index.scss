@@ -1,0 +1,23 @@
+@import '../../tokens.scss';
+
+.ImageSearch {
+  &-query {
+    display: block;
+    margin: $vertical-space auto;
+    width: 90%;
+  }
+
+  &-results {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &-card {
+    align-items: center;
+    background-color: $line-color;
+    display: flex;
+    margin: $vertical-space $box-padding;
+    padding: $box-padding;
+  }
+}
