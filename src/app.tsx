@@ -1,7 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 
 import './app.scss';
-import content from './content.json';
+import Header from './components/header';
+import Footer from './components/footer';
 import Page from './components/page';
 import Content from './components/content';
 import ImageSearch from './components/image-search';
@@ -13,7 +14,7 @@ import missingPath from './content/missing.md';
 function App() {
   return (
     <div className='App'>
-      <h1 className='App-title'><a href='/'>{content.title}</a></h1>
+      <Header />
 
       <main>
         <Routes>
@@ -23,6 +24,8 @@ function App() {
           <Route path='/image-search' element={<ImageSearch />} />
         </Routes>
       </main>
+
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,24 @@
+@import '../../tokens.scss';
+
+.Header {
+  &-title {
+    color: $special-color;
+    font-family: $heading-font;
+    font-size: calc(120% + 3vw);
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding: $box-padding $box-padding 0;
+    text-shadow: 0 0 $line-thickness $line-color;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:focus,
+      &:hover {
+        color: $special-focus-color;
+      }
+    }
+  }
+}

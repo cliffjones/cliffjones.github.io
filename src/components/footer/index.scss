@@ -1,0 +1,11 @@
+@import '../../tokens.scss';
+
+.Footer {
+  padding: 0 $box-padding $box-padding;
+  text-align: center;
+
+  &-copyright {
+    font-size: 80%;
+    line-height: 1;
+  }
+}
