@@ -6,6 +6,7 @@
       // Based on `https://github.com/rafgraph/spa-github-pages`.
       // Convert the current URL to only use a query string instead of a relative path.
       var SEGMENTS_TO_KEEP = 0;
+      var AND_CODE = '~A~';
       var loc = window.location;
       var newLoc = [
         loc.protocol,
@@ -14,8 +15,8 @@
         (loc.port ? ':' + loc.port : ''),
         loc.pathname.split('/').slice(0, 1 + SEGMENTS_TO_KEEP).join('/'),
         '/?/',
-        loc.pathname.slice(1).split('/').slice(SEGMENTS_TO_KEEP).join('/').replace(/&/g, '~and~'),
-        (loc.search ? '&' + loc.search.slice(1).replace(/&/g, '~and~') : ''),
+        loc.pathname.slice(1).split('/').slice(SEGMENTS_TO_KEEP).join('/').replace(/&/g, AND_CODE),
+        (loc.search ? '&' + loc.search.slice(1).replace(/&/g, AND_CODE) : ''),
         loc.hash,
       ].join('');
       loc.replace(newLoc);
