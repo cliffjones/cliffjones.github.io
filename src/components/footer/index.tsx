@@ -8,40 +8,40 @@ function Footer() {
 
   return (
     <footer className='Footer'>
-      <div className='Footer-social'>
+      <div className='Footer-icons'>
         <Icon
           name='facebook'
-          title='Facebook'
+          hint='Facebook'
           action='http://www.facebook.com/mrcliffjonesjr'
         />
         <Icon
-          name='instagram'
-          title='Instagram'
-          action='http://instagram.com/cliffjonesjr'
-        />
-        <Icon
           name='twitter'
-          title='Twitter'
+          hint='Twitter'
           action='http://twitter.com/cliffjonesjr'
         />
         <Icon
+          name='instagram'
+          hint='Instagram'
+          action='http://instagram.com/cliffjonesjr'
+        />
+        <Icon
           name='goodreads'
-          title='Goodreads'
+          hint='Goodreads'
           action='https://www.goodreads.com/cliffjones'
         />
         <Icon
           name='amazon'
-          title='Amazon'
+          hint='Amazon'
           action='https://www.amazon.com/Cliff-Jones-Jr./e/B08LF1PBFY'
         />
         <Icon
           name='wattpad'
-          title='Wattpad'
+          hint='Wattpad'
           action='http://www.wattpad.com/user/CliffJonesJr'
         />
         <Icon
           name='linkedin'
-          title='LinkedIn'
+          hint='LinkedIn'
           action='https://www.linkedin.com/in/cliff-jones-b2567227'
         />
       </div>

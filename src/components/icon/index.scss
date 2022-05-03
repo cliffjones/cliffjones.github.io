@@ -3,16 +3,30 @@ $component: 'Icon';
 
 .#{$component}.#{$component} { // Specificity bump.
   align-items: center;
-  background-color: $line-color;
   border-radius: 50%;
-  box-shadow: 0 0 $line-thickness $line-color;
   color: $text-color;
   display: flex;
-  font-size: 120%;
-  height: 1.4em;
+  font-size: 90%;
+  height: 1.5em;
   justify-content: center;
   line-height: 1;
-  width: 1.4em;
+  width: 1.5em;
+
+  &--brown {
+    background-color: $brown-bg-color;
+  }
+
+  &--green {
+    background-color: $green-bg-color;
+  }
+
+  &--blue {
+    background-color: $blue-bg-color;
+  }
+
+  &--purple {
+    background-color: $purple-bg-color;
+  }
 
   &--amazon {
     background-color: #146eb4;

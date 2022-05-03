@@ -4,12 +4,16 @@
   padding: 0 $box-padding $box-padding;
   text-align: center;
 
-  &-social {
+  &-icons {
     display: flex;
     flex-wrap: wrap;
-    gap: $button-space;
+    gap: $icon-space;
     justify-content: center;
-    margin-bottom: $button-space;
+    margin-bottom: $icon-space;
+
+    .Icon {
+      box-shadow: 0 0 $line-thickness $line-color;
+    }
   }
 
   &-copyright {
