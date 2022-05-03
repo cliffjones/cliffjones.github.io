@@ -4,6 +4,14 @@
   padding: 0 $box-padding $box-padding;
   text-align: center;
 
+  &-social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $button-space;
+    justify-content: center;
+    margin-bottom: $button-space;
+  }
+
   &-copyright {
     font-size: 80%;
     line-height: 1;

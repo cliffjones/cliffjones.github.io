@@ -1,0 +1,68 @@
+@import '../../tokens.scss';
+$component: 'Icon';
+
+.#{$component}.#{$component} { // Specificity bump.
+  align-items: center;
+  background-color: $line-color;
+  border-radius: 50%;
+  box-shadow: 0 0 $line-thickness $line-color;
+  color: $text-color;
+  display: flex;
+  font-size: 120%;
+  height: 1.4em;
+  justify-content: center;
+  line-height: 1;
+  width: 1.4em;
+
+  &--amazon {
+    background-color: #146eb4;
+  }
+
+  &--facebook {
+    background-color: #3b5998;
+  }
+
+  &--github {
+    background-color: #6e5494;
+  }
+
+  &--goodreads {
+    background-color: #553b08;
+  }
+
+  &--instagram {
+    background-color: #8a3ab9;
+  }
+
+  &--linkedin {
+    background-color: #007bb5;
+  }
+
+  &--medium {
+    background-color: #000000;
+  }
+
+  &--patreon {
+    background-color: #f96854;
+  }
+
+  &--quora {
+    background-color: #b92b27;
+  }
+
+  &--reddit {
+    background-color: #ff5700;
+  }
+
+  &--tumblr {
+    background-color: #2c4762;
+  }
+
+  &--twitter {
+    background-color: #55acee;
+  }
+
+  &--youtube {
+    background-color: #bb0000;
+  }
+}

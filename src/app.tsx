@@ -4,7 +4,6 @@ import './app.scss';
 import Header from './components/header';
 import Footer from './components/footer';
 import Page from './components/page';
-import Content from './components/content';
 import ImageSearch from './components/image-search';
 import welcomePath from './content/welcome.md';
 import mirrormazeBlurbPath from './content/mirrormaze-blurb.md';
@@ -15,16 +14,14 @@ function App() {
   return (
     <div className='App'>
       <Header />
-
       <main>
         <Routes>
           <Route index element={<Page paths={[welcomePath, mirrormazeBlurbPath]} />} />
-          <Route path='/social' element={<Content path={socialPath} />} />
-          <Route path='*' element={<Content path={missingPath} />} />
+          <Route path='/social' element={<Page paths={[socialPath]} />} />
+          <Route path='*' element={<Page paths={[missingPath]} />} />
           <Route path='/image-search' element={<ImageSearch />} />
         </Routes>
       </main>
-
       <Footer />
     </div>
   );
