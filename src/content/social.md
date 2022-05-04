@@ -58,7 +58,7 @@
 
 [+Venmo](https://venmo.com/CliffJonesJr)
 
-[+Patreon](https://www.patreon.com/cliffjonesjr)
+<!-- [+Patreon](https://www.patreon.com/cliffjonesjr) -->
 
 [+Buy Me a Coffee](https://www.buymeacoffee.com/vI4gqOS)
 
