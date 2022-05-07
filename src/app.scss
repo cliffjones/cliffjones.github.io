@@ -1,29 +1,30 @@
 @import './tokens.scss';
 
+// Keep base styles unscoped for lower specificity.
 body {
   background-color: $bg-color;
+  color: $text-color;
+  font-size: calc(0.6rem + 2vmin);
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color $focus-time;
+
+  &:focus,
+  &:hover {
+    color: $link-focus-color;
+  }
+}
+
+hr {
+  border: 0;
+  border-top: $line-thickness solid $line-color;
+  clear: both;
+  margin: $vertical-space 0;
 }
 
 .App {
-  color: $text-color;
-  font-size: calc(0.6rem + 2vmin);
   min-height: 100vh;
-
-  a {
-    color: $link-color;
-    text-decoration: none;
-    transition: color $focus-time;
-
-    &:focus,
-    &:hover {
-      color: $link-focus-color;
-    }
-  }
-
-  hr {
-    border: 0;
-    border-top: $line-thickness solid $line-color;
-    clear: both;
-    margin: $vertical-space 0;
-  }
 }

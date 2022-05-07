@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import './index.scss';
 import content from '../../content.json';
 import Icon from '../icon';
@@ -5,34 +7,40 @@ import Icon from '../icon';
 function Header() {
   return (
     <header className='Header'>
-      <h1 className='Header-title'><a href='/'>{content.title}</a></h1>
+      <h1 className='Header-title'>
+        <NavLink to='/'>{content.title}</NavLink>
+      </h1>
 
-      <div className='Header-icons'>
+      <nav className='Header-icons'>
         <Icon
           name='keyboard'
           hint='Coding'
-          action='https://cliffjonesjr.com/coding'
+          action='/coding'
           color='blue'
+          nav={true}
         />
         <Icon
           name='note'
           hint='Writing'
-          action='https://cliffjonesjr.com/writing'
+          action='/writing'
           color='brown'
+          nav={true}
         />
         <Icon
           name='speech'
           hint='Language'
-          action='https://cliffjonesjr.com/language'
+          action='/language'
           color='green'
+          nav={true}
         />
         <Icon
           name='eye'
           hint='Art'
-          action='https://cliffjonesjr.com/art'
+          action='/art'
           color='purple'
+          nav={true}
         />
-      </div>
+      </nav>
     </header>
   );
 }

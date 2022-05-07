@@ -1,3 +1,4 @@
+import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faComment,
@@ -23,7 +24,7 @@ import {
 
 import './index.scss';
 
-function Icon({ name, hint = '', action = '', color = '' }) {
+function Icon({ name, hint = '', action = '', color = '', nav = false }) {
   const props: any = { className: `Icon Icon--${name}` };
   if (color) {
     props.className = `${props.className} Icon--${color}`;
@@ -34,9 +35,15 @@ function Icon({ name, hint = '', action = '', color = '' }) {
   }
 
   if (typeof action === 'string' && action) {
-    props.href = action;
-    if (action.startsWith('http')) {
-      props.target = '_blank';
+    if (nav || action.startsWith('/')) {
+      // Use Router components for nav items and internal links.
+      props.to = action;
+    } else {
+      props.href = action;
+      if (action.startsWith('http')) {
+        // Open external links in a new tab.
+        props.target = '_blank';
+      }
     }
   } else if (typeof action === 'function') {
     props.onClick = action;
@@ -47,7 +54,7 @@ function Icon({ name, hint = '', action = '', color = '' }) {
   }
 
   if (name === 'eye') {
-    return <a {...props}><FontAwesomeIcon icon={faEye} /></a>;
+    return <NavLink {...props}><FontAwesomeIcon icon={faEye} /></NavLink>;
   }
 
   if (name === 'facebook') {
@@ -67,7 +74,7 @@ function Icon({ name, hint = '', action = '', color = '' }) {
   }
 
   if (name === 'keyboard') {
-    return <a {...props}><FontAwesomeIcon icon={faKeyboard} /></a>;
+    return <NavLink {...props}><FontAwesomeIcon icon={faKeyboard} /></NavLink>;
   }
 
   if (name === 'linkedin') {
@@ -79,7 +86,7 @@ function Icon({ name, hint = '', action = '', color = '' }) {
   }
 
   if (name === 'note') {
-    return <a {...props}><FontAwesomeIcon icon={faEdit} /></a>;
+    return <NavLink {...props}><FontAwesomeIcon icon={faEdit} /></NavLink>;
   }
 
   if (name === 'patreon') {
@@ -95,7 +102,7 @@ function Icon({ name, hint = '', action = '', color = '' }) {
   }
 
   if (name === 'speech') {
-    return <a {...props}><FontAwesomeIcon icon={faComment} /></a>;
+    return <NavLink {...props}><FontAwesomeIcon icon={faComment} /></NavLink>;
   }
 
   if (name === 'tumblr') {
@@ -104,6 +111,10 @@ function Icon({ name, hint = '', action = '', color = '' }) {
 
   if (name === 'twitter') {
     return <a {...props}><FontAwesomeIcon icon={faTwitter} /></a>;
+  }
+
+  if (name === 'wattpad') {
+    return <a {...props}></a>;
   }
 
   if (name === 'youtube') {

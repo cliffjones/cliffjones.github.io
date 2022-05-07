@@ -13,7 +13,7 @@
     line-height: 1;
     margin: 0;
     padding: $box-padding $box-padding 0;
-    text-shadow: 0 0 $line-thickness $line-color;
+    text-shadow: 0 0 $shadow-thickness $line-color;
     white-space: nowrap;
 
     a {
@@ -24,6 +24,10 @@
       &:hover {
         color: $special-focus-color;
       }
+
+      &.active {
+        pointer-events: none;
+      }
     }
   }
 
@@ -32,10 +36,14 @@
     flex-wrap: wrap;
     gap: $icon-space;
     justify-content: right;
-    padding: $box-padding $box-padding 0;
+    padding: calc($box-padding + 0.5vw) $box-padding 0;
 
     .Icon {
-      box-shadow: 0 0 $line-thickness $line-color;
+      box-shadow: 0 0 $shadow-thickness $line-color;
+
+      &.active {
+        pointer-events: none;
+      }
     }
   }
 }

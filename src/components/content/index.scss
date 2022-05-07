@@ -1,7 +1,23 @@
 @import '../../tokens.scss';
-$component: 'Content';
+$base-class: 'Content';
 
-.#{$component} {
+@keyframes loadingFade {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+
+.#{$base-class} {
+  strong {
+    color: $special-color;
+  }
+
   &-section {
     background: $section-bg-color;
     border: $line-thickness solid $line-color;
@@ -18,13 +34,27 @@ $component: 'Content';
     }
   }
 
+  &-block {
+    &--center {
+      text-align: center;
+    }
+  }
+
+  &-quote {
+    footer {
+      margin-top: -0.8em;
+      text-align: right;
+    }
+  }
+
   &-heading {
     color: $special-color;
     font-family: $heading-font;
     font-weight: normal;
+    line-height: 1;
   }
 
-  .#{$component}-link { // Specificity bump.
+  &-link {
     color: $link-color;
     text-decoration: underline;
     text-decoration-color: $link-line-color;
@@ -34,6 +64,14 @@ $component: 'Content';
     &:hover {
       color: $link-focus-color;
       text-decoration-color: $link-line-focus-color;
+
+      .#{$base-class}-image {
+        border-color: $link-line-focus-color;
+      }
+    }
+
+    .#{$base-class}-image {
+      border-color: $link-line-color;
     }
 
     &--external {
@@ -43,22 +81,13 @@ $component: 'Content';
       &:hover {
         text-decoration-color: $link-line-special-focus-color;
 
-        .#{$component}-image {
+        .#{$base-class}-image {
           border-color: $link-line-special-focus-color;
         }
       }
 
-      .#{$component}-image {
+      .#{$base-class}-image {
         border-color: $link-line-special-color;
-      }
-    }
-
-    .#{$component}-image {
-      border-color: $link-line-color;
-
-      &:focus,
-      &:hover {
-        border-color: $link-line-focus-color;
       }
     }
   }
@@ -68,25 +97,34 @@ $component: 'Content';
     border-radius: $box-radius;
     box-sizing: border-box;
     max-height: 100vh;
-    max-width: 50%;
+    max-width: 100%;
     transition: border-color $focus-time;
+
+    &--loading {
+      animation: loadingFade 1s infinite;
+    }
+
+    &--hidden {
+      display: none;
+    }
 
     &--left {
       float: left;
       margin-bottom: $box-padding;
       margin-right: $box-padding;
+      max-width: 50%;
     }
 
     &--right {
       float: right;
       margin-bottom: $box-padding;
       margin-left: $box-padding;
+      max-width: 50%;
     }
 
     &--center {
       display: block;
       margin: 0 auto;
-      max-width: 100%;
     }
 
     &--no-max {

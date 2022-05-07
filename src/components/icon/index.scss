@@ -1,7 +1,6 @@
 @import '../../tokens.scss';
-$component: 'Icon';
 
-.#{$component}.#{$component} { // Specificity bump.
+.Icon {
   align-items: center;
   border-radius: 50%;
   color: $text-color;
@@ -74,6 +73,18 @@ $component: 'Icon';
 
   &--twitter {
     background-color: #55acee;
+  }
+
+  &--wattpad {
+    background-color: $text-color;
+    background-image: url('https://ik.imagekit.io/cliff/icons/wattpad');
+    background-size: cover;
+    transition: background-color $focus-time;
+
+    &:focus,
+    &:hover {
+      background-color: $link-focus-color;
+    }
   }
 
   &--youtube {
