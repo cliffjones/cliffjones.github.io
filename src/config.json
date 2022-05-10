@@ -4,12 +4,7 @@
   },
   "imageKit": {
     "url": "https://ik.imagekit.io/cliff/",
-    "transform": "?tr=w-",
-    "widths": [
-      400,
-      800,
-      1200
-    ]
+    "transform": "?tr=w-"
   },
   "giphy": {
     "searchApi": "https://api.giphy.com/v1/gifs/search",

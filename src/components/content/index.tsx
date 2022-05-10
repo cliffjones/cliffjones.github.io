@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
@@ -7,8 +7,22 @@ import remarkGfm from 'remark-gfm';
 
 import './index.scss';
 import config from '../../config.json';
+import Image from '../image';
 
 const BASE_CLASS = 'Content';
+const SECTION_CLASS = `${BASE_CLASS}-section`;
+const HEADING_CLASS = `${BASE_CLASS}-heading`;
+const BLOCK_CLASS = `${BASE_CLASS}-block`;
+const BLOCK_CENTER_CLASS = `${BLOCK_CLASS}--center`;
+const QUOTE_CLASS = `${BASE_CLASS}-quote`;
+const LINK_CLASS = `${BASE_CLASS}-link`;
+const LINK_EXTERNAL_CLASS = `${LINK_CLASS}--external`;
+const IMAGE_CLASS = `${BASE_CLASS}-image`;
+const IMAGE_LEFT_CLASS = `${IMAGE_CLASS}--left`;
+const IMAGE_RIGHT_CLASS = `${IMAGE_CLASS}--right`;
+const IMAGE_CENTER_CLASS = `${IMAGE_CLASS}--center`;
+const IMAGE_NO_BORDER_CLASS = `${IMAGE_CLASS}--no-border`;
+const IMAGE_NO_MAX_CLASS = `${IMAGE_CLASS}--no-max`;
 
 // Adds a given class to a supplied props object.
 function addClassName(props: any, className: string) {
@@ -19,7 +33,7 @@ function addClassName(props: any, className: string) {
 function formatHeading({ node, children, ...props }) {
   const newProps = { ...props };
   delete newProps.level; // Remove this auto-generated non-standard attribute.
-  addClassName(newProps, `${BASE_CLASS}-heading`);
+  addClassName(newProps, HEADING_CLASS);
 
   // Demote headings one level to let Markdown files be more stand-alone.
   let level = parseInt(node.tagName[node.tagName.length - 1], 10);
@@ -43,12 +57,12 @@ function formatHeading({ node, children, ...props }) {
 function formatBlock({ node, children, ...props }) {
   const newChildren = Array.isArray(children) ? [...children] : [children];
   const newProps = { ...props };
-  addClassName(newProps, `${BASE_CLASS}-block`);
+  addClassName(newProps, BLOCK_CLASS);
 
   // Center blocks starting with a caret.
   if (typeof newChildren?.[0] === 'string' && newChildren[0].startsWith('^')) {
     newChildren[0] = newChildren[0].slice(1);
-    addClassName(newProps, `${BASE_CLASS}-block--center`);
+    addClassName(newProps, BLOCK_CENTER_CLASS);
   }
 
   return <p {...newProps}>{newChildren}</p>;
@@ -58,7 +72,7 @@ function formatBlock({ node, children, ...props }) {
 function formatQuote({ node, children, ...props }) {
   let newChildren = Array.isArray(children) ? [...children] : [children];
   const newProps = { ...props };
-  addClassName(newProps, `${BASE_CLASS}-quote`);
+  addClassName(newProps, QUOTE_CLASS);
 
   return <blockquote {...newProps}>{newChildren}</blockquote>;
 }
@@ -67,14 +81,14 @@ function formatQuote({ node, children, ...props }) {
 function formatLink({ node, children, ...props }) {
   const newChildren = Array.isArray(children) ? [...children] : [children];
   const newProps = { ...props };
-  addClassName(newProps, `${BASE_CLASS}-link`);
+  addClassName(newProps, LINK_CLASS);
 
   if (typeof newChildren?.[0] === 'string' && newChildren[0].startsWith('+')) {
     // Make links starting with "+" open in a new tab.
     newChildren[0] = newChildren[0].slice(1);
     newProps.target = '_blank';
     newProps.rel = 'noopener';
-    addClassName(newProps, `${BASE_CLASS}-link--external`);
+    addClassName(newProps, LINK_EXTERNAL_CLASS);
   } else if (newProps.href.startsWith('/')) {
     // Use a Link component for relative paths.
     const path = newProps.href;
@@ -88,67 +102,36 @@ function formatLink({ node, children, ...props }) {
 // Customizes image formatting in Markdown content.
 function formatImage({ node, ...props }) {
   const newProps = { ...props };
-  addClassName(newProps, `${BASE_CLASS}-image`);
+  addClassName(newProps, IMAGE_CLASS);
 
   // Add an alignment class based on special starting characters in the alt text.
-  let alignment = '';
   if (newProps.alt.startsWith('<')) {
-    alignment = 'left';
-  } else if (newProps.alt.startsWith('>')) {
-    alignment = 'right';
-  } else if (newProps.alt.startsWith('^')) {
-    alignment = 'center';
-  }
-  if (alignment) {
-    addClassName(newProps, `${BASE_CLASS}-image--${alignment}`);
+    addClassName(newProps, IMAGE_LEFT_CLASS);
     newProps.alt = newProps.alt.slice(1);
-  }
-  if (newProps.alt.startsWith('+')) {
-    addClassName(newProps, `${BASE_CLASS}-image--no-max`);
+  } else if (newProps.alt.startsWith('>')) {
+    addClassName(newProps, IMAGE_RIGHT_CLASS);
+    newProps.alt = newProps.alt.slice(1);
+  } else if (newProps.alt.startsWith('^')) {
+    addClassName(newProps, IMAGE_CENTER_CLASS);
     newProps.alt = newProps.alt.slice(1);
   }
   if (newProps.alt.startsWith('-')) {
-    addClassName(newProps, `${BASE_CLASS}-image--no-border`);
+    addClassName(newProps, IMAGE_NO_BORDER_CLASS);
+    newProps.alt = newProps.alt.slice(1);
+  }
+  if (newProps.alt.startsWith('+')) {
+    addClassName(newProps, IMAGE_NO_MAX_CLASS);
     newProps.alt = newProps.alt.slice(1);
   }
 
   // Make the image progressive if an extensionless ID is specified.
   if (!newProps.src.includes('.')) {
-    const { url, transform, widths } = config.imageKit;
-
-    // Make a copy of the image's props to create a loader image.
-    const loaderProps = { ...newProps };
-    addClassName(loaderProps, `${BASE_CLASS}-image--loading`);
-    loaderProps.src = `${url}${newProps.src}${transform}100`;
-
-    // Start the full image off hidden, but swap them out when this one loads.
-    addClassName(newProps, `${BASE_CLASS}-image--hidden`);
+    const { url, transform } = config.imageKit;
+    newProps.loader = `${url}${newProps.src}${transform}100`;
     newProps.src = `${url}${newProps.src}${transform}auto`;
-    // newProps.loading = 'lazy';
-    newProps.onLoad = (event: Event) => {
-      const el: HTMLElement = event.target as HTMLElement;
-      const loaderEl: HTMLElement = el.previousSibling as HTMLElement;
-      if (loaderEl) {
-        loaderEl.parentNode.removeChild(loaderEl);
-      }
-      el.classList.remove(`${BASE_CLASS}-image--hidden`);
-    };
-
-    // Compile a `srcset` value from the available variants.
-    const variants = [];
-    for (let i: number = 0; i < widths.length; i++) {
-      variants.push(`${url}${props.src}${transform}${widths[i]} ${widths[i]}w`);
-    }
-    newProps.srcSet = variants.join(', ');
-
-    // Return both the loader and the full hidden image.
-    return (<>
-      <img {...loaderProps} />
-      <img {...newProps} />
-    </>);
   }
 
-  return <img {...newProps} />;
+  return <Image {...newProps} />;
 }
 
 const mdConfig: any = {
@@ -172,7 +155,7 @@ function Content({ path }) {
 
   return (
     <div className={BASE_CLASS}>
-      <section className={`${BASE_CLASS}-section`}>
+      <section className={SECTION_CLASS}>
         <ReactMarkdown
           children={mdContent}
           components={mdConfig} // Customize how certain tags are handled.

@@ -17,28 +17,24 @@ function Header() {
           hint='Coding'
           action='/coding'
           color='blue'
-          nav={true}
         />
         <Icon
           name='note'
           hint='Writing'
           action='/writing'
           color='brown'
-          nav={true}
         />
         <Icon
           name='speech'
           hint='Language'
           action='/language'
           color='green'
-          nav={true}
         />
         <Icon
           name='eye'
           hint='Art'
           action='/art'
           color='purple'
-          nav={true}
         />
       </nav>
     </header>

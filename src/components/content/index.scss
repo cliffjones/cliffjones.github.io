@@ -100,14 +100,6 @@ $base-class: 'Content';
     max-width: 100%;
     transition: border-color $focus-time;
 
-    &--loading {
-      animation: loadingFade 1s infinite;
-    }
-
-    &--hidden {
-      display: none;
-    }
-
     &--left {
       float: left;
       margin-bottom: $box-padding;
@@ -127,14 +119,14 @@ $base-class: 'Content';
       margin: 0 auto;
     }
 
-    &--no-max {
-      max-height: none;
-      max-width: 100%;
-    }
-
     &--no-border {
       border: 0;
       border-radius: 0;
+    }
+
+    &--no-max {
+      max-height: none;
+      max-width: 100%;
     }
   }
 }

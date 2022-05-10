@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faComment,
@@ -24,7 +24,7 @@ import {
 
 import './index.scss';
 
-function Icon({ name, hint = '', action = '', color = '', nav = false }) {
+function Icon({ name, hint = '', action = '', color = '' }) {
   const props: any = { className: `Icon Icon--${name}` };
   if (color) {
     props.className = `${props.className} Icon--${color}`;
@@ -35,8 +35,8 @@ function Icon({ name, hint = '', action = '', color = '', nav = false }) {
   }
 
   if (typeof action === 'string' && action) {
-    if (nav || action.startsWith('/')) {
-      // Use Router components for nav items and internal links.
+    if (action.startsWith('/')) {
+      // Use Router components for internal links.
       props.to = action;
     } else {
       props.href = action;
