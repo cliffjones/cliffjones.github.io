@@ -23,11 +23,11 @@ function Image({ loader, src, ...props }: ImageProps) {
   }, [src]);
 
   useEffect(() => {
-    const imageEl = document.createElement('img');
-    imageEl.src = src as string;
-    imageEl.addEventListener('load', onLoad);
+    const image = document.createElement('img');
+    image.src = src as string;
+    image.addEventListener('load', onLoad);
     return () => {
-      imageEl.removeEventListener('load', onLoad);
+      image.removeEventListener('load', onLoad);
       setLoading(false);
     };
   }, [src, onLoad]);
@@ -37,9 +37,7 @@ function Image({ loader, src, ...props }: ImageProps) {
     addClassName(props, LOADING_CLASS);
   }
 
-  return (
-    <img {...props} src={source} loading='lazy' />
-  );
+  return <img {...props} src={source} loading='lazy' />;
 }
 
 export default Image;
