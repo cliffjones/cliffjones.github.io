@@ -1,18 +1,8 @@
-@keyframes loadingFade {
-  0% {
-    opacity: 0.8;
-  }
-  50% {
-    opacity: 0.4;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
+@import '../../tokens.scss';
 
 .Image {
   &--loading {
-    animation: loadingFade 1s infinite;
+    animation: $loading-animation;
   }
 
   &--hidden {

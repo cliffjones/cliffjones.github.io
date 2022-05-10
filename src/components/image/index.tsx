@@ -19,25 +19,26 @@ function Image({ loader, src, ...props }: ImageProps) {
   const [loading, setLoading] = useState(!!loader);
 
   const onLoad = useCallback(() => {
+    setLoading(false);
     setSource(src);
   }, [src]);
 
   useEffect(() => {
     const image = document.createElement('img');
-    image.src = src as string;
     image.addEventListener('load', onLoad);
+    image.src = src as string;
     return () => {
       image.removeEventListener('load', onLoad);
-      setLoading(false);
     };
   }, [src, onLoad]);
 
-  addClassName(props, BASE_CLASS);
+  const newProps = { ...props };
+  addClassName(newProps, BASE_CLASS);
   if (loading) {
-    addClassName(props, LOADING_CLASS);
+    addClassName(newProps, LOADING_CLASS);
   }
 
-  return <img {...props} src={source} loading='lazy' />;
+  return <img {...newProps} src={source} loading='lazy' />;
 }
 
 export default Image;
