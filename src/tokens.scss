@@ -24,7 +24,7 @@ $link-line-special-focus-color: hsl(355, 50%, 32%);
 $line-thickness: 0.1em;
 $shadow-thickness: 0.2em;
 $box-radius: 0.5em;
-$box-padding: 1.5vw;
+$box-padding: calc(5px + 1vw);
 $vertical-space: calc(1rem + 2.5vw);
 $icon-space: calc(0.4rem + 0.6vw);
 

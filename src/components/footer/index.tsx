@@ -20,9 +20,14 @@ function Footer() {
           action='http://twitter.com/cliffjonesjr'
         />
         <Icon
-          name='goodreads'
-          hint='Goodreads'
-          action='https://www.goodreads.com/cliffjones'
+          name='instagram'
+          hint='Instagram'
+          action='http://instagram.com/cliffjonesjr'
+        />
+        <Icon
+          name='amazon'
+          hint='Amazon'
+          action='https://www.amazon.com/Cliff-Jones-Jr./e/B08LF1PBFY'
         />
         <Icon
           name='wattpad'
@@ -30,9 +35,9 @@ function Footer() {
           action='http://www.wattpad.com/user/CliffJonesJr'
         />
         <Icon
-          name='linkedin'
-          hint='LinkedIn'
-          action='https://www.linkedin.com/in/cliff-jones-b2567227'
+          name='goodreads'
+          hint='Goodreads'
+          action='https://www.goodreads.com/cliffjones'
         />
       </div>
 

@@ -15,7 +15,7 @@ And here he is made out of snow! I grew up near Houston, Texas, where it very ra
 
 ---
 
-^![Philip K. Dick portrait: "The Empire Never Ended"](pkd-chalk)<br />
+^![Philip K. Dick portrait: "The Empire Never Ended"](pkd-tene)<br />
 This was based on my somewhat impromptu entry in El Paso’s 2014 [+Chalk the Block](http://www.chalktheblock.com/) festival. It’s a portrait of my favorite author: [+Philip K. Dick](https://en.wikipedia.org/wiki/Philip_K._Dick). The line is from [+*VALIS*](https://en.wikipedia.org/wiki/Valis_(novel)).
 
 ---

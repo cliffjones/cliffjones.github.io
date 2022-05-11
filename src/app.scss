@@ -4,8 +4,8 @@
 body {
   background-color: $bg-color;
   color: $text-color;
-  font-size: calc(0.6rem + 2vmin);
-  line-height: 1.2;
+  font-size: calc(1rem + 1.5vmin);
+  line-height: 1.25;
 }
 
 a {
@@ -16,6 +16,10 @@ a {
   &:focus,
   &:hover {
     color: $link-focus-color;
+  }
+
+  &.active {
+    pointer-events: none;
   }
 }
 
