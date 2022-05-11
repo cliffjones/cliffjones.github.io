@@ -20,19 +20,9 @@ function Footer() {
           action='http://twitter.com/cliffjonesjr'
         />
         <Icon
-          name='instagram'
-          hint='Instagram'
-          action='http://instagram.com/cliffjonesjr'
-        />
-        <Icon
           name='goodreads'
           hint='Goodreads'
           action='https://www.goodreads.com/cliffjones'
-        />
-        <Icon
-          name='amazon'
-          hint='Amazon'
-          action='https://www.amazon.com/Cliff-Jones-Jr./e/B08LF1PBFY'
         />
         <Icon
           name='wattpad'

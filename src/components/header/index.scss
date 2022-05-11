@@ -1,20 +1,33 @@
 @import '../../tokens.scss';
 
 .Header {
-  align-items: top;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media (min-width: $medium-width) {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 
   &-title {
     color: $special-color;
     font-family: $heading-font;
-    font-size: calc(120% + 3vw);
+    font-size: 2.5em;
     font-weight: normal;
     line-height: 1;
     margin: 0;
     padding: $box-padding $box-padding 0;
     text-shadow: 0 0 $shadow-thickness $line-color;
     white-space: nowrap;
+
+    @media (min-width: $medium-width) {
+      font-size: 1.9em;
+    }
+
+    @media (min-width: $large-width) {
+      font-size: 2.2em;
+    }
 
     a {
       color: inherit;

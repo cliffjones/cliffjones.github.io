@@ -1,3 +1,6 @@
+$medium-width: 500px;
+$large-width: 800px;
+
 $heading-font: 'Righteous';
 
 $bg-color: hsl(155, 50%, 15%);
@@ -23,7 +26,7 @@ $shadow-thickness: 0.2em;
 $box-radius: 0.5em;
 $box-padding: 1.5vw;
 $vertical-space: calc(1rem + 2.5vw);
-$icon-space: calc(0.3rem + 0.6vw);
+$icon-space: calc(0.4rem + 0.6vw);
 
 $focus-time: 250ms;
 $fade-time: 500ms;
