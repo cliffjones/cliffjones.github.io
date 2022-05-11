@@ -41,7 +41,7 @@ And this is Adelaide, the main character of [the story](https://ozghard.com/book
 ---
 
 ^![a circular maze with a two-headed lamb](2hl-maze)<br />
-This is a labyrinth I designed for the cover of my unfinished, currently-on-hold novel [*Two-Headed Lamb*](https://cliffjonesjr.com/writing-in-progress).
+This is a labyrinth I designed for the cover of my unfinished, currently-on-hold novel [*Two-Headed Lamb*](/writing).
 
 ---
 
