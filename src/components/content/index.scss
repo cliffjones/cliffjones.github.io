@@ -27,15 +27,11 @@ $base-class: 'Content';
     }
   }
 
-  strong {
-    color: $special-color;
-  }
-
   &-section {
     background: $section-bg-color;
     border: $line-thickness solid $line-color;
     border-radius: $box-radius;
-    margin: $vertical-space $box-padding;
+    margin: $section-space $box-padding;
     padding: $box-padding;
 
     > :first-child {
@@ -48,14 +44,18 @@ $base-class: 'Content';
   }
 
   &-block {
+    margin: $block-space 0;
+
     &--center {
       text-align: center;
     }
   }
 
   &-quote {
+    margin: $block-space*2;
+
     footer {
-      margin-top: -0.8em;
+      margin-top: -$block-space;
       text-align: right;
     }
   }
@@ -65,6 +65,7 @@ $base-class: 'Content';
     font-family: $heading-font;
     font-weight: normal;
     line-height: 1;
+    margin: 1em 0 $block-space;
   }
 
   &-link {

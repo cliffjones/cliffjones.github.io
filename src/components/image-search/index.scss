@@ -3,7 +3,7 @@
 .ImageSearch {
   &-query {
     display: block;
-    margin: $vertical-space auto;
+    margin: $section-space auto;
     width: 90%;
   }
 
@@ -17,7 +17,7 @@
     align-items: center;
     background-color: $purple-bg-color;
     display: flex;
-    margin: $vertical-space $box-padding;
+    margin: $section-space $box-padding;
     padding: $box-padding;
   }
 }
