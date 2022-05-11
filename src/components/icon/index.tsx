@@ -5,6 +5,7 @@ import {
   faEdit,
   faEye,
   faKeyboard,
+  faStar,
 } from '@fortawesome/free-regular-svg-icons';
 import {
   faAmazon,
@@ -103,6 +104,10 @@ function Icon({ name, hint = '', action = '', color = '' }) {
 
   if (name === 'speech') {
     return <NavLink {...props}><FontAwesomeIcon icon={faComment} /></NavLink>;
+  }
+
+  if (name === 'spinner') {
+    return <span {...props}><FontAwesomeIcon icon={faStar} spin /></span>;
   }
 
   if (name === 'tumblr') {

@@ -19,7 +19,7 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <main>
+      <main className='App-main'>
         <Routes>
           <Route index element={<Page paths={[welcomePath, mirrormazeBlurbPath]} />} />
           <Route path='/art' element={<Page paths={[artPath]} />} />

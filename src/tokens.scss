@@ -25,8 +25,8 @@ $box-padding: 1.5vw;
 $vertical-space: calc(1rem + 2.5vw);
 $icon-space: calc(0.3rem + 0.6vw);
 
-$loading-time: 1s;
 $focus-time: 250ms;
+$fade-time: 500ms;
 
 @keyframes loadingFade {
   0% {
@@ -39,4 +39,4 @@ $focus-time: 250ms;
     opacity: 0.8;
   }
 }
-$loading-animation: loadingFade $loading-time infinite;
+$loading-animation: loadingFade $fade-time*2 infinite;

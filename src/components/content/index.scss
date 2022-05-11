@@ -1,19 +1,20 @@
 @import '../../tokens.scss';
 $base-class: 'Content';
 
-@keyframes loadingFade {
-  0% {
-    opacity: 0.8;
-  }
-  50% {
-    opacity: 0.4;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-
 .#{$base-class} {
+  opacity: 1;
+  transition: opacity $fade-time;
+
+  &--loading {
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.5;
+
+    .#{$base-class}-section {
+      display: flex;
+    }
+  }
+
   strong {
     color: $special-color;
   }

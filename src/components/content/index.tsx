@@ -7,9 +7,11 @@ import remarkGfm from 'remark-gfm';
 
 import './index.scss';
 import config from '../../config.json';
+import Icon from '../icon';
 import Image from '../image';
 
 const BASE_CLASS = 'Content';
+const LOADING_CLASS = `${BASE_CLASS}--loading`;
 const SECTION_CLASS = `${BASE_CLASS}-section`;
 const HEADING_CLASS = `${BASE_CLASS}-heading`;
 const BLOCK_CLASS = `${BASE_CLASS}-block`;
@@ -148,24 +150,36 @@ const mdConfig: any = {
 
 function Content({ path }) {
   const [mdContent, setMdContent] = useState<string>('');
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    axios.get(path).then((response) => setMdContent(response.data));
+    axios.get(path).then((response) => {
+      setMdContent(response.data);
+      setLoading(false);
+    });
   }, []);
 
+  const className = `${BASE_CLASS} ${loading ? LOADING_CLASS : ''}`;
   return (
-    <div className={BASE_CLASS}>
+    <div className={className}>
       <section className={SECTION_CLASS}>
-        <ReactMarkdown
-          children={mdContent}
-          components={mdConfig} // Customize how certain tags are handled.
-          remarkPlugins={[
-            remarkGfm, // Use GitHub-Flavored Markdown.
-          ]}
-          rehypePlugins={[
-            rehypeRaw, // Enable embedded HTML.
-          ]}
-        />
+        {loading
+          ? <>
+            <Icon name='spinner' />
+            <Icon name='spinner' />
+            <Icon name='spinner' />
+          </>
+          : <ReactMarkdown
+            children={mdContent}
+            components={mdConfig} // Customize how certain tags are handled.
+            remarkPlugins={[
+              remarkGfm, // Use GitHub-Flavored Markdown.
+            ]}
+            rehypePlugins={[
+              rehypeRaw, // Enable embedded HTML.
+            ]}
+          />
+        }
       </section>
     </div>
   );
