@@ -31,7 +31,14 @@
 
       &:focus,
       &:hover {
-        color: $special-focus-color;
+        color: $link-focus-color;
+      }
+
+      &.active {
+        &:focus,
+        &:hover {
+          color: inherit;
+        }
       }
     }
   }
