@@ -8,12 +8,21 @@ import ImageSearch from './components/image-search';
 
 import artPath from './content/art.md';
 import codingPath from './content/coding.md';
-import languagePath from './content/language.md';
+import languageStudyPath from './content/language-study.md';
+import linguisticsPath from './content/linguistics.md';
 import mirrormazeBlurbPath from './content/mirrormaze-blurb.md';
 import missingPath from './content/missing.md';
 import socialPath from './content/social.md';
 import welcomePath from './content/welcome.md';
 import writingPath from './content/writing.md';
+
+const routes = {
+  art: [artPath],
+  coding: [codingPath],
+  language: [languageStudyPath, linguisticsPath],
+  social: [socialPath],
+  writing: [writingPath],
+};
 
 function App() {
   return (
@@ -22,13 +31,15 @@ function App() {
       <main className='App-main'>
         <Routes>
           <Route index element={<Page paths={[welcomePath, mirrormazeBlurbPath]} />} />
-          <Route path='/art' element={<Page paths={[artPath]} />} />
-          <Route path='/coding' element={<Page paths={[codingPath]} />} />
-          <Route path='/language' element={<Page paths={[languagePath]} />} />
-          <Route path='/social' element={<Page paths={[socialPath]} />} />
-          <Route path='/writing' element={<Page paths={[writingPath]} />} />
-          <Route path='*' element={<Page paths={[missingPath]} />} />
+          {Object.keys(routes).map((key) => (
+            <Route
+              key={key}
+              path={`/${key}`}
+              element={<Page paths={routes[key]} />}
+            />
+          ))}
           <Route path='/image-search' element={<ImageSearch />} />
+          <Route path='*' element={<Page paths={[missingPath]} />} />
         </Routes>
       </main>
       <Footer />
