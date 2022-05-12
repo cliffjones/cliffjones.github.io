@@ -3,16 +3,16 @@
 ## Paint and Digital
 
 ^!![an ant with glowing eyes](electric-ant)
-Inspired by the PKD story [+“The Electric Ant”](https://en.wikipedia.org/wiki/The_Electric_Ant) and my own novella *Dreck* (due out in August), this is acrylic on cardboard with some digital manipulation.
+Inspired by the classic story [+“The Electric Ant”](https://en.wikipedia.org/wiki/The_Electric_Ant) and my own novella *Dreck* (due out in August), this is acrylic on cardboard with some digital manipulation.
 
 ^!![white rabbit holding a candle](tyrro-rabbit-painting)
-I painted this for the cover of my novel [*Adelaide in Ozghard*](https://ozghard.com/books). This is a character named Tyrro, sort of like the White Rabbit of Wonderland… but not really.
+I painted this for my still-in-progress novel [*The Lasting Lands*](https://ozghard.com/books). This is a character named Tyrro, sort of like the White Rabbit of Wonderland… but not really.
 
 ^!![Adelaide with a dress made of sky](adelaide-sky)
 And this is Adelaide, the main character of [the story](https://ozghard.com/books)</a>.
 
 ^!![Philip K. Dick portrait: "The Empire Never Ended"](pkd-tene)
-This was based on my somewhat impromptu entry in El Paso’s 2014 [+Chalk the Block](http://www.chalktheblock.com/) festival. It’s a portrait of my favorite author: [+Philip K. Dick](https://en.wikipedia.org/wiki/Philip_K._Dick). The line is from [+*VALIS*](https://en.wikipedia.org/wiki/Valis_(novel)).
+This portrait of [+Philip K. Dick](https://en.wikipedia.org/wiki/Philip_K._Dick) was based on my somewhat impromptu entry in El Paso’s 2014 [+Chalk the Block](http://www.chalktheblock.com/) festival. The line is from [+*VALIS*](https://en.wikipedia.org/wiki/Valis_(novel)).
 
 ---
 
@@ -52,4 +52,4 @@ Here are a couple of variations on the [+Flower of Life](https://en.wikipedia.or
 This is a weird little animation I put together for [the *Mirrormaze* anthology](https://whatisdreampunk.com/mirrormaze) based on [+the labyrinth of Versailles](https://en.wikipedia.org/wiki/The_labyrinth_of_Versailles).
 
 ^!![Cliff smoking a pipe](anim/cliff-pipe-colors)
-And here’s me smoking a pipe in the woods.
+And finally, here’s me smoking a pipe in the woods.

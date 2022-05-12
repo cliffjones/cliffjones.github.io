@@ -2,11 +2,11 @@
 
 I’m a [+Watty-Award](https://www.wattpad.com/wattys/2015)-winning [dreampunk](https://whatisdreampunk.com)/[+irrealist](https://en.wikipedia.org/wiki/Irrealism_(the_arts)) author and editor with a background in [linguistics](/language) and [software development](/coding). My biggest literary influence is [+Philip K. Dick](https://en.wikipedia.org/wiki/Philip_K._Dick), though my writing style tends more toward [+Neil Gaiman](https://en.wikipedia.org/wiki/Neil_Gaiman).
 
-> “I want to stand as close to the edge as I can without going over. Out on the edge you see all kinds of things you can’t see from the center.” <footer>—[+Kurt Vonnegut Jr.](https://en.wikipedia.org/wiki/Kurt_Vonnegut)</footer>
+> “I want to stand as close to the edge as I can without going over. Out on the edge you see all kinds of things you can’t see from the center.”<footer>—[+Kurt Vonnegut Jr.](https://en.wikipedia.org/wiki/Kurt_Vonnegut)</footer>
 
-> “What sane person could live in this world and not be crazy?” <footer>—[+Ursula K. Le Guin](https://en.wikipedia.org/wiki/Ursula_K._Le_Guin)</footer>
+> “What sane person could live in this world and not be crazy?”<footer>—[+Ursula K. Le Guin](https://en.wikipedia.org/wiki/Ursula_K._Le_Guin)</footer>
 
-> “The answer is dreams. Dreaming on and on. Entering the world of dreams and never coming out. Living in dreams for the rest of time.” <footer>—[+Haruki Murakami](https://en.wikipedia.org/wiki/Haruki_Murakami)</footer>
+> “The answer is dreams. Dreaming on and on. Entering the world of dreams and never coming out. Living in dreams for the rest of time.”<footer>—[+Haruki Murakami](https://en.wikipedia.org/wiki/Haruki_Murakami)</footer>
 
 ---
 
@@ -14,7 +14,15 @@ I’m a [+Watty-Award](https://www.wattpad.com/wattys/2015)-winning [dreampunk](
 
 “We find ourselves in a very strange place.” A 22-author collection spanning multiple traditional genres, [*Mirrormaze*](https://whatisdreampunk.com/mirrormaze) takes you on a mind-bending journey through the collective unconscious.
 
-Available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze-a-dreampunk-anthology), as well as through [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131), [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743), [+Walmart](https://www.walmart.com/ip/Mirrormaze-A-Dreampunk-Anthology-Paperback-9781735217130/318621555), and others. Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze)!
+I have several stories in this one:
+
+- “Pipe Dream”
+- “Angel in the Cave”
+- “A Bottle of Jinn”
+- “Dorothy in the Land of Poppies”
+- “So Long”
+
+Available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze-a-dreampunk-anthology), as well as through [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131), [+Barnes & Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743), [+Walmart](https://www.walmart.com/ip/Mirrormaze-A-Dreampunk-Anthology-Paperback-9781735217130/318621555), and others. Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze)!
 
 ---
 
