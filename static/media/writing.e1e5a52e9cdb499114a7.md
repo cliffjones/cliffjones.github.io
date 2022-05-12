@@ -22,6 +22,8 @@ I have several stories in this one:
 - “Dorothy in the Land of Poppies”
 - “So Long”
 
+Plus I did the lettering for the cover and designed the labyrinth inside. This book is my baby!
+
 Available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze-a-dreampunk-anthology), as well as through [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131), [+Barnes & Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743), [+Walmart](https://www.walmart.com/ip/Mirrormaze-A-Dreampunk-Anthology-Paperback-9781735217130/318621555), and others. Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze)!
 
 ---

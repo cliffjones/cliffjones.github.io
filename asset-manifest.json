@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a1759cb.css",
-    "main.js": "/static/js/main.d4082478.js",
-    "static/media/writing.md": "/static/media/writing.821f70bac86b2eb6086f.md",
+    "main.css": "/static/css/main.8b21acff.css",
+    "main.js": "/static/js/main.948c6629.js",
+    "static/media/writing.md": "/static/media/writing.e1e5a52e9cdb499114a7.md",
     "static/media/coding.md": "/static/media/coding.f33d2189885d4c6f14b0.md",
-    "static/media/art.md": "/static/media/art.aaeef97f314f0270da21.md",
+    "static/media/art.md": "/static/media/art.b127b796e07c6beeabf6.md",
     "static/media/language-study.md": "/static/media/language-study.01520ef8a3695be8770a.md",
     "static/media/linguistics.md": "/static/media/linguistics.5839c167401975ce357f.md",
     "static/media/social.md": "/static/media/social.80bf081f575e4092d6be.md",
@@ -12,11 +12,11 @@
     "static/media/mirrormaze-blurb.md": "/static/media/mirrormaze-blurb.da5011dcb61d6d944274.md",
     "static/media/welcome.md": "/static/media/welcome.7e0bced68fbd64123b22.md",
     "static/media/missing.md": "/static/media/missing.d06a0c9829828a204fe6.md",
-    "main.1a1759cb.css.map": "/static/css/main.1a1759cb.css.map",
-    "main.d4082478.js.map": "/static/js/main.d4082478.js.map"
+    "main.8b21acff.css.map": "/static/css/main.8b21acff.css.map",
+    "main.948c6629.js.map": "/static/js/main.948c6629.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a1759cb.css",
-    "static/js/main.d4082478.js"
+    "static/css/main.8b21acff.css",
+    "static/js/main.948c6629.js"
   ]
 }
