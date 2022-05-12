@@ -22,9 +22,9 @@ $link-line-focus-color: hsl(200, 50%, 28%);
 $link-line-special-color: hsla(355, 50%, 32%, 0.6);
 $link-line-special-focus-color: hsl(355, 50%, 32%);
 
-$line-thickness: 0.1em;
+$line-thickness: 3px;
 $shadow-thickness: 0.2em;
-$box-radius: 0.5em;
+$box-radius: calc(10px + 1vmin);
 $box-padding: calc(5px + 1vw);
 $section-space: calc(1rem + 3vmin);
 $block-space: 0.6em;

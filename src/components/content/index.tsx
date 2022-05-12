@@ -35,7 +35,7 @@ function addClassName(props: any, className: string) {
 // Customizes heading formatting in Markdown content.
 function formatHeading({ node, children, ...props }) {
   const newProps = { ...props };
-  delete newProps.level; // Remove this auto-generated non-standard attribute.
+  delete newProps.level; // Remove this auto-generated nonstandard attribute.
   addClassName(newProps, HEADING_CLASS);
 
   // Demote headings one level to let Markdown files be more stand-alone.
@@ -88,6 +88,7 @@ function formatBlock({ node, children, ...props }) {
 // Customizes list formatting in Markdown content.
 function formatList({ node, children, ...props }) {
   const newProps = { ...props };
+  delete newProps.ordered; // Remove this auto-generated nonstandard attribute.
   addClassName(newProps, LIST_CLASS);
 
   // Use the same basic class for ordered lists.
