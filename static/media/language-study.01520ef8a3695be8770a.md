@@ -1,54 +1,16 @@
-# Languages and Linguistics
+# Language Study
 
 [+95 Core Concepts Across Languages](https://www.duolingo.com/comment/4571123) ([+and 105 More](https://www.duolingo.com/comment/4664475))
 
-[+The Problem of an International Language](https://www.duolingo.com/comment/3890570)
-
-<!--<a href="http://vokation.com/2009/01/my-view-of-language.html" target="_blank">My View of Language</a>-->
-
-<!--<a href="http://vokation.com/2008/05/working-glossary-of-linguistics.html" target="_blank">A Working Glossary of Linguistics</a>-->
-
-<!--<a href="http://vokation.com/2008/11/quotable-bickerton.html" target="_blank">The Quotable Bickerton</a>-->
-
-<!--<a href="http://vokation.com/2009/08/awesome-keyboard-layout.html" target="_blank">Awesome Keyboard Layout</a>-->
+[+Learning Romance Languages in Parallel](https://www.duolingo.com/comment/3611036)
 
 ---
 
-## Grammar
-
-[+The Structure of Language: Finding Patterns in the Noise](https://slideplayer.com/slide/9604402/)
-
----
-
-## Pronunciation
-
-[+Phonological Features as Overlapping Elements](https://www.khanacademy.org/computer-programming/phonological-features-as-overlapping-elements/6163632156573696)
-
----
-
-## Writing Systems
+## American Sign Language
 
 [Writing in Romanized ASL](https://cliffjonesjr.com/asl/writing)
 
-[+Geometric Phoenician](https://codepen.io/cliffjones/pen/QWKGgQO)
-
-[+Neologizer](https://github.com/cliffjones/neologizer)
-
 ---
-
-## Language Learning
-
-[+Learning Romance Languages in Parallel](https://www.duolingo.com/comment/3611036)
-
-[+Developmental Variation in Children’s Acquisition of Metrical Structures](https://lscmontgomerycac.com/wp-content/uploads/2012/01/developmentalvariation_cliffjones.pdf)
-
-<!--<a href="http://vokation.com/2008/08/learning-to-communicate-part-1.html" target="_blank">Learning to Communicate</a> (<a href="http://vokation.com/2008/09/learning-to-communicate-part-2.html" target="_blank">Part 2</a>, <a href="http://vokation.com/2008/09/learning-to-communicate-part-3.html" target="_blank">Part 3</a>)-->
-
-<!--<a href="http://vokation.com/2009/01/meis-too-words.html" target="_blank">Mei’s &ldquo;Too&rdquo; Words</a>-->
-
-<!--<a href="http://vokation.com/2009/01/meis-early-language.html" target="_blank">Mei’s Early Language</a>-->
-
-<!------->
 
 <!--## English-->
 
@@ -68,13 +30,9 @@
 
 <!--<a href="http://vokation.com/2008/05/how-to-sound-japanese.html" target="_blank">How to Sound Japanese</a>-->
 
-<!------->
-
 <!--## German-->
 
 <!--<a href="http://vokation.com/2009/07/essential-german-vocabulary.html" target="_blank">Essential German Vocabulary</a>-->
-
-<!------->
 
 <!--## Japanese-->
 
@@ -82,13 +40,9 @@
 
 <!--<a href="http://vokation.com/2009/07/learn-kana-by-memorizing-38-words.html" target="_blank">Learn Kana by Memorizing 38 Words!</a>-->
 
-<!------->
-
 <!--## Mandarin Chinese-->
 
 <!--<a href="http://vokation.com/2009/10/jones-romanization-mandarin-chinese.html" target="_blank">Jones Romanization: Mandarin Chinese</a>-->
-
----
 
 ## Spanish
 
