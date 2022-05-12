@@ -55,7 +55,7 @@ function formatHeading({ node, children, ...props }) {
   return <h6 {...newProps}>{children}</h6>;
 }
 
-// Customizes paragraph formatting in Markdown content.
+// Customizes paragraph and figure formatting in Markdown content.
 function formatBlock({ node, children, ...props }) {
   const newChildren = Array.isArray(children) ? [...children] : [children];
   const newProps = { ...props };
@@ -65,6 +65,20 @@ function formatBlock({ node, children, ...props }) {
   if (typeof newChildren?.[0] === 'string' && newChildren[0].startsWith('^')) {
     newChildren[0] = newChildren[0].slice(1);
     addClassName(newProps, BLOCK_CENTER_CLASS);
+  }
+
+  // If an exclamation point starts the block, this should be a figure.
+  if (typeof newChildren?.[0] === 'string' && newChildren[0].startsWith('!')) {
+    newChildren[0] = newChildren[0].slice(1);
+
+    // Find the first plain text child and start the caption there.
+    const captionStart = newChildren.findIndex((el) => (typeof el === 'string' && el.trim()));
+    return (
+      <figure {...newProps}>
+        {newChildren.slice(0, captionStart)}
+        <figcaption>{newChildren.slice(captionStart)}</figcaption>
+      </figure>
+    );
   }
 
   return <p {...newProps}>{newChildren}</p>;

@@ -45,9 +45,14 @@ $base-class: 'Content';
 
   &-block {
     margin: $block-space 0;
+    padding: $box-padding;
 
     &--center {
       text-align: center;
+    }
+
+    figcaption {
+      line-height: 1;
     }
   }
 
@@ -105,6 +110,15 @@ $base-class: 'Content';
       }
     }
   }
+
+  // &-figure, figure {
+  //   margin: $block-space 0;
+
+  //   figcaption {
+  //     margin: $block-space 0;
+  //     text-align: center;
+  //   }
+  // }
 
   &-image {
     border: $line-thickness solid $line-color;
