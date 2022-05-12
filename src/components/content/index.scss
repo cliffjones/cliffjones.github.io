@@ -45,14 +45,18 @@ $base-class: 'Content';
 
   &-block {
     margin: $block-space 0;
-    padding: $box-padding;
 
     &--center {
       text-align: center;
     }
+  }
+
+  figure.#{$base-class}-block {
+    padding: $box-padding;
 
     figcaption {
-      line-height: 1;
+      font-size: $small-font-size;
+      line-height: 1.1;
     }
   }
 

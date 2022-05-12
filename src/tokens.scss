@@ -2,6 +2,7 @@ $medium-width: 500px;
 $large-width: 800px;
 
 $heading-font: 'Righteous';
+$small-font-size: 90%;
 
 $bg-color: hsl(155, 50%, 15%);
 $brown-bg-color: hsl(20, 40%, 30%);
@@ -25,7 +26,7 @@ $line-thickness: 0.1em;
 $shadow-thickness: 0.2em;
 $box-radius: 0.5em;
 $box-padding: calc(5px + 1vw);
-$section-space: calc(1rem + 2.5vw);
+$section-space: calc(1rem + 3vmin);
 $block-space: 0.6em;
 $icon-space: calc(0.4rem + 0.6vw);
 
