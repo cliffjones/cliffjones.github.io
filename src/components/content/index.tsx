@@ -16,6 +16,7 @@ const SECTION_CLASS = `${BASE_CLASS}-section`;
 const HEADING_CLASS = `${BASE_CLASS}-heading`;
 const BLOCK_CLASS = `${BASE_CLASS}-block`;
 const BLOCK_CENTER_CLASS = `${BLOCK_CLASS}--center`;
+const LIST_CLASS = `${BASE_CLASS}-list`;
 const QUOTE_CLASS = `${BASE_CLASS}-quote`;
 const LINK_CLASS = `${BASE_CLASS}-link`;
 const LINK_EXTERNAL_CLASS = `${LINK_CLASS}--external`;
@@ -38,7 +39,7 @@ function formatHeading({ node, children, ...props }) {
   addClassName(newProps, HEADING_CLASS);
 
   // Demote headings one level to let Markdown files be more stand-alone.
-  let level = parseInt(node.tagName[node.tagName.length - 1], 10);
+  const level = parseInt(node.tagName[node.tagName.length - 1], 10);
   if (level === 1) {
     return <h2 {...newProps}>{children}</h2>;
   }
@@ -82,6 +83,20 @@ function formatBlock({ node, children, ...props }) {
   }
 
   return <p {...newProps}>{newChildren}</p>;
+}
+
+// Customizes list formatting in Markdown content.
+function formatList({ node, children, ...props }) {
+  const newProps = { ...props };
+  addClassName(newProps, LIST_CLASS);
+
+  // Use the same basic class for ordered lists.
+  const { tagName } = node;
+  if (tagName === 'ol') {
+    return <ol {...newProps}>{children}</ol>;
+  }
+
+  return <ul {...newProps}>{children}</ul>;
 }
 
 // Customizes block quote formatting in Markdown content.
@@ -157,6 +172,8 @@ const mdConfig: any = {
   h4: formatHeading,
   h5: formatHeading,
   p: formatBlock,
+  ul: formatList,
+  ol: formatList,
   blockquote: formatQuote,
   a: formatLink,
   img: formatImage,

@@ -60,6 +60,25 @@ $base-class: 'Content';
     }
   }
 
+  &-list {
+    margin: $block-space 0;
+    padding: 0 0 0 $block-space*2;
+
+    li {
+      padding: 0 0 $box-padding;
+
+      > p {
+        &:first-child {
+          margin-top: 0;
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
   &-quote {
     margin: $block-space*2;
 
