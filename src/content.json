@@ -7,6 +7,7 @@
   "pages": {
     "art": ["art"],
     "coding": ["coding"],
+    "editing-guidelines": ["editing-guidelines"],
     "language": ["language-study", "linguistics"],
     "social": ["social"],
     "writing": ["writing"]
