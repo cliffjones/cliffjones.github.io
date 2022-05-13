@@ -5,10 +5,12 @@ import content from '../../content.json';
 import Icon from '../icon';
 
 function Header() {
+  const { title } = content;
+
   return (
     <header className='Header'>
       <h1 className='Header-title'>
-        <NavLink to='/'>{content.title}</NavLink>
+        <NavLink to='/'>{title}</NavLink>
       </h1>
 
       <nav className='Header-icons'>

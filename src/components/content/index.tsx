@@ -184,11 +184,13 @@ function Content({ path }) {
   const [mdContent, setMdContent] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(true);
 
+  // Load the specified Markdown file.
   useEffect(() => {
-    axios.get(path).then((response) => {
-      setMdContent(response.data);
-      setLoading(false);
-    });
+    axios.get(`/content/${path}.md`)
+      .then((response) => {
+        setMdContent(response.data);
+        setLoading(false);
+      });
   }, []);
 
   const className = `${BASE_CLASS} ${loading ? LOADING_CLASS : ''}`;
@@ -202,7 +204,7 @@ function Content({ path }) {
             <Icon name='spinner' />
           </>
           : <ReactMarkdown
-            children={mdContent}
+            children={mdContent} // Use the asynchronously loaded Markdown content.
             components={mdConfig} // Customize how certain tags are handled.
             remarkPlugins={[
               remarkGfm, // Use GitHub-Flavored Markdown.

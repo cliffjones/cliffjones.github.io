@@ -3,5 +3,12 @@
   "copyright": {
     "start": "2008",
     "owner": "Cliff Jones Jr."
+  },
+  "pages": {
+    "art": ["art"],
+    "coding": ["coding"],
+    "language": ["language-study", "linguistics"],
+    "social": ["social"],
+    "writing": ["writing"]
   }
 }
