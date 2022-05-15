@@ -43,6 +43,14 @@ $base-class: 'Content';
     }
   }
 
+  &-heading {
+    color: $special-color;
+    font-family: $heading-font;
+    font-weight: normal;
+    line-height: 1;
+    margin: 1em 0 $block-space;
+  }
+
   &-block {
     margin: $block-space 0;
 
@@ -80,20 +88,12 @@ $base-class: 'Content';
   }
 
   &-quote {
-    margin: $block-space*2;
+    margin: $quote-space;
 
     footer {
       margin-top: -$block-space;
       text-align: right;
     }
-  }
-
-  &-heading {
-    color: $special-color;
-    font-family: $heading-font;
-    font-weight: normal;
-    line-height: 1;
-    margin: 1em 0 $block-space;
   }
 
   &-link {
@@ -133,15 +133,6 @@ $base-class: 'Content';
       }
     }
   }
-
-  // &-figure, figure {
-  //   margin: $block-space 0;
-
-  //   figcaption {
-  //     margin: $block-space 0;
-  //     text-align: center;
-  //   }
-  // }
 
   &-image {
     border: $line-thickness solid $line-color;

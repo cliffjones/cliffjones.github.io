@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { Children, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
@@ -7,6 +7,7 @@ import remarkGfm from 'remark-gfm';
 
 import './index.scss';
 import config from '../../config.json';
+import Heading from '../heading';
 import Icon from '../icon';
 import Image from '../image';
 
@@ -39,26 +40,14 @@ function formatHeading({ node, children, ...props }) {
   addClassName(newProps, HEADING_CLASS);
 
   // Demote headings one level to let Markdown files be more stand-alone.
-  const level = parseInt(node.tagName[node.tagName.length - 1], 10);
-  if (level === 1) {
-    return <h2 {...newProps}>{children}</h2>;
-  }
-  if (level === 2) {
-    return <h3 {...newProps}>{children}</h3>;
-  }
-  if (level === 3) {
-    return <h4 {...newProps}>{children}</h4>;
-  }
-  if (level === 4) {
-    return <h5 {...newProps}>{children}</h5>;
-  }
+  const level = parseInt(node.tagName[node.tagName.length - 1], 10) + 1;
 
-  return <h6 {...newProps}>{children}</h6>;
+  return <Heading level={level} {...newProps}>{children}</Heading>;
 }
 
 // Customizes paragraph and figure formatting in Markdown content.
 function formatBlock({ node, children, ...props }) {
-  const newChildren = Array.isArray(children) ? [...children] : [children];
+  const newChildren = Children.toArray(children);
   const newProps = { ...props };
   addClassName(newProps, BLOCK_CLASS);
 
@@ -102,7 +91,7 @@ function formatList({ node, children, ...props }) {
 
 // Customizes block quote formatting in Markdown content.
 function formatQuote({ node, children, ...props }) {
-  let newChildren = Array.isArray(children) ? [...children] : [children];
+  let newChildren = Children.toArray(children);
   const newProps = { ...props };
   addClassName(newProps, QUOTE_CLASS);
 
@@ -111,7 +100,7 @@ function formatQuote({ node, children, ...props }) {
 
 // Customizes link formatting in Markdown content.
 function formatLink({ node, children, ...props }) {
-  const newChildren = Array.isArray(children) ? [...children] : [children];
+  const newChildren = Children.toArray(children);
   const newProps = { ...props };
   addClassName(newProps, LINK_CLASS);
 

@@ -9,11 +9,6 @@ interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   loader?: string;
 }
 
-// Adds a given class to a supplied props object.
-function addClassName(props: any, className: string) {
-  props.className = props.className ? `${props.className} ${className}` : className;
-}
-
 function Image({ loader, src, ...props }: ImageProps) {
   const [source, setSource] = useState(loader || src);
   const [loading, setLoading] = useState(!!loader);
@@ -33,9 +28,9 @@ function Image({ loader, src, ...props }: ImageProps) {
   }, [src, onLoad]);
 
   const newProps = { ...props };
-  addClassName(newProps, BASE_CLASS);
+  newProps.className = newProps.className ? `${newProps.className} ${BASE_CLASS}` : BASE_CLASS;
   if (loading) {
-    addClassName(newProps, LOADING_CLASS);
+    newProps.className = `${newProps.className} ${LOADING_CLASS}`;
   }
 
   return <img {...newProps} src={source} loading='lazy' />;
