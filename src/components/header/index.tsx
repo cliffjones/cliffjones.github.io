@@ -38,6 +38,12 @@ function Header() {
           action='/art'
           color='purple'
         />
+        <Icon
+          name='lightbulb'
+          hint='Ideas'
+          action='/ideas'
+          color='red'
+        />
       </nav>
     </header>
   );

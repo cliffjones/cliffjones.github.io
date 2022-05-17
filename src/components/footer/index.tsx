@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import './index.scss';
 import content from '../../content.json';
 import Icon from '../icon';
@@ -42,7 +44,7 @@ function Footer() {
       </div>
 
       <div className='Footer-copyright'>
-        © {start}–{currentYear} <a href='/social'>{owner}</a>
+        © {start}–{currentYear} <NavLink to='/'>{owner}</NavLink>
       </div>
     </footer>
   );

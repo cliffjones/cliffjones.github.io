@@ -5,6 +5,7 @@ import {
   faEdit,
   faEye,
   faKeyboard,
+  faLightbulb,
   faStar,
 } from '@fortawesome/free-regular-svg-icons';
 import {
@@ -78,6 +79,10 @@ function Icon({ name, hint = '', action = '', color = '' }) {
     return <NavLink {...props}><FontAwesomeIcon icon={faKeyboard} /></NavLink>;
   }
 
+  if (name === 'lightbulb') {
+    return <NavLink {...props}><FontAwesomeIcon icon={faLightbulb} /></NavLink>;
+  }
+
   if (name === 'linkedin') {
     return <a {...props}><FontAwesomeIcon icon={faLinkedinIn} /></a>;
   }
@@ -126,7 +131,7 @@ function Icon({ name, hint = '', action = '', color = '' }) {
     return <a {...props}><FontAwesomeIcon icon={faYoutube} /></a>;
   }
 
-  return <></>;
+  return null;
 }
 
 export default Icon;

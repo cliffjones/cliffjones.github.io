@@ -23,8 +23,6 @@ function scrollToId(id: string) {
 }
 
 function App() {
-  const { pages } = content;
-
   useLocationChange((location: Location) => {
     const hash = location.hash.slice(1);
     if (hash) {
@@ -38,12 +36,10 @@ function App() {
       <Header />
       <main className='App-main'>
         <Routes>
-          <Route index element={<Page paths={['welcome', 'mirrormaze-blurb']} />} />
-          {Object.keys(pages).map((key) => (
-            <Route key={key} path={`/${key}`} element={<Page paths={pages[key]} />} />
+          {Object.keys(content.pages).map((path) => (
+            <Route key={path} path={`/${path}`} element={<Page path={path} />} />
           ))}
           <Route path='/image-search' element={<ImageSearch />} />
-          <Route path='*' element={<Page paths={['missing']} />} />
         </Routes>
       </main>
       <Footer />

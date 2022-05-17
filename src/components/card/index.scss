@@ -1,0 +1,56 @@
+@import '../../tokens.scss';
+
+.Card {
+  align-items: center;
+  background-color: $gray-bg-color;
+  border-radius: $box-radius;
+  box-shadow: 0 0 $shadow-blur $shadow-color;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  padding: $box-padding;
+  transition: color $focus-time, box-shadow $focus-time;
+
+  &:focus,
+  &:hover {
+    box-shadow: 0 0 $shadow-focus-blur $shadow-color;
+  }
+
+  &--blue {
+    background-color: $blue-bg-color;
+  }
+
+  &--brown {
+    background-color: $brown-bg-color;
+  }
+
+  &--green {
+    background-color: $green-bg-color;
+  }
+
+  &--purple {
+    background-color: $purple-bg-color;
+  }
+
+  &--red {
+    background-color: $red-bg-color;
+  }
+
+  &-title {
+    font-size: $normal-font-size;
+    font-weight: bold;
+    line-height: $heading-line-height;
+    margin: 0 0 $box-padding;
+    text-align: center;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-text {
+    font-size: $small-font-size;
+    line-height: $small-line-height;
+    text-align: center;
+  }
+}

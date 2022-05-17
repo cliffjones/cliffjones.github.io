@@ -4,6 +4,10 @@
   padding: 0 $box-padding $box-padding;
   text-align: center;
 
+  a.active {
+    color: inherit;
+  }
+
   &-icons {
     display: flex;
     flex-wrap: wrap;
@@ -12,12 +16,18 @@
     margin-bottom: $icon-space;
 
     .Icon {
-      box-shadow: 0 0 $shadow-thickness $line-color;
+      box-shadow: 0 0 $shadow-blur $shadow-color;
+      transition: color $focus-time, background-color $focus-time, box-shadow $focus-time;
+
+      &:focus,
+      &:hover {
+        box-shadow: 0 0 $shadow-focus-blur $shadow-color;
+      }
     }
   }
 
   &-copyright {
     font-size: $small-font-size;
-    line-height: 1;
+    line-height: $small-line-height;
   }
 }

@@ -1,10 +1,18 @@
+import content from '../../content.json';
+import CardList from '../card-list';
 import Content from '../content';
 
-function Page({ paths }) {
+function Page({ path }) {
+  const data = content.pages?.[path];
+  if (!data) {
+    return null;
+  }
+
   return (
-    <div className='Page'>
-      {paths.map((path: string) => <Content key={path} path={path} />)}
-    </div>
+    <article className='Page'>
+      {data.content.map((key: string) => <Content key={key} path={key} />)}
+      <CardList path={path}></CardList>
+    </article>
   );
 }
 

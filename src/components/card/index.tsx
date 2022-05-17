@@ -1,0 +1,25 @@
+import { Link } from 'react-router-dom';
+
+import './index.scss';
+
+const BASE_CLASS = 'Card';
+
+function Card({
+  path,
+  title = '',
+  text = '',
+  color = '',
+}) {
+  let className = BASE_CLASS;
+  if (color) {
+    className = `${className} ${BASE_CLASS}--${color}`;
+  }
+  return (
+    <Link to={`/${path}`} className={className}>
+      {title ? <div className='Card-title'>{title}</div> : ''}
+      {text ? <div className='Card-text'>{text}</div> : ''}
+    </Link>
+  );
+}
+
+export default Card;

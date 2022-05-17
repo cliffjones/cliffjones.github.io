@@ -8,9 +8,9 @@
   }
 
   &-results {
-    justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   &-card {

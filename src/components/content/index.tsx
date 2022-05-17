@@ -13,7 +13,6 @@ import Image from '../image';
 
 const BASE_CLASS = 'Content';
 const LOADING_CLASS = `${BASE_CLASS}--loading`;
-const SECTION_CLASS = `${BASE_CLASS}-section`;
 const HEADING_CLASS = `${BASE_CLASS}-heading`;
 const BLOCK_CLASS = `${BASE_CLASS}-block`;
 const BLOCK_CENTER_CLASS = `${BLOCK_CLASS}--center`;
@@ -184,27 +183,25 @@ function Content({ path }) {
 
   const className = `${BASE_CLASS} ${loading ? LOADING_CLASS : ''}`;
   return (
-    <div className={className}>
-      <section className={SECTION_CLASS}>
-        {loading
-          ? <>
-            <Icon name='spinner' />
-            <Icon name='spinner' />
-            <Icon name='spinner' />
-          </>
-          : <ReactMarkdown
-            children={mdContent} // Use the asynchronously loaded Markdown content.
-            components={mdConfig} // Customize how certain tags are handled.
-            remarkPlugins={[
-              remarkGfm, // Use GitHub-Flavored Markdown.
-            ]}
-            rehypePlugins={[
-              rehypeRaw, // Enable embedded HTML.
-            ]}
-          />
-        }
-      </section>
-    </div>
+    <section className={className}>
+      {loading
+        ? <>
+          <Icon name='spinner' />
+          <Icon name='spinner' />
+          <Icon name='spinner' />
+        </>
+        : <ReactMarkdown
+          children={mdContent} // Use the asynchronously loaded Markdown content.
+          components={mdConfig} // Customize how certain tags are handled.
+          remarkPlugins={[
+            remarkGfm, // Use GitHub-Flavored Markdown.
+          ]}
+          rehypePlugins={[
+            rehypeRaw, // Enable embedded HTML.
+          ]}
+        />
+      }
+    </section>
   );
 }
 

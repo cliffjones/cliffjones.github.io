@@ -5,11 +5,66 @@
     "owner": "Cliff Jones Jr."
   },
   "pages": {
-    "art": ["art"],
-    "coding": ["coding"],
-    "editing-guidelines": ["editing-guidelines"],
-    "language": ["language-study", "linguistics"],
-    "social": ["social"],
-    "writing": ["writing"]
+    "": {
+      "content": ["welcome", "mirrormaze-blurb"]
+    },
+    "*": {
+      "content": ["missing"]
+    },
+    "art": {
+      "content": ["art"]
+    },
+    "coding": {
+      "content": ["coding"]
+    },
+    "editing-guidelines": {
+      "content": ["editing-guidelines"]
+    },
+    "ideas": {
+      "content": ["ideas"]
+    },
+    "language": {
+      "content": ["language-study", "linguistics"]
+    },
+    "social": {
+      "content": ["social"]
+    },
+    "writing": {
+      "content": ["writing"]
+    }
+  },
+  "cards": {
+    "art": {
+      "title": "Art",
+      "text": "A small sample of my visual artwork.",
+      "color": "purple"
+    },
+    "coding": {
+      "title": "Coding",
+      "text": "Independent coding projects, mostly in JavaScript.",
+      "color": "blue"
+    },
+    "ideas": {
+      "title": "Ideas",
+      "text": "Thoughts and projects that don’t fit anywhere else.",
+      "color": "red"
+    },
+    "language": {
+      "title": "Language",
+      "text": "Projects and articles on various linguistic topics.",
+      "color": "green"
+    },
+    "social": {
+      "title": "Follow or Contact",
+      "text": "Find me on various social networks."
+    },
+    "writing": {
+      "title": "Writing",
+      "text": "Books to buy and stories to read online.",
+      "color": "brown"
+    }
+  },
+  "nav": {
+    "": ["coding", "writing", "language", "art", "ideas", "social"]
   }
 }

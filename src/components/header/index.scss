@@ -18,7 +18,6 @@
     margin: 0;
     padding: $box-padding $box-padding 0;
     text-align: center;
-    text-shadow: 0 0 $shadow-thickness $line-color;
 
     @media (min-width: $large-width) {
       text-align: left;
@@ -27,16 +26,21 @@
     a {
       color: inherit;
       text-decoration: none;
+      text-shadow: 0 0 $shadow-blur $shadow-color;
+      transition: color $focus-time, text-shadow $focus-time;
 
       &:focus,
       &:hover {
         color: $link-focus-color;
+        text-shadow: 0 0 $shadow-focus-blur $shadow-color;
       }
 
       &.active {
+        &,
         &:focus,
         &:hover {
           color: inherit;
+          text-shadow: 0 0 $shadow-blur $shadow-color;
         }
       }
     }
@@ -54,12 +58,22 @@
     }
 
     .Icon {
-      box-shadow: 0 0 $shadow-thickness $line-color;
+      box-shadow: 0 0 $shadow-blur $shadow-color;
+      transition: color $focus-time, box-shadow $focus-time;
+
+      &:focus,
+      &:hover {
+        box-shadow: 0 0 $shadow-focus-blur $shadow-color;
+      }
 
       &.active {
-        background-color: transparent;
-        box-shadow: none;
-        color: $special-color;
+        &,
+        &:focus,
+        &:hover {
+          background-color: transparent;
+          box-shadow: none;
+          color: $special-color;
+        }
       }
     }
   }

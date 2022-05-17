@@ -11,20 +11,28 @@
   line-height: 1;
   width: 1.5em;
 
+  &--blue {
+    background-color: $blue-bg-color;
+  }
+
   &--brown {
     background-color: $brown-bg-color;
+  }
+
+  &--gray {
+    background-color: $gray-bg-color;
   }
 
   &--green {
     background-color: $green-bg-color;
   }
 
-  &--blue {
-    background-color: $blue-bg-color;
-  }
-
   &--purple {
     background-color: $purple-bg-color;
+  }
+
+  &--red {
+    background-color: $red-bg-color;
   }
 
   &--amazon {

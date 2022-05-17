@@ -2,19 +2,30 @@ $medium-width: 500px;
 $large-width: 800px;
 
 $heading-font: 'Righteous';
+$normal-font-size: calc(1rem + 1.5vmin);
+$normal-line-height: 1.25;
 $small-font-size: 90%;
+$small-line-height: 1.1;
+$heading-line-height: 1;
 
 $bg-color: hsl(155, 50%, 15%);
-$brown-bg-color: hsl(20, 40%, 30%);
-$green-bg-color: hsl(145, 50%, 25%);
 $blue-bg-color: hsl(200, 50%, 28%);
+$brown-bg-color: hsl(20, 40%, 30%);
+$gray-bg-color: hsl(0, 0%, 28%);
+$green-bg-color: hsl(145, 50%, 25%);
 $purple-bg-color: hsl(290, 40%, 32%);
 $red-bg-color: hsl(355, 50%, 32%);
 $section-bg-color: hsla(290, 40%, 10%, 0.4);
+
+$line-color: hsl(290, 40%, 10%);
+$line-thickness: 3px;
+$shadow-color: hsla(0, 0%, 0%, 0.8);
+$shadow-blur: 0.1em;
+$shadow-focus-blur: 0.3em;
+
 $text-color: hsl(25, 50%, 95%);
 $special-color: hsl(215, 90%, 80%);
 $special-focus-color: hsl(215, 100%, 85%);
-$line-color: hsl(290, 40%, 10%);
 $link-color: hsl(45, 90%, 65%);
 $link-focus-color: hsl(45, 100%, 80%);
 $link-line-color: hsla(200, 50%, 28%, 0.6);
@@ -22,15 +33,14 @@ $link-line-focus-color: hsl(200, 50%, 28%);
 $link-line-special-color: hsla(355, 50%, 32%, 0.6);
 $link-line-special-focus-color: hsl(355, 50%, 32%);
 
-$line-thickness: 3px;
-$shadow-thickness: 0.2em;
 $box-radius: calc(10px + 1vmin);
 $box-padding: calc(5px + 1vw);
 $list-padding: 1.6em;
-$section-space: calc(1rem + 3vmin);
+$section-space: calc(1rem + 4vmin);
 $block-space: 0.6em;
 $quote-space: 1.2em;
 $icon-space: calc(0.4rem + 1vw);
+$card-space: calc(0.4rem + 1vw);
 
 $focus-time: 250ms;
 $fade-time: 500ms;
