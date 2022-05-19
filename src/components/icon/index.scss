@@ -9,6 +9,7 @@
   height: 1.5em;
   justify-content: center;
   line-height: 1;
+  transition: color $focus-time, background-color $focus-time;
   width: 1.5em;
 
   &--blue {
@@ -87,7 +88,6 @@
     background-color: $text-color;
     background-image: url('https://ik.imagekit.io/cliff/icons/wattpad');
     background-size: cover;
-    transition: background-color $focus-time;
 
     &:focus,
     &:hover {

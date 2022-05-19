@@ -7,6 +7,7 @@ import {
   faKeyboard,
   faLightbulb,
   faStar,
+  faUser,
 } from '@fortawesome/free-regular-svg-icons';
 import {
   faAmazon,
@@ -52,7 +53,10 @@ function Icon({ name, hint = '', action = '', color = '' }) {
   }
 
   if (name === 'amazon') {
-    return <a {...props}><FontAwesomeIcon icon={faAmazon} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faAmazon} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faAmazon} /></span>;
   }
 
   if (name === 'eye') {
@@ -60,19 +64,31 @@ function Icon({ name, hint = '', action = '', color = '' }) {
   }
 
   if (name === 'facebook') {
-    return <a {...props}><FontAwesomeIcon icon={faFacebookF} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faFacebookF} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faFacebookF} /></span>;
   }
 
   if (name === 'github') {
-    return <a {...props}><FontAwesomeIcon icon={faGithub} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faGithub} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faGithub} /></span>;
   }
 
   if (name === 'goodreads') {
-    return <a {...props}><FontAwesomeIcon icon={faGoodreadsG} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faGoodreadsG} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faGoodreadsG} /></span>;
   }
 
   if (name === 'instagram') {
-    return <a {...props}><FontAwesomeIcon icon={faInstagram} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faInstagram} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faInstagram} /></span>;
   }
 
   if (name === 'keyboard') {
@@ -84,11 +100,17 @@ function Icon({ name, hint = '', action = '', color = '' }) {
   }
 
   if (name === 'linkedin') {
-    return <a {...props}><FontAwesomeIcon icon={faLinkedinIn} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faLinkedinIn} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faLinkedinIn} /></span>;
   }
 
   if (name === 'medium') {
-    return <a {...props}><FontAwesomeIcon icon={faMediumM} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faMediumM} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faMediumM} /></span>;
   }
 
   if (name === 'note') {
@@ -96,15 +118,28 @@ function Icon({ name, hint = '', action = '', color = '' }) {
   }
 
   if (name === 'patreon') {
-    return <a {...props}><FontAwesomeIcon icon={faPatreon} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faPatreon} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faPatreon} /></span>;
+  }
+
+  if (name === 'person') {
+    return <NavLink {...props}><FontAwesomeIcon icon={faUser} /></NavLink>;
   }
 
   if (name === 'quora') {
-    return <a {...props}><FontAwesomeIcon icon={faQuora} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faQuora} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faQuora} /></span>;
   }
 
   if (name === 'reddit') {
-    return <a {...props}><FontAwesomeIcon icon={faRedditAlien} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faRedditAlien} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faRedditAlien} /></span>;
   }
 
   if (name === 'speech') {
@@ -116,19 +151,31 @@ function Icon({ name, hint = '', action = '', color = '' }) {
   }
 
   if (name === 'tumblr') {
-    return <a {...props}><FontAwesomeIcon icon={faTumblr} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faTumblr} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faTumblr} /></span>;
   }
 
   if (name === 'twitter') {
-    return <a {...props}><FontAwesomeIcon icon={faTwitter} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faTwitter} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faTwitter} /></span>;
   }
 
   if (name === 'wattpad') {
-    return <a {...props}></a>;
+    if (props.href) {
+      return <a {...props}></a>;
+    }
+    return <span {...props}></span>;
   }
 
   if (name === 'youtube') {
-    return <a {...props}><FontAwesomeIcon icon={faYoutube} /></a>;
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faYoutube} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faYoutube} /></span>;
   }
 
   return null;

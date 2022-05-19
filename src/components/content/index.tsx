@@ -1,4 +1,4 @@
-import { Children, useEffect, useState } from 'react';
+import { Children, MouseEvent, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
@@ -47,17 +47,21 @@ function formatHeading({ node, children, ...props }) {
 // Customizes paragraph and figure formatting in Markdown content.
 function formatBlock({ node, children, ...props }) {
   const newChildren = Children.toArray(children);
+  if (!newChildren.length) {
+    return null;
+  }
+
   const newProps = { ...props };
   addClassName(newProps, BLOCK_CLASS);
 
   // Center blocks starting with a caret.
-  if (typeof newChildren?.[0] === 'string' && newChildren[0].startsWith('^')) {
+  if (typeof newChildren[0] === 'string' && newChildren[0].startsWith('^')) {
     newChildren[0] = newChildren[0].slice(1);
     addClassName(newProps, BLOCK_CENTER_CLASS);
   }
 
   // If an exclamation point starts the block, this should be a figure.
-  if (typeof newChildren?.[0] === 'string' && newChildren[0].startsWith('!')) {
+  if (typeof newChildren[0] === 'string' && newChildren[0].startsWith('!')) {
     newChildren[0] = newChildren[0].slice(1);
 
     // Find the first plain text child and start the caption there.
@@ -97,18 +101,42 @@ function formatQuote({ node, children, ...props }) {
   return <blockquote {...newProps}>{newChildren}</blockquote>;
 }
 
+// Smoothly scrolls to a given element if its ID is found in the DOM.
+function scrollToId(id: string) {
+  const target = document.getElementById(id);
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+// Replaces the default behavior or page-internal links.
+function anchorClick(event: MouseEvent<HTMLAnchorElement>) {
+  event.preventDefault();
+  const anchor = event.target as HTMLAnchorElement;
+  window.history.pushState({}, '', anchor.href);
+  scrollToId(anchor.hash.slice(1));
+}
+
 // Customizes link formatting in Markdown content.
+// TODO: Make flexible link component that handles smooth scrolling, etc.
 function formatLink({ node, children, ...props }) {
   const newChildren = Children.toArray(children);
+  if (!newChildren.length) {
+    return null;
+  }
+
   const newProps = { ...props };
   addClassName(newProps, LINK_CLASS);
 
-  if (typeof newChildren?.[0] === 'string' && newChildren[0].startsWith('+')) {
+  if (typeof newChildren[0] === 'string' && newChildren[0].startsWith('+')) {
     // Make links starting with "+" open in a new tab.
     newChildren[0] = newChildren[0].slice(1);
     newProps.target = '_blank';
     newProps.rel = 'noopener';
     addClassName(newProps, LINK_EXTERNAL_CLASS);
+  } else if (newProps.href.startsWith('#')) {
+    // Just scroll to page-internal links.
+    newProps.onClick = anchorClick;
   } else if (newProps.href.startsWith('/')) {
     // Use a Link component for relative paths.
     const path = newProps.href;
@@ -154,6 +182,18 @@ function formatImage({ node, ...props }) {
   return <Image {...newProps} />;
 }
 
+// Uses special syntax to drop in a specified component.
+function addComponent({ node, children }) {
+  if (children.length === 1 && typeof children[0] === 'string') {
+    const command = children[0].split(' ');
+    if (command[0] === 'icon') {
+      return <Icon name={command[1]} />;
+    }
+  }
+
+  return null;
+}
+
 const mdConfig: any = {
   h1: formatHeading,
   h2: formatHeading,
@@ -166,6 +206,7 @@ const mdConfig: any = {
   blockquote: formatQuote,
   a: formatLink,
   img: formatImage,
+  del: addComponent,
 };
 
 function Content({ path }) {

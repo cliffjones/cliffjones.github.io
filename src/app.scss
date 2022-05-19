@@ -36,6 +36,15 @@ strong {
   color: $special-color;
 }
 
+small {
+  font-size: $small-font-size;
+}
+
+big {
+  font-size: $big-font-size;
+  line-height: $big-line-height;
+}
+
 a {
   color: $link-color;
   text-decoration: none;

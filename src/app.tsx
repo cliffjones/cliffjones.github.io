@@ -8,7 +8,7 @@ import Footer from './components/footer';
 import Page from './components/page';
 import ImageSearch from './components/image-search';
 
-// Hook to call a given function when the browser lcoation changes.
+// Hook to call a given function when the browser location changes.
 function useLocationChange(locationChangeHandler: Function) {
   const location = useLocation();
   useEffect(() => locationChangeHandler(location), [location, locationChangeHandler]);

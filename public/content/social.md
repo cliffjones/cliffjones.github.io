@@ -1,67 +1,77 @@
 # Social Networks
 
-[+Facebook](http://www.facebook.com/mrcliffjonesjr)
+## News and Networking
 
-[+Twitter](http://twitter.com/cliffjonesjr)
+### [+~icon facebook~ Facebook](http://www.facebook.com/mrcliffjonesjr)
 
-[+Reddit](https://www.reddit.com/user/whatisdreampunk)
+Mostly just a place for me to keep in touch with family and coworkers. I also have a [+dreampunk group](https://www.facebook.com/groups/dreampunk) here.
 
-[+LinkedIn](https://www.linkedin.com/in/cliff-jones-b2567227)
+### [+~icon twitter~ Twitter](http://twitter.com/cliffjonesjr)
+
+Kind of a hot mess, but still a decent place to network with [+other writers](https://twitter.com/i/lists/1231856887311802368), including the occasional [+celebrity mention](https://twitter.com/CliffJonesJr/status/1143727995351441409).
+
+### [+~icon reddit~ Reddit](https://www.reddit.com/user/whatisdreampunk)
+
+I want to like this one a lot more than I actually do. Pretty good content, but the flip side of that is that if you just want to post random crap, they make that kind of difficult.
+
+### [+~icon linkedin~ LinkedIn](https://www.linkedin.com/in/cliff-jones-b2567227)
+
+This can be handy when looking for a job, but otherwise it’s like an even more restrictive version of Facebook.
 
 ---
 
 ## Multimedia
 
-[+Instagram](http://instagram.com/cliffjonesjr)
+### [+~icon instagram~ Instagram](http://instagram.com/cliffjonesjr)
 
-[+Threadless](https://dreampunk.threadless.com/)
+### [+Threadless](https://dreampunk.threadless.com/)
 
-[+Redbubble](https://whatisdreampunk.redbubble.com/)
+### [+Redbubble](https://whatisdreampunk.redbubble.com/)
 
-[+YouTube](https://www.youtube.com/channel/UCu3tev2uZ3Fh5ggVJq5IExA)
+### [+~icon youtube~ YouTube](https://www.youtube.com/channel/UCu3tev2uZ3Fh5ggVJq5IExA)
 
-[+Tumblr](http://whatisdreampunk.tumblr.com/)
+### [+~icon tumblr~ Tumblr](http://whatisdreampunk.tumblr.com/)
 
 ---
 
 ## Reading and Writing
 
-[+Amazon](https://www.amazon.com/Cliff-Jones-Jr/e/B08LF1PBFY)
+### [+~icon amazon~ Amazon](https://www.amazon.com/Cliff-Jones-Jr/e/B08LF1PBFY)
 
-[+Wattpad](http://www.wattpad.com/user/CliffJonesJr)
+### [+~icon wattpad~ Wattpad](http://www.wattpad.com/user/CliffJonesJr)
 
-<!-- [+Medium](https://medium.com/@cliffjonesjr) -->
+<!-- ### [+~icon medium~ Medium](https://medium.com/@cliffjonesjr) -->
 
-[+Goodreads](https://www.goodreads.com/cliffjones)
+### [+~icon goodreads~ Goodreads](https://www.goodreads.com/cliffjones)
 
 ---
 
 ## Learning and Development
 
-[+Quora](https://www.quora.com/profile/Cliff-Jones-Jr)
+### [+~icon quora~ Quora](https://www.quora.com/profile/Cliff-Jones-Jr)
 
-[+Duolingo](https://www.duolingo.com/CliffJonesJr)
+### [+~icon duolingo~ Duolingo](https://www.duolingo.com/CliffJonesJr)
 
-<!-- [+Memrise](http://www.memrise.com/user/MrCliffJones) -->
+<!-- ### [+Memrise](http://www.memrise.com/user/MrCliffJones) -->
 
-[+CodePen](https://codepen.io/cliffjones)
+### [+CodePen](https://codepen.io/cliffjones)
 
-[+GitHub](https://github.com/cliffjones)
+### [+~icon github~ GitHub](https://github.com/cliffjones)
 
-[+Khan Academy](https://www.khanacademy.org/profile/CliffJones)
+### [+Khan Academy](https://www.khanacademy.org/profile/CliffJones)
 
-[+Dwitter](https://www.dwitter.net/u/CliffJonesJr)
+### [+Dwitter](https://www.dwitter.net/u/CliffJonesJr)
 
 ---
 
 ## Funding
 
-[+Venmo](https://venmo.com/CliffJonesJr)
+### [+Venmo](https://venmo.com/CliffJonesJr)
 
-<!-- [+Patreon](https://www.patreon.com/cliffjonesjr) -->
+<!-- ### [+Patreon](https://www.patreon.com/cliffjonesjr) -->
 
-[+Buy Me a Coffee](https://www.buymeacoffee.com/vI4gqOS)
+### [+Buy Me a Coffee](https://www.buymeacoffee.com/vI4gqOS)
 
-[+Ko-fi](https://ko-fi.com/cliff)
+### [+Ko-fi](https://ko-fi.com/cliff)
 
-[+Flattr](https://flattr.com/@CliffJones)
+### [+Flattr](https://flattr.com/@CliffJones)

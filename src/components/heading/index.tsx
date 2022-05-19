@@ -41,6 +41,7 @@ function scrollToId(id: string) {
   }
 }
 
+// Replaces the default behavior or page-internal links.
 function anchorClick(event: MouseEvent<HTMLAnchorElement>) {
   event.preventDefault();
   const anchor = event.target as HTMLAnchorElement;
@@ -60,8 +61,7 @@ function Heading({ level = 1, children, ...props }: HeadingProps) {
 
     if (level === 2 || level === 3) {
       const newPassedProps = { ...passedProps };
-      const suffix = (level === 2) ? 'section' : 'part';
-      const anchorId = newPassedProps.id || `${textToId(getNodeText(children))}-${suffix}`;
+      const anchorId = newPassedProps.id || `${textToId(getNodeText(children))}-section`;
       newPassedProps.id = anchorId;
 
       return React.createElement(

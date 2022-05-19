@@ -14,6 +14,9 @@
     "art": {
       "content": ["art"]
     },
+    "character-types": {
+      "content": ["character-types"]
+    },
     "coding": {
       "content": ["coding"]
     },
@@ -34,15 +37,29 @@
     }
   },
   "cards": {
+    "": {
+      "title": "Home",
+      "text": "Back to the main landing page."
+    },
     "art": {
       "title": "Art",
       "text": "A sample of my artwork in various visual media.",
       "color": "purple"
     },
+    "character-types": {
+      "title": "Character Types",
+      "text": "Eight basic personality types to use in fiction.",
+      "color": "brown"
+    },
     "coding": {
       "title": "Coding",
       "text": "Independent coding projects, mostly in JavaScript.",
       "color": "blue"
+    },
+    "editing-guidelines": {
+      "title": "Editing Guidelines",
+      "text": "A handy checklist to help prepare your submissions.",
+      "color": "brown"
     },
     "ideas": {
       "title": "Ideas",
@@ -60,11 +77,19 @@
     },
     "writing": {
       "title": "Writing",
-      "text": "Books to buy and stories to read online.",
+      "text": "Books to buy, stories to read, and writing-related musings.",
       "color": "brown"
     }
   },
   "nav": {
-    "": ["coding", "writing", "language", "art", "ideas", "social"]
+    "": ["coding", "writing", "language", "art", "social"],
+    "art": [""],
+    "character-types": ["writing"],
+    "coding": [""],
+    "editing-guidelines": ["writing"],
+    "ideas": [""],
+    "language": [""],
+    "social": [""],
+    "writing": ["character-types", "editing-guidelines", ""]
   }
 }

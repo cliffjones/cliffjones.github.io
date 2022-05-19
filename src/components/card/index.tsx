@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import './index.scss';
+import Icon from '../icon';
 
 const BASE_CLASS = 'Card';
 

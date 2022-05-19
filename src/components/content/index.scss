@@ -104,6 +104,10 @@ $base-class: 'Content';
       .#{$base-class}-image {
         border-color: $link-line-focus-color;
       }
+
+      .Icon {
+        color: $link-focus-color;
+      }
     }
 
     .#{$base-class}-image {
@@ -125,6 +129,11 @@ $base-class: 'Content';
       .#{$base-class}-image {
         border-color: $link-line-special-color;
       }
+    }
+
+    .Icon {
+      float: left;
+      margin: -0.25em 0.25em -0.75em 0;
     }
   }
 

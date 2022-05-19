@@ -1,5 +1,7 @@
 # Editing Guidelines
 
+I put these rules together as a sort of checklist for writers to go through before submitting a story to me—as well as for me to go through on my end to make sure everything is formatted right for the publisher.
+
 1. One-inch margins on all sides. If you’re using a header and/or footer, those should be a half-inch from the edge.
 
 1. Use Times New Roman size 12 throughout the document.
