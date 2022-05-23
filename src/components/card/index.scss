@@ -4,7 +4,7 @@
   align-items: center;
   background-color: $gray-bg-color;
   border-radius: $box-radius;
-  box-shadow: 0 0 $shadow-blur $shadow-color;
+  box-shadow: $shadow;
   color: $text-color;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 
   &:focus,
   &:hover {
-    box-shadow: 0 0 $shadow-focus-blur $shadow-color;
+    box-shadow: $focus-shadow;
   }
 
   &--blue {

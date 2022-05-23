@@ -26,13 +26,13 @@
     a {
       color: inherit;
       text-decoration: none;
-      text-shadow: 0 0 $shadow-blur $shadow-color;
+      text-shadow: $shadow;
       transition: color $focus-time, text-shadow $focus-time;
 
       &:focus,
       &:hover {
         color: $link-focus-color;
-        text-shadow: 0 0 $shadow-focus-blur $shadow-color;
+        text-shadow: $focus-shadow;
       }
 
       &.active {
@@ -40,7 +40,7 @@
         &:focus,
         &:hover {
           color: inherit;
-          text-shadow: 0 0 $shadow-blur $shadow-color;
+          text-shadow: $shadow;
         }
       }
     }
@@ -59,12 +59,12 @@
     }
 
     .Icon {
-      box-shadow: 0 0 $shadow-blur $shadow-color;
+      box-shadow: $shadow;
       transition: color $focus-time, box-shadow $focus-time;
 
       &:focus,
       &:hover {
-        box-shadow: 0 0 $shadow-focus-blur $shadow-color;
+        box-shadow: $focus-shadow;
       }
 
       &.active {

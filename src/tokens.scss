@@ -21,9 +21,9 @@ $section-bg-color: hsla(290, 40%, 10%, 0.4);
 
 $line-color: hsl(290, 40%, 10%);
 $line-thickness: 3px;
-$shadow-color: hsla(0, 0%, 0%, 0.8);
-$shadow-blur: 0.1em;
-$shadow-focus-blur: 0.3em;
+$shadow-color: hsla(0, 0%, 0%, 0.5);
+$shadow: 0 calc(0.1rem + 0.1vmin) calc(0.1rem + 0.2vmin) $shadow-color;
+$focus-shadow: 0 calc(0.3rem + 0.3vmin) calc(0.3rem + 0.6vmin) $shadow-color;
 
 $text-color: hsl(25, 50%, 95%);
 $special-color: hsl(215, 90%, 80%);

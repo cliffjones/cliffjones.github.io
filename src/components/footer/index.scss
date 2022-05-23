@@ -16,12 +16,12 @@
     margin-bottom: $icon-space;
 
     .Icon {
-      box-shadow: 0 0 $shadow-blur $shadow-color;
+      box-shadow: $shadow;
       transition: color $focus-time, background-color $focus-time, box-shadow $focus-time;
 
       &:focus,
       &:hover {
-        box-shadow: 0 0 $shadow-focus-blur $shadow-color;
+        box-shadow: $focus-shadow;
       }
     }
   }
