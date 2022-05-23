@@ -24,6 +24,8 @@ This can be handy when looking for a job, but otherwise it’s like an even more
 
 ### [+~icon instagram~ Instagram](http://instagram.com/cliffjonesjr)
 
+I use this every once in a while to post photos of stuff I find interesting. No big whoop.
+
 ### [+Threadless](https://dreampunk.threadless.com/)
 
 ### [+Redbubble](https://whatisdreampunk.redbubble.com/)
@@ -50,13 +52,13 @@ This can be handy when looking for a job, but otherwise it’s like an even more
 
 ### [+~icon quora~ Quora](https://www.quora.com/profile/Cliff-Jones-Jr)
 
-### [+~icon duolingo~ Duolingo](https://www.duolingo.com/CliffJonesJr)
+### [+Duolingo](https://www.duolingo.com/CliffJonesJr)
 
 <!-- ### [+Memrise](http://www.memrise.com/user/MrCliffJones) -->
 
-### [+CodePen](https://codepen.io/cliffjones)
-
 ### [+~icon github~ GitHub](https://github.com/cliffjones)
+
+### [+CodePen](https://codepen.io/cliffjones)
 
 ### [+Khan Academy](https://www.khanacademy.org/profile/CliffJones)
 
@@ -66,7 +68,7 @@ This can be handy when looking for a job, but otherwise it’s like an even more
 
 ## Funding
 
-### [+Venmo](https://venmo.com/CliffJonesJr)
+<!-- ### [+Venmo](https://venmo.com/CliffJonesJr) -->
 
 <!-- ### [+Patreon](https://www.patreon.com/cliffjonesjr) -->
 

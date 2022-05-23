@@ -2,18 +2,9 @@
 
 When developing believable characters, it helps to think of real people you’ve known in your life and use them as a starting point. However, this will only get you so far. When you want a character to stand on their own—and perhaps just as importantly, to stand apart from the rest of your characters—personality types can be a handy tool.
 
-I’ve sketched out eight basic animal archetypes based on popular personality typing systems and the [+I Ching](https://en.wikipedia.org/wiki/I_Ching):
+I’ve sketched out eight basic animal archetypes based on popular personality typing systems as well as the [+I Ching](https://en.wikipedia.org/wiki/I_Ching):
 
-- [Horse](#horse-section)
-- [Dove](#dove-section)
-- [Turtle](#turtle-section)
-- [Owl](#owl-section)
-- [Wolf](#wolf-section)
-- [Cat](#cat-section)
-- [Fox](#fox-section)
-- [Bear](#bear-section)
-
-~nav-wheel characters~
+~nav-wheel character-types~
 
 You can match your characters up with just one of these types each, or for a more fine-grained approach, try choosing one for who they *try* to be and one for who they *tend* to be.
 
