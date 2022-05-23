@@ -1,18 +1,6 @@
 @import '../../tokens.scss';
 $base-class: 'Content';
 
-@keyframes delayedFadeIn {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
-
 .#{$base-class} {
   background: $section-bg-color;
   border: $line-thickness solid $line-color;
@@ -31,7 +19,7 @@ $base-class: 'Content';
   }
 
   &--loading {
-    animation: delayedFadeIn $fade-time*2;
+    animation: $delayed-fade-half-in-animation;
     display: flex;
     justify-content: center;
     opacity: 0.5;

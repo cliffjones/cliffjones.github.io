@@ -10,6 +10,7 @@ import config from '../../config.json';
 import Heading from '../heading';
 import Icon from '../icon';
 import Image from '../image';
+import NavWheel from '../nav-wheel';
 
 const BASE_CLASS = 'Content';
 const LOADING_CLASS = `${BASE_CLASS}--loading`;
@@ -134,11 +135,8 @@ function formatLink({ node, children, ...props }) {
     newProps.target = '_blank';
     newProps.rel = 'noopener';
     addClassName(newProps, LINK_EXTERNAL_CLASS);
-  } else if (newProps.href.startsWith('#')) {
-    // Just scroll to page-internal links.
-    newProps.onClick = anchorClick;
-  } else if (newProps.href.startsWith('/')) {
-    // Use a Link component for relative paths.
+  } else if (newProps.href.startsWith('#') || newProps.href.startsWith('/')) {
+    // Use a Link component for page-/site-internal links.
     const path = newProps.href;
     delete newProps.href;
     return <Link to={path} {...newProps}>{newChildren}</Link>;
@@ -189,8 +187,10 @@ function addComponent({ node, children }) {
     if (command[0] === 'icon') {
       return <Icon name={command[1]} />;
     }
+    if (command[0] === 'nav-wheel') {
+      return <NavWheel path={command[1]} />;
+    }
   }
-
   return null;
 }
 

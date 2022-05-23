@@ -59,3 +59,39 @@ $fade-time: 500ms;
   }
 }
 $loading-animation: loadingFade $fade-time*2 infinite;
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+$fade-in-animation: fadeIn $fade-time;
+
+@keyframes delayedFadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+$delayed-fade-in-animation: delayedFadeIn $fade-time*2;
+
+@keyframes delayedFadeHalfIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+$delayed-fade-half-in-animation: delayedFadeHalfIn $fade-time*2;

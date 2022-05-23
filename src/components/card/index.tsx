@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 
 import './index.scss';
-import Icon from '../icon';
 
 const BASE_CLASS = 'Card';
 
@@ -17,8 +16,8 @@ function Card({
   }
   return (
     <Link to={`/${path}`} className={className}>
-      {title ? <div className='Card-title'>{title}</div> : ''}
-      {text ? <div className='Card-text'>{text}</div> : ''}
+      {title ? <div className={`${BASE_CLASS}-title`}>{title}</div> : ''}
+      {text ? <div className={`${BASE_CLASS}-text`}>{text}</div> : ''}
     </Link>
   );
 }
