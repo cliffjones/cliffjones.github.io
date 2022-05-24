@@ -52,6 +52,12 @@ function formatBlock({ node, children, ...props }) {
     return null;
   }
 
+  // Make sure the first child isn't an embedded component.
+  const firstChild = (typeof newChildren[0] === 'object') ? newChildren[0] as any : null;
+  if (firstChild?.props.node?.tagName === 'del') {
+    return <>{newChildren}</>;
+  }
+
   const newProps = { ...props };
   addClassName(newProps, BLOCK_CLASS);
 
@@ -108,14 +114,6 @@ function scrollToId(id: string) {
   if (target) {
     target.scrollIntoView({ behavior: 'smooth' });
   }
-}
-
-// Replaces the default behavior or page-internal links.
-function anchorClick(event: MouseEvent<HTMLAnchorElement>) {
-  event.preventDefault();
-  const anchor = event.target as HTMLAnchorElement;
-  window.history.pushState({}, '', anchor.href);
-  scrollToId(anchor.hash.slice(1));
 }
 
 // Customizes link formatting in Markdown content.

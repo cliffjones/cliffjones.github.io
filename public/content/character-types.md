@@ -16,7 +16,7 @@ Using the system in this way allows for 64 distinct characters right off the bat
 
 ## Horse
 
-**Traits:** Outgoing, receptive, temperamental.
+**Traits:** Outgoing, receptive, intense.
 
 **Quote:** “I am warm, caring, and sensitive to the needs of others.”
 
@@ -88,7 +88,7 @@ Using the system in this way allows for 64 distinct characters right off the bat
 
 ## Owl
 
-**Traits:** Reserved, receptive, temperamental.
+**Traits:** Reserved, receptive, intense.
 
 **Quote:** “I enjoy investigating complex issues that few are even interested in.”
 
@@ -140,7 +140,7 @@ Using the system in this way allows for 64 distinct characters right off the bat
 
 ## Cat
 
-**Traits:** Reserved, tenacious, temperamental.
+**Traits:** Reserved, tenacious, intense.
 
 **Quote:** “I tend to obsess, take things personally, and dwell on the past.”
 
@@ -166,7 +166,7 @@ Using the system in this way allows for 64 distinct characters right off the bat
 
 ## Fox
 
-**Traits:** Outgoing, tenacious, temperamental.
+**Traits:** Outgoing, tenacious, intense.
 
 **Quote:** “I am fun-loving and spontaneous; I try to keep my life exciting.”
 

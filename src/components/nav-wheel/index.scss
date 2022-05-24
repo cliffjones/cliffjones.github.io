@@ -2,15 +2,11 @@
 $base-class: 'NavWheel';
 
 .#{$base-class} {
-  height: 65vmin;
+  height: 75vmin;
   margin: $block-space auto;
   padding: 5vmin;
   position: relative;
-  width: 65vmin;
-
-  * {
-    box-sizing: border-box;
-  }
+  width: 75vmin;
 
   &-circle {
     border: 0.5vmin solid $line-color;
@@ -35,14 +31,14 @@ $base-class: 'NavWheel';
       line-height: 1;
       overflow: hidden;
       position: absolute;
-      text-shadow: 0 0 2vmin #ffffff40;
+      text-shadow: 0 0 2vmin hsla(0, 0%, 100%, 0.25);
       width: 10vmin;
 
       &:focus {
         border: 0;
         box-shadow: 0 0 0 0.5vmin $line-color;
         font-size: 8vmin;
-        text-shadow: 0 0 2vmin #ffffffc0;
+        text-shadow: 0 0 2vmin hsla(0, 0%, 100%, 0.75);
       }
 
       &[data-id='horse'] {
@@ -88,7 +84,7 @@ $base-class: 'NavWheel';
       }
 
       &[data-id='fox'] {
-        background-color: hsl(5, 70%, 50%);
+        background-color: hsl(5, 60%, 50%);
         left: calc(50% - 5vmin - 22.5vmin);
         top: calc(50% - 5vmin - 22.5vmin);
         transform: rotate(315deg);
@@ -141,7 +137,7 @@ $base-class: 'NavWheel';
     margin: 0 auto;
     position: absolute;
     text-align: center;
-    top: -51vmin;
+    top: -50vmin;
     width: 50vmin;
 
     &-heading {

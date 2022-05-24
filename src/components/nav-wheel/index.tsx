@@ -20,7 +20,7 @@ function NavWheel({ path }) {
     return null;
   }
 
-  const randomId = data[Math.floor(Math.random() * data.length) + 1].id;
+  const randomId = data[Math.floor(Math.random() * data.length)].id;
   return (
     <nav
       className={BASE_CLASS}
@@ -36,6 +36,16 @@ function NavWheel({ path }) {
             key={`${item.id}-node`}
             onClick={setCurrent}
             onFocus={setCurrent}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter' || event.key=== ' ') {
+                const link = document.querySelector(
+                  `.${BASE_CLASS}-option[data-id='${item.id}'] .Content-link`,
+                );
+                if (link) {
+                  link.dispatchEvent(new MouseEvent('click'));
+                }
+              }
+            }}
           >{item.symbol}</button>
         ))}
       </div>

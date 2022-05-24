@@ -128,7 +128,6 @@ $base-class: 'Content';
   &-image {
     border: $line-thickness solid $line-color;
     border-radius: $box-radius;
-    box-sizing: border-box;
     max-height: 100vh;
     max-width: 100%;
     transition: border-color $focus-time;

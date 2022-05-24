@@ -1,6 +1,10 @@
 @import './tokens.scss';
 
 // Keep base styles unscoped for lower specificity.
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: $bg-color;
   color: $text-color;
@@ -58,6 +62,10 @@ a {
   &.active {
     pointer-events: none;
   }
+}
+
+button {
+  cursor: pointer;
 }
 
 hr {
