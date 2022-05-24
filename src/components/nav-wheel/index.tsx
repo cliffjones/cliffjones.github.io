@@ -27,7 +27,7 @@ function NavWheel({ path }) {
       data-selected={randomId}
     >
       <div className={`${BASE_CLASS}-circle`}>
-        {data.map((item: any) => (
+        {data.map((item: any, index: number) => (
           <button
             type="button"
             className={`${BASE_CLASS}-circle-node`}
@@ -37,13 +37,28 @@ function NavWheel({ path }) {
             onClick={setCurrent}
             onFocus={setCurrent}
             onKeyDown={(event) => {
-              if (event.key === 'Enter' || event.key=== ' ') {
-                const link = document.querySelector(
-                  `.${BASE_CLASS}-option[data-id='${item.id}'] .Content-link`,
-                );
-                if (link) {
-                  link.dispatchEvent(new MouseEvent('click'));
+              const link = document.querySelector(
+                `.${BASE_CLASS}-option[data-id='${item.id}'] .Content-link`,
+              ) as HTMLAnchorElement;
+              if (!link) {
+                return;
+              }
+
+              if (event.key === 'Tab') {
+                const nodes = document.querySelectorAll(`.${BASE_CLASS}-circle-node`);
+                const pastTheEnd = (index === data.length - 1 && !event.shiftKey);
+                const beforeTheStart = (index === 0 && event.shiftKey);
+                if (pastTheEnd || beforeTheStart) {
+                  event.preventDefault();
+                  const node = (
+                    pastTheEnd ? nodes[0] : nodes[nodes.length - 1]
+                  ) as HTMLButtonElement;
+                  node.focus();
                 }
+              } else if (event.key === 'ArrowDown') {
+                link.focus();
+              } else if (event.key === 'Enter' || event.key=== ' ') {
+                link.dispatchEvent(new MouseEvent('click'));
               }
             }}
           >{item.symbol}</button>
