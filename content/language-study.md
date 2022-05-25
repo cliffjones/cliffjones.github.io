@@ -8,7 +8,7 @@
 
 ## American Sign Language
 
-[Writing in Romanized ASL](https://cliffjonesjr.com/asl/writing)
+[Writing in Romanized ASL](/rasl)
 
 ---
 
