@@ -84,3 +84,12 @@ hr {
     flex-grow: 1;
   }
 }
+
+@font-face {
+  font-family: 'ASL-Font';
+  src: url('./fonts/asl-font.ttf');
+}
+
+.Font--asl {
+  font-family: 'ASL-Font';
+}

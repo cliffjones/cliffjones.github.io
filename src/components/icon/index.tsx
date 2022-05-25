@@ -11,6 +11,7 @@ import {
 } from '@fortawesome/free-regular-svg-icons';
 import {
   faAmazon,
+  faCodepen,
   faFacebookF,
   faGithub,
   faGoodreadsG,
@@ -57,6 +58,13 @@ function Icon({ name, hint = '', action = '', color = '' }) {
       return <a {...props}><FontAwesomeIcon icon={faAmazon} /></a>;
     }
     return <span {...props}><FontAwesomeIcon icon={faAmazon} /></span>;
+  }
+
+  if (name === 'codepen') {
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faCodepen} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faCodepen} /></span>;
   }
 
   if (name === 'eye') {

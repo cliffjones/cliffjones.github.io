@@ -18,6 +18,9 @@ $green-bg-color: hsl(145, 50%, 25%);
 $purple-bg-color: hsl(290, 40%, 32%);
 $red-bg-color: hsl(355, 50%, 32%);
 $section-bg-color: hsla(290, 40%, 10%, 0.4);
+$cell-bg-color: hsla(45, 100%, 80%, 0.8);
+$cell-bg-hover-color: hsl(45, 100%, 80%);
+$empty-cell-bg-color: hsla(45, 100%, 80%, 0.2);
 
 $line-color: hsl(290, 40%, 10%);
 $line-thickness: 3px;
@@ -37,6 +40,7 @@ $link-line-special-focus-color: hsl(355, 50%, 32%);
 
 $box-radius: calc(10px + 1vmin);
 $box-padding: calc(5px + 1vw);
+$cell-padding: calc(2px + 0.5vw);
 $list-padding: 1.6em;
 $section-space: calc(1rem + 4vmin);
 $block-space: 0.6em;

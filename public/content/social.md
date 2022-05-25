@@ -58,7 +58,7 @@ I use this every once in a while to post photos of stuff I find interesting. No 
 
 ### [+~icon github~ GitHub](https://github.com/cliffjones)
 
-### [+CodePen](https://codepen.io/cliffjones)
+### [+~icon codepen~ CodePen](https://codepen.io/cliffjones)
 
 ### [+Khan Academy](https://www.khanacademy.org/profile/CliffJones)
 

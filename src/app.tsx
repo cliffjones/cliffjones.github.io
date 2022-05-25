@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 
 import './app.scss';
 import content from './content.json';
@@ -40,6 +40,7 @@ function App() {
             <Route key={path} path={`/${path}`} element={<Page path={path} />} />
           ))}
           <Route path='/image-search' element={<ImageSearch />} />
+          <Route path='/asl/writing' element={<Navigate to='/rasl' replace />} />
         </Routes>
       </main>
       <Footer />
