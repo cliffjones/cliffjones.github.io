@@ -14,20 +14,6 @@ Contrary to many naive assumptions, “sign language” is not just a complicate
 
 The writing system laid out here could be adapted for any signed language, but it was specifically designed for ASL (sort of like how the Roman alphabet works for English even though it was designed for Latin). It was designed to solve a couple of related problems: how to record ASL production and how to store and process messages in a consistent, computer-friendly way.
 
-<div style="float: right; width: 50%;">
-
-1. [Components of a Sign](#components-of-a-sign-section)
-1. [Primary Handshape](#primary-handshape-section)
-1. [Secondary Handshape](#secondary-handshape-section)
-1. [Orientation](#orientation-section)
-1. [Location](#location-section)
-1. [Movement Direction](#movement-direction-section)
-1. [Movement Type](#movement-type-section)
-1. [Compounds and Fingerspelling](#compounds-and-fingerspelling-section)
-1. [What’s Next?](#whats-next-section)
-
-</div>
-
 By its very nature, writing is an imprecise approximation of language, be it spoken or signed. All the complex variation in tone that’s possible in spoken language is lost as soon as it’s written down, to say nothing of facial expression, gestures, body language, etc. If we want a writing system that’s going to be practical to use, we have to accept that it will never carry the same level of detail as the spoken/signed language. Written language can be read in different ways depending on context and (importantly) punctuation. Putting this limitation aside for now, let’s learn to spell in ASL!
 
 What we’re looking for here is essentially a *Romanization scheme for ASL*. Just as languages like Japanese and Russian can be written using the Roman alphabet, so can ASL. There just has to be a standard method of connecting the letters with how the words are articulated (whether vocally or manually). This system—which we’ll call *Romanized ASL*, or *RASL* for short—is certainly not the only method ever devised for writing in ASL, but it aims to be the most usable.

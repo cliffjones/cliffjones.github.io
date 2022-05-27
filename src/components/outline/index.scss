@@ -1,0 +1,27 @@
+@import '../../tokens.scss';
+
+.Outline {
+  font-size: $small-font-size;
+  line-height: $small-line-height;
+  padding: 0 0 0 $list-padding;
+
+  &--left {
+    @media (min-width: $large-width) {
+      float: left;
+      max-width: 50%;
+      margin: 0 $block-space $block-space 0;
+    }
+  }
+
+  &--right {
+    @media (min-width: $large-width) {
+      float: right;
+      max-width: 50%;
+      margin: 0 0 $block-space $block-space;
+    }
+  }
+
+  li {
+    padding: 0 0 $small-box-padding;
+  }
+}

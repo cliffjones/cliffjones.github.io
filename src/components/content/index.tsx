@@ -11,6 +11,7 @@ import Heading from '../heading';
 import Icon from '../icon';
 import Image from '../image';
 import NavWheel from '../nav-wheel';
+import Outline from '../outline';
 
 const BASE_CLASS = 'Content';
 const LOADING_CLASS = `${BASE_CLASS}--loading`;
@@ -187,6 +188,9 @@ function addComponent({ node, children }) {
     }
     if (command[0] === 'nav-wheel') {
       return <NavWheel path={command[1]} />;
+    }
+    if (command[0] === 'outline') {
+      return <Outline mod={command[1]} />;
     }
   }
   return null;
