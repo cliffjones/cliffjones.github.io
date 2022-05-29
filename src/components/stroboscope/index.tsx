@@ -11,8 +11,8 @@ const MAX_FREQ = 16;
 
 let isBright = false;
 let hue = 150;
-let freq = 12;
-let freqStep = -1;
+let freq = 10;
+let freqStep = 1;
 let textTimer = null;
 
 // Updates the screen with a new color.
