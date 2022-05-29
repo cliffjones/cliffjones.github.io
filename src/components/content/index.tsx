@@ -1,4 +1,4 @@
-import { Children, MouseEvent, useEffect, useState } from 'react';
+import { Children, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
@@ -12,6 +12,7 @@ import Icon from '../icon';
 import Image from '../image';
 import NavWheel from '../nav-wheel';
 import Outline from '../outline';
+import Stroboscope from '../stroboscope';
 
 const BASE_CLASS = 'Content';
 const LOADING_CLASS = `${BASE_CLASS}--loading`;
@@ -191,6 +192,9 @@ function addComponent({ node, children }) {
     }
     if (command[0] === 'outline') {
       return <Outline mod={command[1]} />;
+    }
+    if (command[0] === 'stroboscope') {
+      return <Stroboscope triggerText={command.slice(1).join(' ')} />;
     }
   }
   return null;

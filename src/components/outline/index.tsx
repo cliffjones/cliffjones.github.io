@@ -20,6 +20,7 @@ function Outline({ mod = '' }) {
 
   let headings = [];
   if (!loading) {
+    // TODO: This should be able to work with H2s and optionally H4s as well.
     headings = Array.from(document.querySelectorAll('h3'));
   }
   if (!headings?.length) {

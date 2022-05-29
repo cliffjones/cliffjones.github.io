@@ -1,0 +1,27 @@
+.Stroboscope {
+  &--active {
+    align-items: top;
+    color: #000000;
+    display: inline-flex;
+    font-size: 5vmin;
+    font-weight: bold;
+    height: 100%;
+    justify-content: space-between;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  &-close {
+    background: none;
+    border: 0;
+    font-size: 8vmin;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0;
+  }
+}

@@ -35,6 +35,9 @@
     "social": {
       "content": ["social"]
     },
+    "stroboscope": {
+      "content": ["stroboscope"]
+    },
     "writing": {
       "content": ["writing"]
     }
@@ -83,6 +86,11 @@
       "title": "Follow or Contact",
       "text": "Find me on various social networks."
     },
+    "stroboscope": {
+      "title": "Stroboscope",
+      "text": "A flicker generator intended for use in meditation.",
+      "color": "blue"
+    },
     "writing": {
       "title": "Writing",
       "text": "Books to buy, stories to read, and writing-related musings.",
@@ -93,12 +101,13 @@
     "": ["coding", "writing", "language", "art", "social"],
     "art": [""],
     "character-types": ["writing"],
-    "coding": [""],
+    "coding": ["stroboscope", ""],
     "editing-guidelines": ["writing"],
     "ideas": [""],
     "language": ["rasl", ""],
     "rasl": ["language"],
     "social": [""],
+    "stroboscope": ["coding"],
     "writing": ["character-types", "editing-guidelines", ""]
   }
 }

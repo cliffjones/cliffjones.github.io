@@ -79,7 +79,13 @@ $base-class: 'Content';
   }
 
   &-link {
+    background: none;
+    border: 0;
+    border-radius: 0;
     color: $link-color;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0;
     text-decoration: underline;
     text-decoration-color: $link-line-color;
     transition: color $focus-time, text-decoration-color $focus-time;
