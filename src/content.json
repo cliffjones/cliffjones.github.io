@@ -117,7 +117,7 @@
     "": ["coding", "writing", "language", "art", "social"],
     "art": [""],
     "character-types": ["writing"],
-    "coding": ["floravision", "hexagraph", "stroboscope", ""],
+    "coding": ["floravision", "stroboscope", "hexagraph", ""],
     "editing-guidelines": ["writing"],
     "floravision": ["coding"],
     "hexagraph": ["coding"],

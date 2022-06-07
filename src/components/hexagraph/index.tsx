@@ -19,15 +19,13 @@ const FRAME_RATE = 2;
 const NUM_ROWS = 59;
 const NUM_CELLS = 29;
 
-let started = false;
-let screen = null;
-var mouseDown = false;
-var mouseX = 0;
-var mouseY = 0;
+let mouseDown = false;
+let mouseX = 0;
+let mouseY = 0;
 
 // Continuously listens to deactivate idle hexagrams.
-async function updateFrame() {
-  if (!started) {
+async function updateFrame(screen: HTMLElement) {
+  if (!screen.classList.contains(ACTIVE_CLASS)) {
     return;
   }
 
@@ -41,19 +39,18 @@ async function updateFrame() {
   await new Promise((res) => {
     setTimeout(res, 1000 / FRAME_RATE);
   });
-  updateFrame();
+  updateFrame(screen);
 }
 
 // Handles the initial click on the trigger button.
 function doClick(event: MouseEvent<HTMLButtonElement>) {
   // On the first click, activate the painting tool.
-  if (started) {
+  const screen = (event.target as HTMLElement).closest(`.${BASE_CLASS}`) as HTMLElement;
+  if (screen.classList.contains(ACTIVE_CLASS)) {
     return;
   }
-  started = true;
 
   // Turn the activation button into a full-screen canvas.
-  screen = event.target as HTMLElement;
   screen.innerHTML = '';
   screen.classList.remove(LINK_CLASS);
   screen.classList.add(ACTIVE_CLASS);
@@ -90,7 +87,7 @@ function doClick(event: MouseEvent<HTMLButtonElement>) {
   }
 
   // Set the animation loop going.
-  updateFrame();
+  updateFrame(screen);
 }
 
 // Finds the cell at the supplied coordinates.
@@ -124,7 +121,12 @@ function redraw(target: HTMLElement) {
 
 // Handles a mouse-down, touch-start, or drag.
 function doMouseDown(event: MouseEvent<HTMLButtonElement> | TouchEvent<HTMLButtonElement>) {
-  if (!started || (event.type === 'mousemove' && !mouseDown)) {
+  if (event.type === 'mousemove' && !mouseDown) {
+    return;
+  }
+
+  const screen = (event.target as HTMLElement).closest(`.${BASE_CLASS}`) as HTMLElement;
+  if (!screen.classList.contains(ACTIVE_CLASS)) {
     return;
   }
 
@@ -156,7 +158,8 @@ function doMouseDown(event: MouseEvent<HTMLButtonElement> | TouchEvent<HTMLButto
 
 // Handles the end of a drag.
 function doMouseUp(event: MouseEvent<HTMLButtonElement>) {
-  if (!started) {
+  const screen = (event.target as HTMLElement).closest(`.${BASE_CLASS}`) as HTMLElement;
+  if (!screen.classList.contains(ACTIVE_CLASS)) {
     return;
   }
 
