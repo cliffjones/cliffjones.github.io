@@ -7,7 +7,9 @@ import remarkGfm from 'remark-gfm';
 
 import './index.scss';
 import config from '../../config.json';
+import Floravision from '../floravision';
 import Heading from '../heading';
+import Hexagraph from '../hexagraph';
 import Icon from '../icon';
 import Image from '../image';
 import NavWheel from '../nav-wheel';
@@ -111,12 +113,12 @@ function formatQuote({ node, children, ...props }) {
 }
 
 // Smoothly scrolls to a given element if its ID is found in the DOM.
-function scrollToId(id: string) {
-  const target = document.getElementById(id);
-  if (target) {
-    target.scrollIntoView({ behavior: 'smooth' });
-  }
-}
+// function scrollToId(id: string) {
+//   const target = document.getElementById(id);
+//   if (target) {
+//     target.scrollIntoView({ behavior: 'smooth' });
+//   }
+// }
 
 // Customizes link formatting in Markdown content.
 // TODO: Make flexible link component that handles smooth scrolling, etc.
@@ -184,16 +186,26 @@ function formatImage({ node, ...props }) {
 function addComponent({ node, children }) {
   if (children.length === 1 && typeof children[0] === 'string') {
     const command = children[0].split(' ');
-    if (command[0] === 'icon') {
+    if (!command.length || !command[0]) {
+      return null;
+    }
+
+    if (command.length > 1 && command[0] === 'floravision') {
+      return <Floravision animation={command[1]} />;
+    }
+    if (command.length > 1 && command[0] === 'hexagraph') {
+      return <Hexagraph triggerText={command.slice(1).join(' ')} />;
+    }
+    if (command.length > 1 && command[0] === 'icon') {
       return <Icon name={command[1]} />;
     }
-    if (command[0] === 'nav-wheel') {
+    if (command.length > 1 && command[0] === 'nav-wheel') {
       return <NavWheel path={command[1]} />;
     }
     if (command[0] === 'outline') {
       return <Outline mod={command[1]} />;
     }
-    if (command[0] === 'stroboscope') {
+    if (command.length > 1 && command[0] === 'stroboscope') {
       return <Stroboscope triggerText={command.slice(1).join(' ')} />;
     }
   }
@@ -226,7 +238,7 @@ function Content({ path }) {
         setMdContent(response.data);
         setLoading(false);
       });
-  }, []);
+  }, [path]);
 
   const className = `${BASE_CLASS} ${loading ? LOADING_CLASS : ''}`;
   return (

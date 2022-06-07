@@ -7,9 +7,8 @@ const BASE_CLASS = 'NavWheel';
 
 function setCurrent(event) {
   const button = event.target;
-  const { id } = button.dataset;
   const wheel = button.parentNode.parentNode;
-  wheel.setAttribute('data-selected', id);
+  wheel.setAttribute('data-selected', button.dataset.id);
 }
 
 function NavWheel({ path }) {

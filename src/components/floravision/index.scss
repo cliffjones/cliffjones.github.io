@@ -1,0 +1,106 @@
+@keyframes flicker1 {
+  0% {
+    z-index: 1;
+  }
+  33% {
+    z-index: 3;
+  }
+  67% {
+    z-index: 5;
+  }
+  100% {
+    z-index: 5;
+  }
+}
+
+@keyframes flicker2 {
+  0% {
+    z-index: 5;
+  }
+  33% {
+    z-index: 1;
+  }
+  67% {
+    z-index: 2;
+  }
+  100% {
+    z-index: 2;
+  }
+}
+
+@keyframes flicker3 {
+  0% {
+    z-index: 2;
+  }
+  33% {
+    z-index: 4;
+  }
+  67% {
+    z-index: 3;
+  }
+  100% {
+    z-index: 3;
+  }
+}
+
+@keyframes flicker4 {
+  0% {
+    z-index: 4;
+  }
+  33% {
+    z-index: 2;
+  }
+  67% {
+    z-index: 1;
+  }
+  100% {
+    z-index: 1;
+  }
+}
+
+@keyframes flicker5 {
+  0% {
+    z-index: 3;
+  }
+  33% {
+    z-index: 5;
+  }
+  67% {
+    z-index: 4;
+  }
+  100% {
+    z-index: 4;
+  }
+}
+
+.Floravision {
+  line-height: 0;
+  overflow: hidden;
+  padding: 3vmin 0.65vmin 0;
+  text-align: center;
+  width: 100%;
+
+  img {
+    display: none;
+  }
+
+  &-row {
+    margin-top: -3vmin;
+    white-space: nowrap;
+
+    &:nth-child(even) {
+      padding: 0 1.675vmin;
+    }
+  }
+
+  &-circle {
+    border: 0.1vmin solid #000000;
+    border-radius: 50%;
+    display: inline-block;
+    height: 4vmin;
+    margin-left: -0.65vmin;
+    opacity: 0.5;
+    position: relative;
+    width: 4vmin;
+  }
+}

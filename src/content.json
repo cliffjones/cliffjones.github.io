@@ -26,6 +26,12 @@
     "editing-guidelines": {
       "content": ["editing-guidelines"]
     },
+    "floravision": {
+      "content": ["floravision"]
+    },
+    "hexagraph": {
+      "content": ["hexagraph"]
+    },
     "ideas": {
       "content": ["ideas"]
     },
@@ -67,6 +73,16 @@
       "text": "A handy checklist to help prepare your submissions.",
       "color": "brown"
     },
+    "floravision": {
+      "title": "Floravision",
+      "text": "An animation filter based on the Flower of Life pattern.",
+      "color": "blue"
+    },
+    "hexagraph": {
+      "title": "Hexagraph",
+      "text": "Sort of like Zen water painting with overlapping hexagons.",
+      "color": "blue"
+    },
     "ideas": {
       "title": "Ideas",
       "text": "Thoughts and projects that don’t fit anywhere else.",
@@ -101,8 +117,10 @@
     "": ["coding", "writing", "language", "art", "social"],
     "art": [""],
     "character-types": ["writing"],
-    "coding": ["stroboscope", ""],
+    "coding": ["floravision", "hexagraph", "stroboscope", ""],
     "editing-guidelines": ["writing"],
+    "floravision": ["coding"],
+    "hexagraph": ["coding"],
     "ideas": [""],
     "language": ["rasl", ""],
     "rasl": ["language"],

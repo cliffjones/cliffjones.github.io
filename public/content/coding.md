@@ -8,7 +8,7 @@ While doing some research on [+William S. Burroughs](https://en.wikipedia.org/wi
 
 ---
 
-### [![>a still of an animated eye](fv-eye-capture) Floravision](https://cliffjonesjr.com/floravision)
+### [![>a still of an animated eye](fv-eye-capture) Floravision](/floravision)
 
 I found myself wondering, *What if instead of square pixels, we used the overlapping circles of the [+Flower of Life](https://en.wikipedia.org/wiki/Overlapping_circles_grid) pattern?* So I tried it. And it’s mesmerizing.
 
@@ -16,7 +16,7 @@ Making new animations is just a matter of dropping different images onto the pag
 
 ---
 
-### [Hexagraph](https://cliffjonesjr.com/hexagraph)
+### [Hexagraph](/hexagraph)
 
 This is a work in progress. I have ideas for more variations, but for now it's sort of like Zen water painting with overlapping hexagons.
 

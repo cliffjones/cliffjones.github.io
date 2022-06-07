@@ -1,0 +1,98 @@
+$base-class: 'Hexagraph';
+
+.#{$base-class} {
+  &--active {
+    background-color: #000000;
+    border-radius: 0;
+    color: #000000;
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    text-shadow: none;
+    top: 0;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 100;
+  }
+
+  &-row {
+    margin-top: -1.2vmax;
+    line-height: 2.8vmax;
+    position: relative;
+    white-space: nowrap;
+
+    &:nth-child(odd) {
+      left: -2.8vmax;
+    }
+  }
+
+  &-cell {
+    display: inline-block;
+    height: 1.6vmax;
+    margin-left: 1.7vmax;
+    opacity: 0;
+    white-space: nowrap;
+    width: 2vmax;
+
+    &--hover {
+      opacity: 1;
+
+      .#{$base-class}-segment {
+        background-color: #40ff80;
+      }
+    }
+
+    &:not(.#{$base-class}-cell--hover) {
+      transition: opacity 60s;
+
+      .#{$base-class}-segment {
+        transition: background-color 60s;
+      }
+    }
+  }
+
+  &-segment {
+    background-color: #8000ff;
+    display: inline-block;
+    height: 0.3vmax;
+    line-height: 0;
+    position: relative;
+    width: 2vmax;
+
+    &--t {
+      top: -2.7vmax;
+    }
+
+    &--tl {
+      left: -3.4vmax;
+      top: -1.9vmax;
+      transform: rotate(-60deg);
+    }
+
+    &--tr {
+      left: -2.6vmax;
+      top: -1.9vmax;
+      transform: rotate(60deg);
+    }
+
+    &--bl {
+      left: -7.4vmax;
+      top: -0.3vmax;
+      transform: rotate(60deg);
+    }
+
+    &--br {
+      left: -6.6vmax;
+      top: -0.3vmax;
+      transform: rotate(-60deg);
+    }
+
+    &--b {
+      left: -10vmax;
+      top: 0.5vmax;
+    }
+  }
+}

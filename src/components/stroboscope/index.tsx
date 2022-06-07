@@ -16,7 +16,7 @@ let freqStep = 1;
 let textTimer = null;
 
 // Updates the screen with a new color.
-async function flash(screen: HTMLButtonElement) {
+async function updateFrame(screen: HTMLButtonElement) {
   // Only get into this recursive loop if the stroboscope has been activated.
   if (!screen.classList.contains(ACTIVE_CLASS)) {
     return;
@@ -36,19 +36,19 @@ async function flash(screen: HTMLButtonElement) {
   }
 
   // Continue the recursive loop.
-  flash(screen);
+  updateFrame(screen);
 }
 
 // Sets the stroboscope flashing.
-function startFlashing(screen: HTMLButtonElement) {
+function activate(screen: HTMLButtonElement) {
   screen.innerHTML = '';
   screen.classList.remove(LINK_CLASS);
   screen.classList.add(ACTIVE_CLASS);
-  flash(screen);
+  updateFrame(screen);
 }
 
 // Turns off the stroboscope and brings back the trigger button.
-function stopFlashing(screen: HTMLButtonElement) {
+function deactivate(screen: HTMLButtonElement) {
   screen.innerHTML = screen.dataset.triggerText;
   screen.removeAttribute('style');
   screen.classList.remove(ACTIVE_CLASS);
@@ -66,20 +66,20 @@ function showControls(screen: HTMLButtonElement) {
 }
 
 // Interprets click events to show or modify the stroboscope.
-function onClick(event: MouseEvent<HTMLButtonElement>) {
+function doClick(event: MouseEvent<HTMLButtonElement>) {
   // Identify the target element(s).
   const target = event.target as HTMLElement;
   const screen = target.closest(`.${BASE_CLASS}`) as HTMLButtonElement;
 
   // If the close button was clicked, hide the stroboscope.
   if (target.classList.contains(CLOSE_CLASS)) {
-    stopFlashing(screen);
+    deactivate(screen);
     return;
   }
 
   // On the first click, start the flashing.
   if (!screen.classList.contains(ACTIVE_CLASS)) {
-    startFlashing(screen);
+    activate(screen);
     return;
   }
 
@@ -92,7 +92,7 @@ function onClick(event: MouseEvent<HTMLButtonElement>) {
 }
 
 // Interprets keyboard events to hide or modify the stroboscope.
-function onKeyDown(event: KeyboardEvent<HTMLButtonElement>) {
+function doKeyDown(event: KeyboardEvent<HTMLButtonElement>) {
   // Only pay attention to certain keys.
   const { key } = event;
   if (key !== 'Escape' && key !== 'Tab' && key !== 'ArrowUp' && key !== 'ArrowDown') {
@@ -105,7 +105,7 @@ function onKeyDown(event: KeyboardEvent<HTMLButtonElement>) {
 
   // When the user hits escape or tab, hide the stroboscope.
   if (key === 'Escape' || key === 'Tab') {
-    stopFlashing(screen);
+    deactivate(screen);
     return;
   }
 
@@ -122,8 +122,8 @@ function Stroboscope({ triggerText }) {
   return (
     <button
       className={`${BASE_CLASS} ${LINK_CLASS}`}
-      onClick={onClick}
-      onKeyDown={onKeyDown}
+      onClick={doClick}
+      onKeyDown={doKeyDown}
       data-trigger-text={triggerText}
     >{triggerText}</button>
   );

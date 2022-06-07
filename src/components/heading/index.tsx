@@ -42,7 +42,7 @@ function scrollToId(id: string) {
 }
 
 // Replaces the default behavior or page-internal links.
-function anchorClick(event: MouseEvent<HTMLAnchorElement>) {
+function doAnchorClick(event: MouseEvent<HTMLAnchorElement>) {
   event.preventDefault();
   const anchor = event.target as HTMLAnchorElement;
   window.history.pushState({}, '', anchor.href);
@@ -70,7 +70,7 @@ function Heading({ level = 1, children, ...props }: HeadingProps) {
         children,
         <>
           &nbsp;
-          <a href={`#${anchorId}`} className={ANCHOR_CLASS} onClick={anchorClick}>#</a>
+          <a href={`#${anchorId}`} className={ANCHOR_CLASS} onClick={doAnchorClick}>#</a>
         </>,
       );
     }

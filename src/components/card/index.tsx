@@ -4,12 +4,7 @@ import './index.scss';
 
 const BASE_CLASS = 'Card';
 
-function Card({
-  path,
-  title = '',
-  text = '',
-  color = '',
-}) {
+function Card({ path, title = '', text = '', color = '' }) {
   let className = BASE_CLASS;
   if (color) {
     className = `${className} ${BASE_CLASS}--${color}`;
