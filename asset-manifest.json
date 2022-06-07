@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.ddbee108.css",
-    "main.js": "/static/js/main.d0d5421c.js",
+    "main.js": "/static/js/main.4d45e2de.js",
     "static/media/asl-font.ttf": "/static/media/asl-font.909c4bec685629233b98.ttf",
     "index.html": "/index.html",
     "main.ddbee108.css.map": "/static/css/main.ddbee108.css.map",
-    "main.d0d5421c.js.map": "/static/js/main.d0d5421c.js.map"
+    "main.4d45e2de.js.map": "/static/js/main.4d45e2de.js.map"
   },
   "entrypoints": [
     "static/css/main.ddbee108.css",
-    "static/js/main.d0d5421c.js"
+    "static/js/main.4d45e2de.js"
   ]
 }

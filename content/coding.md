@@ -2,12 +2,6 @@
 
 ## JavaScript
 
-### [Stroboscope](/stroboscope)
-
-While doing some research on [+William S. Burroughs](https://en.wikipedia.org/wiki/William_S._Burroughs) for a [short story](/writing), I came across [+this documentary](https://www.youtube.com/watch?v=rJFgNMVePaQ) on [+Brion Gysin](https://en.wikipedia.org/wiki/Brion_Gysin)’s [+Dreamachine](https://importantrecords.com/products/brion-gysins-dreamachine), a sort of DIY flicker generator used for meditation with the potential to trigger hallucinations. So of course I decided to make my own.
-
----
-
 ### [![>a still of an animated eye](fv-eye-capture) Floravision](/floravision)
 
 I found myself wondering, *What if instead of square pixels, we used the overlapping circles of the [+Flower of Life](https://en.wikipedia.org/wiki/Overlapping_circles_grid) pattern?* So I tried it. And it’s mesmerizing.
@@ -16,9 +10,15 @@ Making new animations is just a matter of dropping different images onto the pag
 
 ---
 
+### [Stroboscope](/stroboscope)
+
+While doing some research on [+William S. Burroughs](https://en.wikipedia.org/wiki/William_S._Burroughs) for a [short story](/writing), I came across [+this documentary](https://www.youtube.com/watch?v=rJFgNMVePaQ) on [+Brion Gysin](https://en.wikipedia.org/wiki/Brion_Gysin)’s [+Dreamachine](https://importantrecords.com/products/brion-gysins-dreamachine), a sort of DIY flicker generator used for meditation with the potential to trigger hallucinations. So of course I decided to make my own.
+
+---
+
 ### [Hexagraph](/hexagraph)
 
-This is a work in progress. I have ideas for more variations, but for now it's sort of like Zen water painting with overlapping hexagons.
+A simple painting tool using overlapping hexagons. They slowly fade, so it’s sort of like Zen water painting.
 
 ---
 
