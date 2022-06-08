@@ -19,7 +19,7 @@ $base-class: 'NavWheel';
     width: 100%;
 
     &-node {
-      align-items: top;
+      align-items: center;
       border: 0.5vmin solid $line-color;
       border-radius: 50%;
       color: #000000;
@@ -30,6 +30,7 @@ $base-class: 'NavWheel';
       justify-content: center;
       line-height: 1;
       overflow: hidden;
+      padding-bottom: 1.5vmin;
       position: absolute;
       text-shadow: 0 0 2vmin hsla(0, 0%, 100%, 0.25);
       width: 10vmin;
