@@ -12,39 +12,51 @@
       "content": ["missing"]
     },
     "art": {
+      "title": "Artwork by *",
       "content": ["art"]
     },
     "rasl": {
+      "title": "Romanized ASL, A Writing System by *",
       "content": ["rasl"]
     },
     "character-types": {
+      "title": "Character Types by *",
       "content": ["character-types"]
     },
     "coding": {
+      "title": "Coding Projects by *",
       "content": ["coding"]
     },
     "editing-guidelines": {
+      "title": "Editing Guidelines by *",
       "content": ["editing-guidelines"]
     },
     "floravision": {
+      "title": "Floravision, An Animation System by *",
       "content": ["floravision"]
     },
     "hexagraph": {
+      "title": "Hexagraph, A Painting Tool by *",
       "content": ["hexagraph"]
     },
     "ideas": {
+      "title": "Random Ideas by *",
       "content": ["ideas"]
     },
     "language": {
+      "title": "Language Resources by *",
       "content": ["language-study", "linguistics"]
     },
     "social": {
+      "title": "*’s Social Networks",
       "content": ["social"]
     },
     "stroboscope": {
+      "title": "Stroboscope, A Meditation Aid by *",
       "content": ["stroboscope"]
     },
     "writing": {
+      "title": "Writing by *",
       "content": ["writing"]
     }
   },

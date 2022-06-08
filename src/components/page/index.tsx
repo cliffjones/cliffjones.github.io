@@ -3,10 +3,13 @@ import CardList from '../card-list';
 import Content from '../content';
 
 function Page({ path }) {
-  const data = content.pages?.[path];
+  let data = content.pages[path];
   if (!data) {
-    return null;
+    data = content.pages['*'];
   }
+
+  // Set the page title based on `content.json` (with an asterisk representing the site title).
+  document.title = data.title ? data.title.replace('*', content.title) : content.title;
 
   return (
     <article className='Page'>
