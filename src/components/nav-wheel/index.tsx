@@ -1,4 +1,4 @@
-import { FocusEvent, KeyboardEvent, MouseEvent } from 'react';
+import React, { FocusEvent, KeyboardEvent } from 'react';
 import { Link } from 'react-router-dom';
 
 import './index.scss';
@@ -8,7 +8,7 @@ const BASE_CLASS = 'NavWheel';
 const LINK_CLASS = 'Content-link';
 
 // Updates the selected navigation option.
-function setCurrent(event: MouseEvent<HTMLElement> | FocusEvent<HTMLElement>) {
+function setCurrent(event: React.MouseEvent<HTMLElement> | FocusEvent<HTMLElement>) {
   const button = event.target as HTMLElement;
   const wheel = (button.parentNode as HTMLElement).parentNode as HTMLElement;
   wheel.setAttribute('data-selected', button.dataset.id);
