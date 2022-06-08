@@ -9,14 +9,17 @@ const LINK_CLASS = 'Content-link';
 const MIN_FREQ = 8;
 const MAX_FREQ = 16;
 
-let isBright = false;
-let hue = 150;
-let freq = 10;
-let freqStep = 1;
-let textTimer = null;
+let freq: number;
+let freqStep: number;
+let textTimer: ReturnType<typeof setTimeout>;
 
 // Updates the screen with a new color.
-async function updateFrame(screen: HTMLButtonElement) {
+async function updateFrame(
+  screen: HTMLElement,
+  isBright: boolean = false,
+  hue: number = 150,
+  freq: number = 10,
+) {
   // Only get into this recursive loop if the stroboscope has been activated.
   if (!screen.classList.contains(ACTIVE_CLASS)) {
     return;
@@ -36,19 +39,24 @@ async function updateFrame(screen: HTMLButtonElement) {
   }
 
   // Continue the recursive loop.
-  updateFrame(screen);
+  updateFrame(screen, isBright, hue, freq);
 }
 
 // Sets the stroboscope flashing.
-function activate(screen: HTMLButtonElement) {
+function activate(screen: HTMLElement) {
   screen.innerHTML = '';
   screen.classList.remove(LINK_CLASS);
   screen.classList.add(ACTIVE_CLASS);
+
+  freq = 10;
+  freqStep = 1;
+  clearTimeout(textTimer);
+
   updateFrame(screen);
 }
 
 // Turns off the stroboscope and brings back the trigger button.
-function deactivate(screen: HTMLButtonElement) {
+function deactivate(screen: HTMLElement) {
   screen.innerHTML = screen.dataset.triggerText;
   screen.removeAttribute('style');
   screen.classList.remove(ACTIVE_CLASS);
@@ -57,8 +65,9 @@ function deactivate(screen: HTMLButtonElement) {
 }
 
 // Displays the frequency value and close button for short time.
-function showControls(screen: HTMLButtonElement) {
+function showControls(screen: HTMLElement) {
   screen.innerHTML = `${freq} Hz<button class="${CLOSE_CLASS}">×</button>`;
+
   clearTimeout(textTimer);
   textTimer = setTimeout(() => {
     screen.innerHTML = '';
@@ -66,10 +75,10 @@ function showControls(screen: HTMLButtonElement) {
 }
 
 // Interprets click events to show or modify the stroboscope.
-function doClick(event: MouseEvent<HTMLButtonElement>) {
+function doClick(event: MouseEvent<HTMLElement>) {
   // Identify the target element(s).
   const target = event.target as HTMLElement;
-  const screen = target.closest(`.${BASE_CLASS}`) as HTMLButtonElement;
+  const screen = target.closest(`.${BASE_CLASS}`) as HTMLElement;
 
   // If the close button was clicked, hide the stroboscope.
   if (target.classList.contains(CLOSE_CLASS)) {
@@ -92,7 +101,7 @@ function doClick(event: MouseEvent<HTMLButtonElement>) {
 }
 
 // Interprets keyboard events to hide or modify the stroboscope.
-function doKeyDown(event: KeyboardEvent<HTMLButtonElement>) {
+function doKeyDown(event: KeyboardEvent<HTMLElement>) {
   // Only pay attention to certain keys.
   const { key } = event;
   if (key !== 'Escape' && key !== 'Tab' && key !== 'ArrowUp' && key !== 'ArrowDown') {
@@ -101,7 +110,7 @@ function doKeyDown(event: KeyboardEvent<HTMLButtonElement>) {
 
   // Identify the target element(s).
   const target = event.target as HTMLElement;
-  const screen = target.closest(`.${BASE_CLASS}`) as HTMLButtonElement;
+  const screen = target.closest(`.${BASE_CLASS}`) as HTMLElement;
 
   // When the user hits escape or tab, hide the stroboscope.
   if (key === 'Escape' || key === 'Tab') {

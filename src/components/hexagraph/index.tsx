@@ -43,7 +43,7 @@ async function updateFrame(screen: HTMLElement) {
 }
 
 // Handles the initial click on the trigger button.
-function doClick(event: MouseEvent<HTMLButtonElement>) {
+function doClick(event: MouseEvent<HTMLElement>) {
   // On the first click, activate the painting tool.
   const screen = (event.target as HTMLElement).closest(`.${BASE_CLASS}`) as HTMLElement;
   if (screen.classList.contains(ACTIVE_CLASS)) {
@@ -120,7 +120,7 @@ function redraw(target: HTMLElement) {
 }
 
 // Handles a mouse-down, touch-start, or drag.
-function doMouseDown(event: MouseEvent<HTMLButtonElement> | TouchEvent<HTMLButtonElement>) {
+function doMouseDown(event: MouseEvent<HTMLElement> | TouchEvent<HTMLElement>) {
   if (event.type === 'mousemove' && !mouseDown) {
     return;
   }
@@ -157,7 +157,7 @@ function doMouseDown(event: MouseEvent<HTMLButtonElement> | TouchEvent<HTMLButto
 }
 
 // Handles the end of a drag.
-function doMouseUp(event: MouseEvent<HTMLButtonElement>) {
+function doMouseUp(event: MouseEvent<HTMLElement>) {
   const screen = (event.target as HTMLElement).closest(`.${BASE_CLASS}`) as HTMLElement;
   if (!screen.classList.contains(ACTIVE_CLASS)) {
     return;

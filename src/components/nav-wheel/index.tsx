@@ -1,13 +1,16 @@
+import { FocusEvent, KeyboardEvent, MouseEvent } from 'react';
 import { Link } from 'react-router-dom';
 
 import './index.scss';
 import characterTypes from './character-types.json';
 
 const BASE_CLASS = 'NavWheel';
+const LINK_CLASS = 'Content-link';
 
-function setCurrent(event) {
-  const button = event.target;
-  const wheel = button.parentNode.parentNode;
+// Updates the selected navigation option.
+function setCurrent(event: MouseEvent<HTMLElement> | FocusEvent<HTMLElement>) {
+  const button = event.target as HTMLElement;
+  const wheel = (button.parentNode as HTMLElement).parentNode as HTMLElement;
   wheel.setAttribute('data-selected', button.dataset.id);
 }
 
@@ -35,10 +38,10 @@ function NavWheel({ path }) {
             key={`${item.id}-node`}
             onClick={setCurrent}
             onFocus={setCurrent}
-            onKeyDown={(event) => {
+            onKeyDown={(event: KeyboardEvent<HTMLElement>) => {
               const link = document.querySelector(
-                `.${BASE_CLASS}-option[data-id='${item.id}'] .Content-link`,
-              ) as HTMLAnchorElement;
+                `.${BASE_CLASS}-option[data-id='${item.id}'] .${LINK_CLASS}`,
+              ) as HTMLElement;
               if (!link) {
                 return;
               }
@@ -49,9 +52,7 @@ function NavWheel({ path }) {
                 const beforeTheStart = (index === 0 && event.shiftKey);
                 if (pastTheEnd || beforeTheStart) {
                   event.preventDefault();
-                  const node = (
-                    pastTheEnd ? nodes[0] : nodes[nodes.length - 1]
-                  ) as HTMLButtonElement;
+                  const node = (pastTheEnd ? nodes[0] : nodes[nodes.length - 1]) as HTMLElement;
                   node.focus();
                 }
               } else if (event.key === 'ArrowDown') {
@@ -71,7 +72,7 @@ function NavWheel({ path }) {
           key={`${item.id}-option`}
         >
           <div className={`${BASE_CLASS}-option-heading`}>
-            <Link to={`#${item.id}-section`} className='Content-link'>{item.name}</Link>
+            <Link to={`#${item.id}-section`} className={LINK_CLASS}>{item.name}</Link>
           </div>
           <ul className={`${BASE_CLASS}-option-list`}>
             {item.details.map((text: string, index: number) => (

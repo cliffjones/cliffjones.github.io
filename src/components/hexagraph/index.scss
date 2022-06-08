@@ -3,11 +3,13 @@ $base-class: 'Hexagraph';
 .#{$base-class} {
   &--active {
     background-color: #000000;
+    border: 0;
     border-radius: 0;
     color: #000000;
     display: block;
     height: 100%;
     left: 0;
+    outline: 0;
     overflow: hidden;
     position: fixed;
     text-align: center;
