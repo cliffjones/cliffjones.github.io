@@ -1,12 +1,38 @@
 $medium-width: 500px;
 $large-width: 800px;
 
-$heading-font: 'Righteous';
+@font-face {
+  font-family: 'Lucida Grande';
+  src: url('./fonts/lucida-grande.ttf');
+}
+$lucida-font: 'Lucida Grande', sans-serif;
+
+@font-face {
+  font-family: 'Righteous';
+  src: url('./fonts/righteous.ttf');
+}
+$righteous-font: 'Righteous', sans-serif;
+
+@font-face {
+  font-family: 'Consolas';
+  src: url('./fonts/consolas.ttf');
+}
+$consolas-font: 'Consolas', monospace;
+
+@font-face {
+  font-family: 'ASL-Font';
+  src: url('./fonts/asl-font.ttf');
+}
+$asl-font: 'ASL-Font', sans-serif;
+
+$normal-font: $lucida-font;
+$heading-font: $righteous-font;
+$code-font: $consolas-font;
 $normal-font-size: calc(1rem + 1.5vmin);
 $normal-line-height: 1.25;
 $small-font-size: 90%;
 $small-line-height: 1.1;
-$big-font-size: 125%;
+$big-font-size: 110%;
 $big-line-height: 0.9;
 $heading-line-height: 1;
 

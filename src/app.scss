@@ -1,13 +1,10 @@
 @import './tokens.scss';
 
 // Keep base styles unscoped for lower specificity.
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-color: $bg-color;
   color: $text-color;
+  font-family: $normal-font;
   font-size: $normal-font-size;
   line-height: $normal-line-height;
 }
@@ -49,6 +46,10 @@ big {
   line-height: $big-line-height;
 }
 
+code {
+  font-family: $code-font;
+}
+
 a {
   color: $link-color;
   text-decoration: none;
@@ -85,11 +86,8 @@ hr {
   }
 }
 
-@font-face {
-  font-family: 'ASL-Font';
-  src: url('./fonts/asl-font.ttf');
-}
-
-.Font--asl {
-  font-family: 'ASL-Font';
+.Font {
+  &--asl {
+    font-family: $asl-font;
+  }
 }
