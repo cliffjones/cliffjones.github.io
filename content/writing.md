@@ -46,6 +46,6 @@ Read [+“Amaretto”](https://www.wattpad.com/story/120747081-amaretto) for fre
 
 ## ![>cover of Sacred Geometry](covers/sacred-geometry) Sacred Geometry
 
-A student visits the home of a renowned professor who has made an offer to tutor the boy in mathematics. Over an unusual cup of tea, the two begin discussing geometry as planned, but conversation soon turns to the fourth dimension and evolves into a sort of guided meditation. An out-of-body experience gives the boy a terrifying new view of the world. After what he sees, there may be no going back to his old life.
+A student visits the home of a renowned professor who has made an offer to tutor the boy in mathematics. Over an unusual cup of tea, the two begin discussing geometry as planned, but things escalate quickly.
 
 Read [+“Sacred Geometry”](https://www.wattpad.com/story/52489413-sacred-geometry) for free on Wattpad!
