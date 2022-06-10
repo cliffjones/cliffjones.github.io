@@ -2,7 +2,6 @@
   {
     "id": "horse",
     "name": "Horse",
-    "symbol": "☴",
     "details": [
       "Outgoing, receptive, intense.",
       "“I am warm, caring, and sensitive to the needs of others.”"
@@ -11,7 +10,6 @@
   {
     "id": "dove",
     "name": "Dove",
-    "symbol": "☵",
     "details": [
       "Outgoing, receptive, consistent.",
       "“I am a peacemaker, sometimes too passive for my own good.”"
@@ -20,7 +18,6 @@
   {
     "id": "turtle",
     "name": "Turtle",
-    "symbol": "☶",
     "details": [
       "Reserved, receptive, consistent.",
       "“I am cautious and consistent, and I want to follow clear-cut guidelines.”"
@@ -29,7 +26,6 @@
   {
     "id": "owl",
     "name": "Owl",
-    "symbol": "☷",
     "details": [
       "Reserved, receptive, intense.",
       "“I enjoy investigating complex issues that few are even interested in.”"
@@ -38,7 +34,6 @@
   {
     "id": "wolf",
     "name": "Wolf",
-    "symbol": "☳",
     "details": [
       "Reserved, tenacious, consistent.",
       "“I am organized, orderly, and self-disciplined.”"
@@ -47,7 +42,6 @@
   {
     "id": "cat",
     "name": "Cat",
-    "symbol": "☲",
     "details": [
       "Reserved, tenacious, intense.",
       "“I tend to obsess, take things personally, and dwell on the past.”"
@@ -56,7 +50,6 @@
   {
     "id": "fox",
     "name": "Fox",
-    "symbol": "☱",
     "details": [
       "Outgoing, tenacious, intense.",
       "“I am fun-loving and spontaneous; I try to keep my life exciting.”"
@@ -65,7 +58,6 @@
   {
     "id": "bear",
     "name": "Bear",
-    "symbol": "☰",
     "details": [
       "Outgoing, tenacious, consistent.",
       "“My dominating personality allows me to take charge and gain recognition.”"

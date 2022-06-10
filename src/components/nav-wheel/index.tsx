@@ -61,7 +61,7 @@ function NavWheel({ path }) {
                 link.dispatchEvent(new MouseEvent('click'));
               }
             }}
-          >{item.symbol}</button>
+          ></button>
         ))}
       </div>
 
