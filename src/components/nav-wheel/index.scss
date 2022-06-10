@@ -2,6 +2,14 @@
 $base-class: 'NavWheel';
 $yin-color: #000000;
 $yang-color: #ffffff;
+$horse-color: hsl(30, 50%, 60%);
+$dove-color: hsl(55, 60%, 75%);
+$turtle-color: hsl(130, 40%, 50%);
+$owl-color: hsl(185, 60%, 70%);
+$wolf-color: hsl(240, 60%, 55%);
+$cat-color: hsl(280, 35%, 30%);
+$fox-color: hsl(5, 60%, 50%);
+$bear-color: hsl(20, 30%, 35%);
 
 .#{$base-class} {
   height: 75vmin;
@@ -27,6 +35,7 @@ $yang-color: #ffffff;
       display: inline-flex;
       height: 10vmin;
       justify-content: center;
+      overflow: hidden;
       position: absolute;
       width: 10vmin;
 
@@ -34,123 +43,180 @@ $yang-color: #ffffff;
         border: 0;
         box-shadow: 0 0 0 0.5vmin $line-color;
 
+        &::before {
+          border-bottom-width: 1.3vmin;
+          border-top-width: 1.3vmin;
+          height: 1.3vmin;
+          margin-top: -1.3vmin;
+          width: 7.8vmin;
+        }
+
         &::after {
-          border-bottom-width: 1.7vmin;
-          border-top-width: 1.7vmin;
-          height: 1.7vmin;
-          width: 5.1vmin;
+          border: 4vmin solid transparent;
+          margin-top: -5.2vmin;
         }
       }
 
-      &::after {
-        border-bottom: 1.5vmin solid transparent;
-        border-top: 1.5vmin solid transparent;
+      &::before {
+        border-bottom: 1.2vmin solid transparent;
+        border-top: 1.2vmin solid transparent;
         content: '';
-        height: 1.5vmin;
-        width: 4.5vmin;
+        height: 1.2vmin;
+        margin-top: -1.2vmin;
+        position: absolute;
+        width: 7.2vmin;
+      }
+
+      &::after {
+        border: 3.7vmin solid transparent;
+        content: '';
+        height: 0;
+        margin-top: -4.8vmin;
+        position: absolute;
+        width: 0;
       }
 
       &[data-id='horse'] {
-        background-color: hsl(30, 50%, 60%);
+        background-color: $horse-color;
         left: calc(50% - 5vmin + 22.5vmin);
         top: calc(50% - 5vmin - 22.5vmin);
         transform: rotate(45deg);
 
-        &::after {
+        &::before {
           border-top-color: $yang-color;
           background-color: $yang-color;
           border-bottom-color: $yin-color;
+        }
+
+        &::after {
+          border-left-color: $horse-color;
+          border-right-color: $horse-color;
         }
       }
 
       &[data-id='dove'] {
-        background-color: hsl(55, 60%, 75%);
+        background-color: $dove-color;
         left: calc(50% - 5vmin + 32vmin);
         top: calc(50% - 5vmin);
         transform: rotate(90deg);
 
-        &::after {
+        &::before {
           border-top-color: $yin-color;
           background-color: $yang-color;
           border-bottom-color: $yin-color;
+        }
+
+        &::after {
+          border-left-color: $dove-color;
+          border-right-color: $dove-color;
         }
       }
 
       &[data-id='turtle'] {
-        background-color: hsl(130, 40%, 50%);
+        background-color: $turtle-color;
         left: calc(50% - 5vmin + 22.5vmin);
         top: calc(50% - 5vmin + 22.5vmin);
         transform: rotate(135deg);
 
-        &::after {
+        &::before {
           border-top-color: $yang-color;
           background-color: $yin-color;
           border-bottom-color: $yin-color;
+        }
+
+        &::after {
+          border-left-color: $turtle-color;
+          border-right-color: $turtle-color;
         }
       }
 
       &[data-id='owl'] {
-        background-color: hsl(185, 60%, 70%);
+        background-color: $owl-color;
         left: calc(50% - 5vmin);
         top: calc(50% - 5vmin + 32vmin);
         transform: rotate(180deg);
 
-        &::after {
+        &::before {
           border-top-color: $yin-color;
           background-color: $yin-color;
           border-bottom-color: $yin-color;
         }
+
+        &::after {
+          border-left-color: $owl-color;
+          border-right-color: $owl-color;
+        }
       }
 
       &[data-id='wolf'] {
-        background-color: hsl(240, 60%, 55%);
+        background-color: $wolf-color;
         left: calc(50% - 5vmin - 22.5vmin);
         top: calc(50% - 5vmin + 22.5vmin);
         transform: rotate(225deg);
 
-        &::after {
+        &::before {
           border-top-color: $yin-color;
           background-color: $yin-color;
           border-bottom-color: $yang-color;
+        }
+
+        &::after {
+          border-left-color: $wolf-color;
+          border-right-color: $wolf-color;
         }
       }
 
       &[data-id='cat'] {
-        background-color: hsl(280, 35%, 30%);
+        background-color: $cat-color;
         left: calc(50% - 5vmin - 32vmin);
         top: calc(50% - 5vmin);
         transform: rotate(270deg);
 
-        &::after {
+        &::before {
           border-top-color: $yang-color;
           background-color: $yin-color;
           border-bottom-color: $yang-color;
         }
+
+        &::after {
+          border-left-color: $cat-color;
+          border-right-color: $cat-color;
+        }
       }
 
       &[data-id='fox'] {
-        background-color: hsl(5, 60%, 50%);
+        background-color: $fox-color;
         left: calc(50% - 5vmin - 22.5vmin);
         top: calc(50% - 5vmin - 22.5vmin);
         transform: rotate(315deg);
 
-        &::after {
+        &::before {
           border-top-color: $yin-color;
           background-color: $yang-color;
           border-bottom-color: $yang-color;
         }
+
+        &::after {
+          border-left-color: $fox-color;
+          border-right-color: $fox-color;
+        }
       }
 
       &[data-id='bear'] {
-        background-color: hsl(20, 30%, 35%);
+        background-color: $bear-color;
         left: calc(50% - 5vmin);
         top: calc(50% - 5vmin - 32vmin);
         transform: rotate(360deg);
 
-        &::after {
+        &::before {
           border-top-color: $yang-color;
           background-color: $yang-color;
           border-bottom-color: $yang-color;
+        }
+
+        &::after {
+          border-left-color: $bear-color;
+          border-right-color: $bear-color;
         }
       }
     }
