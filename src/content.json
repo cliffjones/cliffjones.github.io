@@ -92,7 +92,7 @@
     },
     "hexagraph": {
       "title": "Hexagraph",
-      "text": "Sort of like Zen water painting with overlapping hexagons.",
+      "text": "Like Zen water painting with overlapping hexagons.",
       "color": "blue"
     },
     "ideas": {
@@ -126,10 +126,10 @@
     }
   },
   "nav": {
-    "": ["coding", "writing", "language", "art", "social"],
+    "": ["art", "coding", "language", "writing", "social"],
     "art": [""],
     "character-types": ["writing"],
-    "coding": ["floravision", "stroboscope", "hexagraph", ""],
+    "coding": ["floravision", "hexagraph", "stroboscope", ""],
     "editing-guidelines": ["writing"],
     "floravision": ["coding"],
     "hexagraph": ["coding"],
@@ -138,6 +138,6 @@
     "rasl": ["language"],
     "social": [""],
     "stroboscope": ["coding"],
-    "writing": ["character-types", "editing-guidelines", ""]
+    "writing": ["editing-guidelines", "character-types", ""]
   }
 }
