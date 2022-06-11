@@ -1,9 +1,8 @@
 $base-class: 'Hexagraph';
 
 // Prevent pull-down refresh on mobile.
-html,
 body {
-  overscroll-behavior-y: contain;
+  touch-action: none;
 }
 
 .#{$base-class} {
