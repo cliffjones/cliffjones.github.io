@@ -47,13 +47,13 @@ $bear-color: hsl(20, 30%, 35%);
           border-bottom-width: 1.3vmin;
           border-top-width: 1.3vmin;
           height: 1.3vmin;
-          margin-top: -1.3vmin;
+          margin-top: -1.95vmin;
           width: 7.8vmin;
         }
 
         &::after {
           border: 4vmin solid transparent;
-          margin-top: -5.2vmin;
+          margin-top: -5.85vmin;
         }
       }
 
@@ -62,7 +62,7 @@ $bear-color: hsl(20, 30%, 35%);
         border-top: 1.2vmin solid transparent;
         content: '';
         height: 1.2vmin;
-        margin-top: -1.2vmin;
+        margin-top: -1.8vmin;
         position: absolute;
         width: 7.2vmin;
       }
@@ -71,7 +71,7 @@ $bear-color: hsl(20, 30%, 35%);
         border: 3.7vmin solid transparent;
         content: '';
         height: 0;
-        margin-top: -4.8vmin;
+        margin-top: -5.4vmin;
         position: absolute;
         width: 0;
       }
