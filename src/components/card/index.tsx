@@ -9,6 +9,15 @@ function Card({ path, title = '', text = '', color = '' }) {
   if (color) {
     className = `${className} ${BASE_CLASS}--${color}`;
   }
+
+  // Handle external links.
+  if (path.startsWith('http')) {
+    <a href={path} className={className} target='_blank' rel='noreferrer'>
+      {title ? <div className={`${BASE_CLASS}-title`}>{title}</div> : ''}
+      {text ? <div className={`${BASE_CLASS}-text`}>{text}</div> : ''}
+    </a>
+  }
+
   return (
     <Link to={`/${path}`} className={className}>
       {title ? <div className={`${BASE_CLASS}-title`}>{title}</div> : ''}
