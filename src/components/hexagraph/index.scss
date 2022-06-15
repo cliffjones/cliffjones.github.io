@@ -1,10 +1,5 @@
 $base-class: 'Hexagraph';
 
-// Prevent pull-down refresh on mobile.
-body {
-  touch-action: none;
-}
-
 .#{$base-class} {
   &--active {
     background-color: #000000;
@@ -20,6 +15,7 @@ body {
     text-align: center;
     text-shadow: none;
     top: 0;
+    touch-action: none;
     white-space: nowrap;
     width: 100%;
     z-index: 100;
