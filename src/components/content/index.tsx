@@ -7,6 +7,7 @@ import remarkGfm from 'remark-gfm';
 
 import './index.scss';
 import config from '../../config.json';
+import { startLoading, stopLoading } from '../../store/reducer';
 import Floravision from '../floravision';
 import Heading from '../heading';
 import Hexagraph from '../hexagraph';
@@ -233,10 +234,12 @@ function Content({ path }) {
 
   // Load the specified Markdown file.
   useEffect(() => {
+    console.log('START', startLoading());
     axios.get(`/content/${path}.md`)
       .then((response) => {
         setMdContent(response.data);
         setLoading(false);
+        console.log('STOP', stopLoading());
       });
   }, [path]);
 

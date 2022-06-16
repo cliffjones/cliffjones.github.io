@@ -1,16 +1,9 @@
-interface IArticle {
-  id: number
-  title: string
-  body: string
-}
-
-type ArticleState = {
-  articles: IArticle[]
+type AppState = {
+  loading: boolean
 };
 
-type ArticleAction = {
+type AppAction = {
   type: string
-  article: IArticle
 };
 
-type DispatchType = (args: ArticleAction) => ArticleAction;
+type DispatchType = (args: AppAction) => AppAction;
