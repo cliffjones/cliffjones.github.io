@@ -1,16 +1,16 @@
 # Language Study
 
-[+95 Core Concepts Across Languages](https://www.duolingo.com/comment/4571123) ([+and 105 More](https://www.duolingo.com/comment/4664475))
+<!-- [+95 Core Concepts Across Languages](https://www.duolingo.com/comment/4571123) ([+and 105 More](https://www.duolingo.com/comment/4664475))
 
 [+Learning Romance Languages in Parallel](https://www.duolingo.com/comment/3611036)
 
----
+--- -->
 
 ## American Sign Language
 
 [Writing in Romanized ASL](/rasl)
 
----
+<!-- --- -->
 
 <!--## English-->
 
@@ -44,9 +44,9 @@
 
 <!--<a href="http://vokation.com/2009/10/jones-romanization-mandarin-chinese.html" target="_blank">Jones Romanization: Mandarin Chinese</a>-->
 
-## Spanish
+<!-- ## Spanish
 
-[+The Most Useful Spanish Cognates](https://www.duolingo.com/comment/5508808)
+[+The Most Useful Spanish Cognates](https://www.duolingo.com/comment/5508808) -->
 
 <!--<a href="http://vokation.com/2008/07/spanish-phonology-basics.html" target="_blank">Spanish Phonology (The Basics)</a>-->
 

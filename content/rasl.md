@@ -24,7 +24,7 @@ What we’re looking for here is essentially a *Romanization scheme for ASL*. Ju
 
 A sign in ASL (or any other signed language) can be broken down into a few distinct components that convey its meaning: [handshape](#primary-handshape-section), [orientation](#orientation-section), [location](#location-section), [movement](#movement-direction-section), and non-manual signals such as facial expression. While non-manual signals are important, RASL treats them a bit like intonation in English, leaving it to the reader to make use of punctuation and context. The four remaining components (in the order given here) determine the spelling of each sign.
 
-For example, the ASL word [+*vranu*](https://asldict.com/word/vranu) means something like “sell.” The beginning “v” indicates that both hands are making a flat O shape (<span class="Font--asl">O</span>). That’s the handshape component. Next is an “r,” which means that the palms are facing down. That covers orientation. The main vowel, “a,” indicates that the sign is located in the *neutral signing space*, the open area in front in the signer’s chest and face. The “n” indicates movement away from the signer. Finally, the “u” indicates a curving or twisting motion. Putting it all together, a user of RASL can read the word [+*vranu*](https://asldict.com/word/vranu), “sound it out” manually as just described, and be understood by a user of ASL.
+For example, the ASL word [+*vranu*](https://asldict.com/word/vranu) means something like “sell.” The beginning “v” indicates that both hands are making a flat O shape (<span class="Text--asl">O</span>). That’s the handshape component. Next is an “r,” which means that the palms are facing down. That covers orientation. The main vowel, “a,” indicates that the sign is located in the *neutral signing space*, the open area in front in the signer’s chest and face. The “n” indicates movement away from the signer. Finally, the “u” indicates a curving or twisting motion. Putting it all together, a user of RASL can read the word [+*vranu*](https://asldict.com/word/vranu), “sound it out” manually as just described, and be understood by a user of ASL.
 
 ---
 
@@ -44,57 +44,57 @@ The “primary” handshape is the one used by the dominant hand at the start of
   </tr>
   <tr>
     <th scope="row">i</th>
-    <td class="Content-table-cell Font--asl" title="it = index, 1, Z">1</td>
-    <td class="Content-table-cell Font--asl" title="id = U, H">u</td>
-    <td class="Content-table-cell Font--asl" title="ip = I, J">i</td>
-    <td class="Content-table-cell Font--asl" title="ib = D">d</td>
-    <td class="Content-table-cell Font--asl" title="ik = L-I, ILY">Y</td>
-    <td class="Content-table-cell Font--asl" title="ig = sensing, 25, open 8">PD</td>
+    <td class="Content-table-cell Text--asl" title="it = index, 1, Z">1</td>
+    <td class="Content-table-cell Text--asl" title="id = U, H">u</td>
+    <td class="Content-table-cell Text--asl" title="ip = I, J">i</td>
+    <td class="Content-table-cell Text--asl" title="ib = D">d</td>
+    <td class="Content-table-cell Text--asl" title="ik = L-I, ILY">Y</td>
+    <td class="Content-table-cell Text--asl" title="ig = sensing, 25, open 8">PD</td>
   </tr>
   <tr>
     <th scope="row">e</th>
-    <td class="Content-table-cell Font--asl" title="et = R, open R">rR</td>
-    <td class="Content-table-cell Font--asl" title="ed = V, 2">v</td>
-    <td class="Content-table-cell Font--asl" title="ep = Y">y</td>
-    <td class="Content-table-cell Font--asl" title="eb = 9, F, flat 9, flat F, open 9, open F">f</td>
-    <td class="Content-table-cell Font--asl" title="ek = 1-I, corna, 7">I7</td>
-    <td class="Content-table-cell Font--asl" title="eg = 8">8</td>
+    <td class="Content-table-cell Text--asl" title="et = R, open R">rR</td>
+    <td class="Content-table-cell Text--asl" title="ed = V, 2">v</td>
+    <td class="Content-table-cell Text--asl" title="ep = Y">y</td>
+    <td class="Content-table-cell Text--asl" title="eb = 9, F, flat 9, flat F, open 9, open F">f</td>
+    <td class="Content-table-cell Text--asl" title="ek = 1-I, corna, 7">I7</td>
+    <td class="Content-table-cell Text--asl" title="eg = 8">8</td>
   </tr>
   <tr>
     <th scope="row">u</th>
-    <td class="Content-table-cell Font--asl" title="ut = X, bent X">xX</td>
-    <td class="Content-table-cell Font--asl" title="ud = bent V, double X, bent U, bent 3, claw 3">VUW</td>
-    <td class="Content-table-cell Font--asl" title="up = fist, S">s</td>
-    <td class="Content-table-cell Font--asl" title="ub = small O, closed X, closed G">TF</td>
-    <td class="Content-table-cell Font--asl" title="uk = E">e</td>
-    <td class="Content-table-cell Font--asl" title="ug = claw, bent 5, bent 4, flat 5">SEQ</td>
+    <td class="Content-table-cell Text--asl" title="ut = X, bent X">xX</td>
+    <td class="Content-table-cell Text--asl" title="ud = bent V, double X, bent U, bent 3, claw 3">VUW</td>
+    <td class="Content-table-cell Text--asl" title="up = fist, S">s</td>
+    <td class="Content-table-cell Text--asl" title="ub = small O, closed X, closed G">TF</td>
+    <td class="Content-table-cell Text--asl" title="uk = E">e</td>
+    <td class="Content-table-cell Text--asl" title="ug = claw, bent 5, bent 4, flat 5">SEQ</td>
   </tr>
   <tr>
     <th scope="row">o</th>
-    <td class="Content-table-cell Font--asl" title="ot = T, T/X">t</td>
-    <td class="Content-table-cell Font--asl" title="od = N, flat N, open N">nN</td>
-    <td class="Content-table-cell Font--asl" title="op = M, flat M, open M">m</td>
-    <td class="Content-table-cell Font--asl" title="ob = O, 0">o</td>
-    <td class="Content-table-cell Font--asl" title="ok = curved, open C, bent B">CM</td>
-    <td class="Content-table-cell Font--asl" title="og = W, 6">w</td>
+    <td class="Content-table-cell Text--asl" title="ot = T, T/X">t</td>
+    <td class="Content-table-cell Text--asl" title="od = N, flat N, open N">nN</td>
+    <td class="Content-table-cell Text--asl" title="op = M, flat M, open M">m</td>
+    <td class="Content-table-cell Text--asl" title="ob = O, 0">o</td>
+    <td class="Content-table-cell Text--asl" title="ok = curved, open C, bent B">CM</td>
+    <td class="Content-table-cell Text--asl" title="og = W, 6">w</td>
   </tr>
   <tr>
     <th scope="row"></th>
-    <td class="Content-table-cell Font--asl" title="t = G, Q, small C, bent L, open X">gGL</td>
-    <td class="Content-table-cell Font--asl" title="d = K, P, open K, 23">kK</td>
-    <td class="Content-table-cell Font--asl" title="p = A">a</td>
-    <td class="Content-table-cell Font--asl" title="b = flat O, and">O</td>
-    <td class="Content-table-cell Font--asl" title="k = flat, B">b</td>
-    <td class="Content-table-cell Font--asl" title="g = 4">4</td>
+    <td class="Content-table-cell Text--asl" title="t = G, Q, small C, bent L, open X">gGL</td>
+    <td class="Content-table-cell Text--asl" title="d = K, P, open K, 23">kK</td>
+    <td class="Content-table-cell Text--asl" title="p = A">a</td>
+    <td class="Content-table-cell Text--asl" title="b = flat O, and">O</td>
+    <td class="Content-table-cell Text--asl" title="k = flat, B">b</td>
+    <td class="Content-table-cell Text--asl" title="g = 4">4</td>
   </tr>
   <tr>
     <th scope="row">a</th>
-    <td class="Content-table-cell Font--asl" title="at = L">l</td>
-    <td class="Content-table-cell Font--asl" title="ad = 3, open U, 13">3H</td>
-    <td class="Content-table-cell Font--asl" title="ap = open A, 10">A</td>
-    <td class="Content-table-cell Font--asl" title="ab = C, flat C">c</td>
-    <td class="Content-table-cell Font--asl" title="ak = open B">B</td>
-    <td class="Content-table-cell Font--asl" title="ag = open, 5">5</td>
+    <td class="Content-table-cell Text--asl" title="at = L">l</td>
+    <td class="Content-table-cell Text--asl" title="ad = 3, open U, 13">3H</td>
+    <td class="Content-table-cell Text--asl" title="ap = open A, 10">A</td>
+    <td class="Content-table-cell Text--asl" title="ab = C, flat C">c</td>
+    <td class="Content-table-cell Text--asl" title="ak = open B">B</td>
+    <td class="Content-table-cell Text--asl" title="ag = open, 5">5</td>
   </tr>
 </table>
 
@@ -111,7 +111,7 @@ This arrangement is not arbitrary; it makes use of *sound symbolism*, a natural 
 - *(no vowel)*, **k**/**x** = flat
 - **a**, **g**/**j** = open
 
-Using this terminology, The 1 handshape (<span class="Font--asl">1</span>) is “pointing,” V (<span class="Font--asl">v</span>) is “split,” S (<span class="Font--asl">s</span>) is “curled,” O (<span class="Font--asl">o</span>) is “grabbing,” B (<span class="Font--asl">b</span>) is “flat,” and 5 (<span class="Font--asl">5</span>) is “open.” So the R handshape (<span class="Font--asl">r</span>) could be described as a “split point” (spelled “et”), the U handshape (<span class="Font--asl">u</span>) could be described as a “pointing split” (spelled “id”), and so on.
+Using this terminology, The 1 handshape (<span class="Text--asl">1</span>) is “pointing,” V (<span class="Text--asl">v</span>) is “split,” S (<span class="Text--asl">s</span>) is “curled,” O (<span class="Text--asl">o</span>) is “grabbing,” B (<span class="Text--asl">b</span>) is “flat,” and 5 (<span class="Text--asl">5</span>) is “open.” So the R handshape (<span class="Text--asl">r</span>) could be described as a “split point” (spelled “et”), the U handshape (<span class="Text--asl">u</span>) could be described as a “pointing split” (spelled “id”), and so on.
 
 ---
 
@@ -131,7 +131,7 @@ For two-handed signs where the non-dominant hand does *not* use the primary hand
   </tr>
   <tr>
     <th scope="row">i</th>
-    <td class="Content-table-cell Font--asl" title="is = index, 1, Z">1</td>
+    <td class="Content-table-cell Text--asl" title="is = index, 1, Z">1</td>
     <td class="Content-table-cell--empty"></td>
     <td class="Content-table-cell--empty"></td>
     <td class="Content-table-cell--empty"></td>
@@ -141,7 +141,7 @@ For two-handed signs where the non-dominant hand does *not* use the primary hand
   <tr>
     <th scope="row">e</th>
     <td class="Content-table-cell--empty"></td>
-    <td class="Content-table-cell Font--asl" title="ez = V, 2">v</td>
+    <td class="Content-table-cell Text--asl" title="ez = V, 2">v</td>
     <td class="Content-table-cell--empty"></td>
     <td class="Content-table-cell--empty"></td>
     <td class="Content-table-cell--empty"></td>
@@ -151,7 +151,7 @@ For two-handed signs where the non-dominant hand does *not* use the primary hand
     <th scope="row">u</th>
     <td class="Content-table-cell--empty"></td>
     <td class="Content-table-cell--empty"></td>
-    <td class="Content-table-cell Font--asl" title="uf = fist, S">s</td>
+    <td class="Content-table-cell Text--asl" title="uf = fist, S">s</td>
     <td class="Content-table-cell--empty"></td>
     <td class="Content-table-cell--empty"></td>
     <td class="Content-table-cell--empty"></td>
@@ -161,24 +161,24 @@ For two-handed signs where the non-dominant hand does *not* use the primary hand
     <td class="Content-table-cell--empty"></td>
     <td class="Content-table-cell--empty"></td>
     <td class="Content-table-cell--empty"></td>
-    <td class="Content-table-cell Font--asl" title="ov = O, 0, flat O, and">oO</td>
-    <td class="Content-table-cell Font--asl" title="ox = passive, relaxed, curved, open C, bent B">CM</td>
+    <td class="Content-table-cell Text--asl" title="ov = O, 0, flat O, and">oO</td>
+    <td class="Content-table-cell Text--asl" title="ox = passive, relaxed, curved, open C, bent B">CM</td>
     <td class="Content-table-cell--empty"></td>
   </tr>
   <tr>
     <th scope="row">a</th>
-    <td class="Content-table-cell Font--asl" title="as = L, G, Q, small C, bent L, open X">lgGL</td>
+    <td class="Content-table-cell Text--asl" title="as = L, G, Q, small C, bent L, open X">lgGL</td>
     <td class="Content-table-cell--empty"></td>
-    <td class="Content-table-cell Font--asl" title="af = open A, 10, A">Aa</td>
-    <td class="Content-table-cell Font--asl" title="av = C, flat C">c</td>
-    <td class="Content-table-cell Font--asl" title="ax = flat, open B, B">Bb</td>
-    <td class="Content-table-cell Font--asl" title="aj = open, 5, 4">54</td>
+    <td class="Content-table-cell Text--asl" title="af = open A, 10, A">Aa</td>
+    <td class="Content-table-cell Text--asl" title="av = C, flat C">c</td>
+    <td class="Content-table-cell Text--asl" title="ax = flat, open B, B">Bb</td>
+    <td class="Content-table-cell Text--asl" title="aj = open, 5, 4">54</td>
   </tr>
 </table>
 
 Many ASL signs (especially name signs) use the handshape of a fingerspelled letter or number to connect the sign with an English equivalent. If this is considered important, a capital letter or number can be used in place of the primary handshape, followed by a hyphen. This does not affect the representation of a secondary handshape, except in the case where both hands match. In this situation, an “h” should follow the hyphen to indicate that the secondary hand is in use, but its shape is no different from that of the primary hand.
 
-For example, the word [+*eswahu*](https://asldict.com/word/eswahu) translates to “room” (though [+*axwahu*](https://asldict.com/word/axwahu) is more common). The beginning “es” indicates that both hands are making an R shape (<span class="Font--asl">r</span>). An alternate way to write this word would be “R-hwahu.” The one-handed sign [+*etrah*](https://asldict.com/word/etrah) (“right”) would simply be “R-rah,” without an added “h.” The two-handed [+*etaxeru*](https://asldict.com/word/etaxeru) (“rule”) would be “R-axeru.” Of course, these are only alternative spellings. Such substitutions are normally unnecessary.
+For example, the word [+*eswahu*](https://asldict.com/word/eswahu) translates to “room” (though [+*axwahu*](https://asldict.com/word/axwahu) is more common). The beginning “es” indicates that both hands are making an R shape (<span class="Text--asl">r</span>). An alternate way to write this word would be “R-hwahu.” The one-handed sign [+*etrah*](https://asldict.com/word/etrah) (“right”) would simply be “R-rah,” without an added “h.” The two-handed [+*etaxeru*](https://asldict.com/word/etaxeru) (“rule”) would be “R-axeru.” Of course, these are only alternative spellings. Such substitutions are normally unnecessary.
 
 ---
 
@@ -239,7 +239,7 @@ This component is somewhat open to interpretation. A few similar movement types 
 
 ## Compounds and Fingerspelling
 
-If two signs are produced as a unit, perhaps with some detail left out of one or both of the signs, they should be connected in writing using a hyphen. A common example of this is the suffix [+*-xar*](https://asldict.com/word/xar), meaning “person” or “agent.” In its full form, “person” may be expressed as [+*zrar*](https://asldict.com/word/zrar), with hands in the P shape (<span class="Font--asl">k</span>), but as part of a compound, flat hands (<span class="Font--asl">b</span>) are used. For most compounds, no spelling adjustment is necessary, but this is a common exception.
+If two signs are produced as a unit, perhaps with some detail left out of one or both of the signs, they should be connected in writing using a hyphen. A common example of this is the suffix [+*-xar*](https://asldict.com/word/xar), meaning “person” or “agent.” In its full form, “person” may be expressed as [+*zrar*](https://asldict.com/word/zrar), with hands in the P shape (<span class="Text--asl">k</span>), but as part of a compound, flat hands (<span class="Text--asl">b</span>) are used. For most compounds, no spelling adjustment is necessary, but this is a common exception.
 
 Some signs seem to be composed of two distinct movements in sequence. For example, the sign for “deaf” (one of them, at least) involves tapping an index finger near the ear and then tapping near the mouth. Such signs may be written as hyphenated compounds to better represent their articulation. For “deaf,” this would be “itih-itum.” However, since the handshape component (“it”) is repeated exactly, it can be omitted from the second part of the sign, leaving us with [+*itih-um*](https://asldict.com/word/itih-um).
 
