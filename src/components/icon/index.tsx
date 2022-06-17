@@ -28,6 +28,8 @@ import {
 
 import './index.scss';
 
+const HIDDEN_CLASS = 'Text--hidden';
+
 function Icon({ name, hint = '', action = '', color = '' }) {
   const props: any = { className: `Icon Icon--${name}` };
   if (color) {
@@ -174,7 +176,7 @@ function Icon({ name, hint = '', action = '', color = '' }) {
 
   if (name === 'wattpad') {
     if (props.href) {
-      return <a {...props}></a>;
+      return <a {...props}><span className={HIDDEN_CLASS}>{hint}</span></a>;
     }
     return <span {...props}></span>;
   }

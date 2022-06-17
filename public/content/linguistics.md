@@ -1,6 +1,6 @@
 # Linguistic Topics
 
-[+The Problem of an International Language](https://www.duolingo.com/comment/3890570)
+<!-- [+The Problem of an International Language](https://www.duolingo.com/comment/3890570) -->
 
 <!--<a href="http://vokation.com/2009/01/my-view-of-language.html" target="_blank">My View of Language</a>-->
 
@@ -10,7 +10,7 @@
 
 <!--<a href="http://vokation.com/2009/08/awesome-keyboard-layout.html" target="_blank">Awesome Keyboard Layout</a>-->
 
----
+<!-- --- -->
 
 ## Grammar
 

@@ -86,7 +86,12 @@ hr {
   }
 }
 
-.Font {
+.Text {
+  &--hidden {
+    position: absolute;
+    left:-9999px;
+  }
+
   &--asl {
     font-family: $asl-font;
   }

@@ -33,7 +33,7 @@ function Image({ loader, src, ...props }: ImageProps) {
     newProps.className = `${newProps.className} ${LOADING_CLASS}`;
   }
 
-  return <img {...newProps} src={source} loading='lazy' />;
+  return <img {...newProps} src={source} alt='' loading='lazy' />;
 }
 
 export default Image;
