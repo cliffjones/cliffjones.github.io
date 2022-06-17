@@ -6,9 +6,7 @@
 
 --- -->
 
-## American Sign Language
-
-[Writing in Romanized ASL](/rasl)
+<!-- ## American Sign Language -->
 
 <!-- --- -->
 

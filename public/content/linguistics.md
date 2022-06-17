@@ -26,9 +26,9 @@
 
 ## Writing Systems
 
-[+Geometric Phoenician](https://codepen.io/cliffjones/pen/QWKGgQO)
+[Writing in Romanized ASL](/rasl)
 
-[+Neologizer](https://github.com/cliffjones/neologizer)
+[+Geometric Phoenician](https://codepen.io/cliffjones/pen/QWKGgQO)
 
 ---
 
