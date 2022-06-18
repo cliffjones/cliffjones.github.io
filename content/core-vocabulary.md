@@ -197,7 +197,7 @@ Of course, there was some overlap with the original 95-item list (i.e., items 36
 155. right/correct/proper
 156. bad/wrong
 157. far/distant
-158. hard (not soft)
+158. hard *(not soft)*
 159. thick
 160. thin
 161. narrow
@@ -209,7 +209,7 @@ Of course, there was some overlap with the original 95-item list (i.e., items 36
 167. wet
 168. smooth
 169. sharp
-170. dull (not sharp)
+170. dull *(not sharp)*
 171. dirty
 172. short
 173. round
@@ -226,16 +226,16 @@ Of course, there was some overlap with the original 95-item list (i.e., items 36
 181. but/yet/except
 182. at/in/on
 183. to/toward
-184. of/from/’s (possessive)
+184. of/from/’s *(possessive)*
 185. by/through/per/for/because
 186. with
 187. over/above/on
 188. for/in-order-to
-189. so/then (effect)
-190. then/right-away (sequence)
-191. now/still/doing (ongoing)
-192. did/done (past)
-193. will/be-going-to (future)
+189. so/then *(effect)*
+190. then/right-away *(sequence)*
+191. now/still/doing *(ongoing)*
+192. did/done *(past)*
+193. will/be-going-to *(future)*
 194. much/many
 195. very/really
 196. where

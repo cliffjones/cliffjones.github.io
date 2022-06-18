@@ -1,8 +1,8 @@
-# Core Vocabulary in Dutch (Netherlands)
+# Core Vocabulary in Dutch
 
 ~outline right~
 
-What are the most basic concepts that virtually all languages express? I’ve done my best to answer this question with a list of 200 core vocabulary items, and this is the Dutch version. To learn how I settled on these particular concepts and see what other languages have been added so far, check out [“Core Vocabulary Across Languages.”](/core-vocabulary)
+What are the most basic concepts that virtually all languages express? I’ve done my best to answer this question with a list of 200 core vocabulary items, and this is the Dutch (Netherlands) version. To learn how I settled on these particular concepts and see what other languages have been added so far, check out [“Core Vocabulary Across Languages.”](/core-vocabulary)
 
 ---
 
@@ -16,59 +16,59 @@ What are the most basic concepts that virtually all languages express? I’ve do
 
 ## Nouns
 
-1. name = naam (c)
-2. water = water (n)
-3. blood = bloed (n)
-4. fire = vuur (n)
-5. stone/rock = steen (c), rots (c)
-6. dog = hond (c)
-7. fish = vis (c)
-8. louse/flea = luis (c), vlo (c)
-9. hand/arm = hand (c), arm (c)
-10. eye = oog (n)
-11. ear = oor (n)
-12. nose = neus (c)
-13. tongue = tong (c)
-14. tooth = tand (c)
-15. bone = bot (n)
-16. horn = hoorn (c)
-17. tail = staart (c)
-18. egg = ei (n)
-19. leaf = blad (n)
-20. night/evening = nacht (c), avond (c)
-21. star = ster (c)
-22. sun = zon (c)
-23. moon = maan (c)
-24. earth/soil = aarde (c), bodem (c)
-25. salt = zout (n)
-26. mountain = berg (c)
-27. tree = boom (c)
-28. rain = regen (c)
-29. wind = wind (c)
-30. bird = vogel (c)
-31. flesh/meat = vlees (n)
-32. liver = lever (c)
-33. skin/hide = huid (c), vel (n)
-34. knee = knie (c)
-35. breast/chest = borst (c)
-36. person/human = persoon (c), mens (c)
-37. man = man (c)
-38. woman = vrouw (c)
-39. child = kind (n)
-40. hair/fur = haar (n), pels (c)
-41. mouth = mond (c)
-42. neck = nek (c)
-43. foot/leg = voet (c), been (n)
-44. feather = veer (c), pluim (c)
-45. grease/fat = vet (n), smeer (n)
-46. smoke = rook (c)
-47. ash/soot = as (c), roet (n)
-48. sand = zand (n)
-49. wood = hout (n)
-50. root = wortel (c)
-51. rope/cord = touw (n), koord (n)
-52. path/road = pad (n), weg (c)
-53. year = jaar (n)
+1. name = naam *(c)*
+2. water = water *(n)*
+3. blood = bloed *(n)*
+4. fire = vuur *(n)*
+5. stone/rock = steen *(c)*, rots *(c)*
+6. dog = hond *(c)*
+7. fish = vis *(c)*
+8. louse/flea = luis *(c)*, vlo *(c)*
+9. hand/arm = hand *(c)*, arm *(c)*
+10. eye = oog *(n)*
+11. ear = oor *(n)*
+12. nose = neus *(c)*
+13. tongue = tong *(c)*
+14. tooth = tand *(c)*
+15. bone = bot *(n)*
+16. horn = hoorn *(c)*
+17. tail = staart *(c)*
+18. egg = ei *(n)*
+19. leaf = blad *(n)*
+20. night/evening = nacht *(c)*, avond *(c)*
+21. star = ster *(c)*
+22. sun = zon *(c)*
+23. moon = maan *(c)*
+24. earth/soil = aarde *(c)*, bodem *(c)*
+25. salt = zout *(n)*
+26. mountain = berg *(c)*
+27. tree = boom *(c)*
+28. rain = regen *(c)*
+29. wind = wind *(c)*
+30. bird = vogel *(c)*
+31. flesh/meat = vlees *(n)*
+32. liver = lever *(c)*
+33. skin/hide = huid *(c)*, vel *(n)*
+34. knee = knie *(c)*
+35. breast/chest = borst *(c)*
+36. person/human = persoon *(c)*, mens *(c)*
+37. man = man *(c)*
+38. woman = vrouw *(c)*
+39. child = kind *(n)*
+40. hair/fur = haar *(n)*, pels *(c)*
+41. mouth = mond *(c)*
+42. neck = nek *(c)*
+43. foot/leg = voet *(c)*, been *(n)*
+44. feather = veer *(c)*, pluim *(c)*
+45. grease/fat = vet *(n)*, smeer *(n)*
+46. smoke = rook *(c)*
+47. ash/soot = as *(c)*, roet *(n)*
+48. sand = zand *(n)*
+49. wood = hout *(n)*
+50. root = wortel *(c)*
+51. rope/cord = touw *(n)*, koord *(n)*
+52. path/road = pad *(n)*, weg *(c)*
+53. year = jaar *(n)*
 
 ---
 
@@ -131,36 +131,36 @@ What are the most basic concepts that virtually all languages express? I’ve do
 
 ## Nouns, Secondary
 
-96. time/instance/occurrence = tijd (c), poos (c), uur (n), keer (c), gelegenheid (c)
-97. shade/shadow = schaduw (c)
-98. house/home = huis (n), woning (c), thuis (n)
-99. head = hoofd (n)
-100. belly/abdomen = buik (c)
-101. navel/belly-button = navel (c)
-102. heart/core = hart (n), kern (c), pit (c)
-103. back = rug (c)
-104. thigh = dij (c)
-105. wing = vleugel (c), vlerk (c)
-106. nail/claw/nail = nagel (c), klauw (c)
-107. animal/beast = dier (n), beest (n)
-108. ant = mier (c)
-109. cat = kat (c)
-110. pig = varken (n)
-111. snake = slang (c)
-112. worm = worm (c)
-113. parent/father/mother = ouder (c), vader (c), moeder (c)
-114. brother/sister = broeder/broer (c), zuster/zus (c)
-115. spouse/husband/wife = gade (c), eega (c), echtgenoot/echtgenote (c), wederhelft (c), man (c), vrouw (c)
-116. day = dag (c), etmaal (n)
-117. cloud = wolk (c)
-118. snow = sneeuw (c)
-119. ice = ijs (n)
-120. river/stream = rivier (c), stroom (c)
-121. sea/ocean = zee (c), oceaan (c), wereldzee (c)
-122. seed = zaad (n)
-123. grass/lawn = gras (n), gazon (n)
-124. flower/blossom = bloem (c), bloesem (c)
-125. bark/husk = schors (c), schaal (c)
+96. time/instance/occurrence = tijd *(c)*, poos *(c)*, uur *(n)*, keer *(c)*, gelegenheid *(c)*
+97. shade/shadow = schaduw *(c)*
+98. house/home = huis *(n)*, woning *(c)*, thuis *(n)*
+99. head = hoofd *(n)*
+100. belly/abdomen = buik *(c)*
+101. navel/belly-button = navel *(c)*
+102. heart/core = hart *(n)*, kern *(c)*, pit *(c)*
+103. back = rug *(c)*
+104. thigh = dij *(c)*
+105. wing = vleugel *(c)*, vlerk *(c)*
+106. nail/claw/nail = nagel *(c)*, klauw *(c)*
+107. animal/beast = dier *(n)*, beest *(n)*
+108. ant = mier *(c)*
+109. cat = kat *(c)*
+110. pig = varken *(n)*
+111. snake = slang *(c)*
+112. worm = worm *(c)*
+113. parent/father/mother = ouder *(c)*, vader *(c)*, moeder *(c)*
+114. brother/sister = broeder/broer *(c)*, zuster/zus *(c)*
+115. spouse/husband/wife = gade *(c)*, eega *(c)*, echtgenoot/echtgenote *(c)*, wederhelft *(c)*, man *(c)*, vrouw *(c)*
+116. day = dag *(c)*, etmaal *(n)*
+117. cloud = wolk *(c)*
+118. snow = sneeuw *(c)*
+119. ice = ijs *(n)*
+120. river/stream = rivier *(c)*, stroom *(c)*
+121. sea/ocean = zee *(c)*, oceaan *(c)*, wereldzee *(c)*
+122. seed = zaad *(n)*
+123. grass/lawn = gras *(n)*, gazon *(n)*
+124. flower/blossom = bloem *(c)*, bloesem *(c)*
+125. bark/husk = schors *(c)*, schaal *(c)*
 
 ---
 
@@ -203,7 +203,7 @@ What are the most basic concepts that virtually all languages express? I’ve do
 155. right/correct/proper = goed, juist, juiste, recht, terecht, correct
 156. bad/wrong = slecht, verkeerd
 157. far/distant = ver
-158. hard (not soft) = hard
+158. hard *(not soft)* = hard
 159. thick = dik
 160. thin = dun
 161. narrow = smal
@@ -215,7 +215,7 @@ What are the most basic concepts that virtually all languages express? I’ve do
 167. wet = nat
 168. smooth = glad
 169. sharp = scherp
-170. dull (not sharp) = saai
+170. dull *(not sharp)* = saai
 171. dirty = vies
 172. short = kort
 173. round = rond
@@ -234,16 +234,16 @@ What are the most basic concepts that virtually all languages express? I’ve do
 181. but/yet/except = maar, nog, toch, behalve
 182. at/in/on = aan, in, op
 183. to/toward = naar
-184. of/from/’s (possessive) = van, uit, -s
+184. of/from/’s *(possessive)* = van, uit, -s
 185. by/through/per/for/because = door, bij, per, omdat
 186. with = met
 187. over/above/on = boven, op
 188. for/in-order-to = voor, om te
-189. so/then (effect) = dus, dan
-190. then/right-away (sequence) = dan, meteen
-191. now/still/doing (ongoing) = nu, nog, -d (progressive aspect)
-192. did/done (past) = -te/-de/-ten/-den (past tense), ge- -t/-d (perfect aspect)
-193. will/be-going-to (future) = zullen
+189. so/then *(effect)* = dus, dan
+190. then/right-away *(sequence)* = dan, meteen
+191. now/still/doing *(ongoing)* = nu, nog, -d *(progressive aspect)*
+192. did/done *(past)* = -te/-de/-ten/-den *(past tense)*, ge- -t/-d *(perfect aspect)*
+193. will/be-going-to *(future)* = zullen
 194. much/many = veel
 195. very/really = erg, zeer, heel, echt
 196. where = waar
