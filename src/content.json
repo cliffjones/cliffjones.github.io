@@ -27,6 +27,26 @@
       "title": "Coding Projects by *",
       "content": ["coding"]
     },
+    "core-dutch-vocabulary": {
+      "title": "Core Ducth Vocabulary (*)",
+      "content": ["core-dutch-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-esperanto-vocabulary": {
+      "title": "Core Esperanto Vocabulary (*)",
+      "content": ["core-esperanto-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-polish-vocabulary": {
+      "title": "Core Polish Vocabulary (*)",
+      "content": ["core-polish-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-spanish-vocabulary": {
+      "title": "Core Spanish Vocabulary (*)",
+      "content": ["core-spanish-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-vocabulary": {
+      "title": "Core Vocabulary Across Languages (*)",
+      "content": ["core-vocabulary", "core-vocabulary-contributing"]
+    },
     "editing-guidelines": {
       "title": "Editing Guidelines by *",
       "content": ["editing-guidelines"]
@@ -45,7 +65,7 @@
     },
     "language": {
       "title": "Language Resources by *",
-      "content": ["linguistics"]
+      "content": ["language-study", "linguistics"]
     },
     "social": {
       "title": "*’s Social Networks",
@@ -56,7 +76,7 @@
       "content": ["stroboscope"]
     },
     "writing": {
-      "title": "Writing by *",
+      "title": "Books, Stories, and Writing Aids by *",
       "content": ["writing"]
     }
   },
@@ -79,6 +99,31 @@
       "title": "Coding",
       "text": "Independent coding projects, mostly in JavaScript.",
       "color": "blue"
+    },
+    "core-dutch-vocabulary": {
+      "title": "Core Dutch Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Dutch.",
+      "color": "green"
+    },
+    "core-esperanto-vocabulary": {
+      "title": "Core Esperanto Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Esperanto.",
+      "color": "green"
+    },
+    "core-polish-vocabulary": {
+      "title": "Core Polish Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Polish.",
+      "color": "green"
+    },
+    "core-spanish-vocabulary": {
+      "title": "Core Spanish Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Spanish.",
+      "color": "green"
+    },
+    "core-vocabulary": {
+      "title": "Core Vocabulary",
+      "text": "A list of 200 basic vocabulary items with translations.",
+      "color": "green"
     },
     "editing-guidelines": {
       "title": "Editing Guidelines",
@@ -130,11 +175,16 @@
     "art": [""],
     "character-types": ["writing"],
     "coding": ["floravision", "hexagraph", "stroboscope", ""],
+    "core-dutch-vocabulary": ["core-vocabulary"],
+    "core-esperanto-vocabulary": ["core-vocabulary"],
+    "core-polish-vocabulary": ["core-vocabulary"],
+    "core-spanish-vocabulary": ["core-vocabulary"],
+    "core-vocabulary": ["core-dutch-vocabulary", "core-esperanto-vocabulary", "core-polish-vocabulary", "core-spanish-vocabulary", "language"],
     "editing-guidelines": ["writing"],
     "floravision": ["coding"],
     "hexagraph": ["coding"],
     "ideas": [""],
-    "language": ["rasl", ""],
+    "language": ["core-vocabulary", "rasl", ""],
     "rasl": ["language"],
     "social": [""],
     "stroboscope": ["coding"],

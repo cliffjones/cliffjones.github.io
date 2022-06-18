@@ -1,12 +1,22 @@
 # Language Study
 
-<!-- [+95 Core Concepts Across Languages](https://www.duolingo.com/comment/4571123) ([+and 105 More](https://www.duolingo.com/comment/4664475))
+<!-- [+95 Core Concepts Across Languages](https://www.duolingo.com/comment/4571123) ([+and 105 More](https://www.duolingo.com/comment/4664475)) -->
 
-[+Learning Romance Languages in Parallel](https://www.duolingo.com/comment/3611036)
+[Core Vocabulary Across Languages](/core-vocabulary)
 
---- -->
+<!-- [+Learning Romance Languages in Parallel](https://www.duolingo.com/comment/3611036) -->
 
-<!-- ## American Sign Language -->
+---
+
+## American Sign Language
+
+[Writing in Romanized ASL](/rasl)
+
+---
+
+## Dutch
+
+[Core Vocabulary in Dutch](/core-dutch-vocabulary)
 
 <!-- --- -->
 
@@ -28,6 +38,12 @@
 
 <!--<a href="http://vokation.com/2008/05/how-to-sound-japanese.html" target="_blank">How to Sound Japanese</a>-->
 
+---
+
+## Esperanto
+
+[Core Vocabulary in Esperanto](/core-esperanto-vocabulary)
+
 <!--## German-->
 
 <!--<a href="http://vokation.com/2009/07/essential-german-vocabulary.html" target="_blank">Essential German Vocabulary</a>-->
@@ -42,9 +58,19 @@
 
 <!--<a href="http://vokation.com/2009/10/jones-romanization-mandarin-chinese.html" target="_blank">Jones Romanization: Mandarin Chinese</a>-->
 
-<!-- ## Spanish
+---
 
-[+The Most Useful Spanish Cognates](https://www.duolingo.com/comment/5508808) -->
+## Polish
+
+[Core Vocabulary in Polish](/core-polish-vocabulary)
+
+---
+
+## Spanish
+
+[Core Vocabulary in Spanish](/core-spanish-vocabulary)
+
+<!-- [+The Most Useful Spanish Cognates](https://www.duolingo.com/comment/5508808) -->
 
 <!--<a href="http://vokation.com/2008/07/spanish-phonology-basics.html" target="_blank">Spanish Phonology (The Basics)</a>-->
 

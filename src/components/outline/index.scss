@@ -3,7 +3,7 @@
 .Outline {
   font-size: $small-font-size;
   line-height: $small-line-height;
-  padding: 0 0 0 $list-padding;
+  padding: 0 0 0 2em;
 
   &--left {
     @media (min-width: $large-width) {

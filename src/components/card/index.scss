@@ -37,10 +37,9 @@
   }
 
   &-title {
-    font-size: $big-font-size;
     font-family: $heading-font;
     line-height: $heading-line-height;
-    margin: 0 0 $box-padding;
+    margin: 0 0 0.4em;
     text-align: center;
 
     &:last-child {
