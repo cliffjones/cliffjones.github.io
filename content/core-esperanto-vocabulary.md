@@ -93,7 +93,7 @@ What are the most basic concepts that virtually all languages express? I’ve do
 73. good = bona
 74. long = longa
 75. red = ruĝa
-76. black = ❤❤❤❤❤
+76. black = nigra
 77. white = blanka
 78. green = verda
 79. yellow = flava
