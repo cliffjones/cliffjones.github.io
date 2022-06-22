@@ -250,7 +250,20 @@ Of course, there was some overlap with the original 95-item list (i.e., items 36
 
 I originlly posted this list on the now-defunct [+Duolingo Discussions](https://support.duolingo.com/hc/en-us/articles/4424678300301-Forum-Announcement-FAQ-) back in 2014. I then posted some translations and asked for help translating the items into different languages. Here’s what we have so far:
 
+- [Danish](/core-danish-vocabulary)
 - [Dutch (Netherlands)](/core-dutch-vocabulary)
 - [Esperanto](/core-esperanto-vocabulary)
+- [French](/core-french-vocabulary)
+- [German](/core-german-vocabulary)
+- [Hungarian](/core-hungarian-vocabulary)
+- [Irish (Gaelic)](/core-irish-vocabulary)
+- [Italian](/core-italian-vocabulary)
+- [Japanese](/core-japanese-vocabulary)
+- [Mandarin Chinese](/core-mandarin-vocabulary)
+- [Norwegian (Bokmål)](/core-norwegian-vocabulary)
 - [Polish](/core-polish-vocabulary)
+- [Portuguese](/core-portuguese-vocabulary)
+- [Russian](/core-russian-vocabulary)
 - [Spanish](/core-spanish-vocabulary)
+- [Turkish](/core-turkish-vocabulary)
+- [Ukrainian](/core-ukrainian-vocabulary)
