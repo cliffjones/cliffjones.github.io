@@ -27,21 +27,73 @@
       "title": "Coding Projects by *",
       "content": ["coding"]
     },
+    "core-danish-vocabulary": {
+      "title": "Core Danish Vocabulary (*)",
+      "content": ["core-danish-vocabulary", "core-vocabulary-contributing"]
+    },
     "core-dutch-vocabulary": {
-      "title": "Core Ducth Vocabulary (*)",
+      "title": "Core Dutch Vocabulary (*)",
       "content": ["core-dutch-vocabulary", "core-vocabulary-contributing"]
     },
     "core-esperanto-vocabulary": {
       "title": "Core Esperanto Vocabulary (*)",
       "content": ["core-esperanto-vocabulary", "core-vocabulary-contributing"]
     },
+    "core-french-vocabulary": {
+      "title": "Core French Vocabulary (*)",
+      "content": ["core-french-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-german-vocabulary": {
+      "title": "Core German Vocabulary (*)",
+      "content": ["core-german-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-hungarian-vocabulary": {
+      "title": "Core Hungarian Vocabulary (*)",
+      "content": ["core-hungarian-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-irish-vocabulary": {
+      "title": "Core Irish Vocabulary (*)",
+      "content": ["core-irish-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-italian-vocabulary": {
+      "title": "Core Italian Vocabulary (*)",
+      "content": ["core-italian-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-japanese-vocabulary": {
+      "title": "Core Japanese Vocabulary (*)",
+      "content": ["core-japanese-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-mandarin-vocabulary": {
+      "title": "Core Mandarin Vocabulary (*)",
+      "content": ["core-mandarin-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-norwegian-vocabulary": {
+      "title": "Core Norwegian Vocabulary (*)",
+      "content": ["core-norwegian-vocabulary", "core-vocabulary-contributing"]
+    },
     "core-polish-vocabulary": {
       "title": "Core Polish Vocabulary (*)",
       "content": ["core-polish-vocabulary", "core-vocabulary-contributing"]
     },
+    "core-portuguese-vocabulary": {
+      "title": "Core Portuguese Vocabulary (*)",
+      "content": ["core-portuguese-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-russian-vocabulary": {
+      "title": "Core Russian Vocabulary (*)",
+      "content": ["core-russian-vocabulary", "core-vocabulary-contributing"]
+    },
     "core-spanish-vocabulary": {
       "title": "Core Spanish Vocabulary (*)",
       "content": ["core-spanish-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-turkish-vocabulary": {
+      "title": "Core Turkish Vocabulary (*)",
+      "content": ["core-turkish-vocabulary", "core-vocabulary-contributing"]
+    },
+    "core-ukrainian-vocabulary": {
+      "title": "Core Ukrainian Vocabulary (*)",
+      "content": ["core-ukrainian-vocabulary", "core-vocabulary-contributing"]
     },
     "core-vocabulary": {
       "title": "Core Vocabulary Across Languages (*)",
@@ -100,6 +152,11 @@
       "text": "Independent coding projects, mostly in JavaScript.",
       "color": "blue"
     },
+    "core-danish-vocabulary": {
+      "title": "Core Danish Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Danish.",
+      "color": "green"
+    },
     "core-dutch-vocabulary": {
       "title": "Core Dutch Vocabulary",
       "text": "A list of 200 basic vocabulary items in Dutch.",
@@ -110,14 +167,74 @@
       "text": "A list of 200 basic vocabulary items in Esperanto.",
       "color": "green"
     },
+    "core-french-vocabulary": {
+      "title": "Core French Vocabulary",
+      "text": "A list of 200 basic vocabulary items in French.",
+      "color": "green"
+    },
+    "core-german-vocabulary": {
+      "title": "Core German Vocabulary",
+      "text": "A list of 200 basic vocabulary items in German.",
+      "color": "green"
+    },
+    "core-hungarian-vocabulary": {
+      "title": "Core Hungarian Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Hungarian.",
+      "color": "green"
+    },
+    "core-irish-vocabulary": {
+      "title": "Core Irish Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Irish.",
+      "color": "green"
+    },
+    "core-italian-vocabulary": {
+      "title": "Core Italian Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Italian.",
+      "color": "green"
+    },
+    "core-japanese-vocabulary": {
+      "title": "Core Japanese Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Japanese.",
+      "color": "green"
+    },
+    "core-mandarin-vocabulary": {
+      "title": "Core Mandarin Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Mandarin.",
+      "color": "green"
+    },
+    "core-norwegian-vocabulary": {
+      "title": "Core Norwegian Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Norwegian.",
+      "color": "green"
+    },
     "core-polish-vocabulary": {
       "title": "Core Polish Vocabulary",
       "text": "A list of 200 basic vocabulary items in Polish.",
       "color": "green"
     },
+    "core-portuguese-vocabulary": {
+      "title": "Core Portuguese Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Portuguese.",
+      "color": "green"
+    },
+    "core-russian-vocabulary": {
+      "title": "Core Russian Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Russian.",
+      "color": "green"
+    },
     "core-spanish-vocabulary": {
       "title": "Core Spanish Vocabulary",
       "text": "A list of 200 basic vocabulary items in Spanish.",
+      "color": "green"
+    },
+    "core-turkish-vocabulary": {
+      "title": "Core Turkish Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Turkish.",
+      "color": "green"
+    },
+    "core-ukrainian-vocabulary": {
+      "title": "Core Ukrainian Vocabulary",
+      "text": "A list of 200 basic vocabulary items in Ukrainian.",
       "color": "green"
     },
     "core-vocabulary": {
@@ -175,11 +292,24 @@
     "art": [""],
     "character-types": ["writing"],
     "coding": ["floravision", "hexagraph", "stroboscope", ""],
+    "core-danish-vocabulary": ["core-vocabulary"],
     "core-dutch-vocabulary": ["core-vocabulary"],
     "core-esperanto-vocabulary": ["core-vocabulary"],
+    "core-french-vocabulary": ["core-vocabulary"],
+    "core-german-vocabulary": ["core-vocabulary"],
+    "core-hungarian-vocabulary": ["core-vocabulary"],
+    "core-irish-vocabulary": ["core-vocabulary"],
+    "core-italian-vocabulary": ["core-vocabulary"],
+    "core-japanese-vocabulary": ["core-vocabulary"],
+    "core-mandarin-vocabulary": ["core-vocabulary"],
+    "core-norwegian-vocabulary": ["core-vocabulary"],
     "core-polish-vocabulary": ["core-vocabulary"],
+    "core-portuguese-vocabulary": ["core-vocabulary"],
+    "core-russian-vocabulary": ["core-vocabulary"],
     "core-spanish-vocabulary": ["core-vocabulary"],
-    "core-vocabulary": ["core-dutch-vocabulary", "core-esperanto-vocabulary", "core-polish-vocabulary", "core-spanish-vocabulary", "language"],
+    "core-turkish-vocabulary": ["core-vocabulary"],
+    "core-ukrainian-vocabulary": ["core-vocabulary"],
+    "core-vocabulary": ["core-danish-vocabulary", "core-dutch-vocabulary", "core-esperanto-vocabulary", "core-french-vocabulary", "core-german-vocabulary", "core-hungarian-vocabulary", "core-irish-vocabulary", "core-italian-vocabulary", "core-japanese-vocabulary", "core-mandarin-vocabulary", "core-norwegian-vocabulary", "core-polish-vocabulary", "core-portuguese-vocabulary", "core-russian-vocabulary", "core-spanish-vocabulary", "core-turkish-vocabulary", "core-ukrainian-vocabulary", "language"],
     "editing-guidelines": ["writing"],
     "floravision": ["coding"],
     "hexagraph": ["coding"],
