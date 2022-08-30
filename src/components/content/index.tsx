@@ -113,14 +113,6 @@ function formatQuote({ node, children, ...props }) {
   return <blockquote {...newProps}>{newChildren}</blockquote>;
 }
 
-// Smoothly scrolls to a given element if its ID is found in the DOM.
-// function scrollToId(id: string) {
-//   const target = document.getElementById(id);
-//   if (target) {
-//     target.scrollIntoView({ behavior: 'smooth' });
-//   }
-// }
-
 // Customizes link formatting in Markdown content.
 // TODO: Make flexible link component that handles smooth scrolling, etc.
 function formatLink({ node, children, ...props }) {

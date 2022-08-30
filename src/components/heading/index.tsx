@@ -41,7 +41,7 @@ function scrollToId(id: string) {
   }
 }
 
-// Replaces the default behavior or page-internal links.
+// Replaces the default behavior for page-internal links.
 function doAnchorClick(event: MouseEvent<HTMLAnchorElement>) {
   event.preventDefault();
   const anchor = event.target as HTMLAnchorElement;

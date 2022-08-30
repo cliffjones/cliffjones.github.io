@@ -2,7 +2,7 @@ import { useRef, useEffect } from 'react';
 import { useStore } from 'react-redux';
 import castArray from 'lodash/castarray';
 
-// Subscribes to redux store events.
+// Subscribes to Redux store events.
 export function useReduxAction(effect: (action: any) => void, type: any, deps = []) {
   const currentValue = useRef(null);
   const store = useStore();
