@@ -6,6 +6,7 @@ import content from './content.json';
 import Header from './components/header';
 import Footer from './components/footer';
 import Page from './components/page';
+import Lexic from './components/lexic';
 import ImageSearch from './components/image-search';
 
 // Hook to call a given function when the browser location changes.
@@ -39,6 +40,7 @@ function App() {
           {Object.keys(content.pages).map((path) => (
             <Route key={path} path={`/${path}`} element={<Page path={path} />} />
           ))}
+          <Route path='/lexic' element={<Lexic />} />
           <Route path='/image-search' element={<ImageSearch />} />
           <Route path='/asl/writing' element={<Navigate to='/rasl' replace />} />
         </Routes>

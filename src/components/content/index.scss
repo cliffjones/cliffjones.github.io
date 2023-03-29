@@ -5,10 +5,12 @@ $base-class: 'Content';
   background: $section-bg-color;
   border: $line-thickness solid $line-color;
   border-radius: $box-radius;
-  margin: $section-space $box-padding;
+  margin: $section-space auto;
+  max-width: $max-width;
   opacity: 1;
   padding: $box-padding;
   transition: opacity $fade-time;
+  width: calc(100% - ($box-padding * 2));
 
   > :first-child {
     margin-top: 0;

@@ -4,15 +4,19 @@
 
 ### [+~icon facebook~ Facebook](http://www.facebook.com/mrcliffjonesjr)
 
-Mostly just a place for me to keep in touch with family and coworkers. I also have a [+dreampunk group](https://www.facebook.com/groups/dreampunk) here.
+A decent place to keep in touch with family and friends, particularly the older ones. I also have a [+dreampunk group](https://www.facebook.com/groups/dreampunk) here.
 
-### [+~icon twitter~ Twitter](http://twitter.com/cliffjonesjr)
+### [+~icon mastodon~ Mastodon](https://sfba.social/@cliffjones)
 
-Kind of a hot mess, but still a decent place to network with [+other writers](https://twitter.com/i/lists/1231856887311802368), including the occasional [+celebrity mention](https://twitter.com/CliffJonesJr/status/1143727995351441409).
+A decentralized, open-source microblogging system that many people (myself included) flocked to after Twitter went downhill. Always free to use and free of ads.
 
 ### [+~icon reddit~ Reddit](https://www.reddit.com/user/whatisdreampunk)
 
 I want to like this one a lot more than I actually do. Pretty good content, but the flip side of that is that if you just want to post random crap, they make that kind of difficult.
+
+### [+~icon twitter~ Twitter](http://twitter.com/cliffjonesjr)
+
+This used to be a nice place to network with [+other writers](https://twitter.com/i/lists/1231856887311802368), including the occasional [+celebrity mention](https://twitter.com/CliffJonesJr/status/1143727995351441409). Sadly, it's become a nest of bigots, trolls, and spammers. I'm keeping my account in the hopes that Elon sells it off and the new owner cleans things up a bit.
 
 ### [+~icon linkedin~ LinkedIn](https://www.linkedin.com/in/cliff-jones-b2567227)
 
@@ -24,15 +28,19 @@ This can be handy when looking for a job, but otherwise it’s like an even more
 
 ### [+~icon instagram~ Instagram](http://instagram.com/cliffjonesjr)
 
-I use this every once in a while to post photos of stuff I find interesting. No big whoop.
+I use this to post photos of stuff I find interesting. No big whoop.
+
+### [+~icon youtube~ YouTube](https://www.youtube.com/channel/UCu3tev2uZ3Fh5ggVJq5IExA)
+
+I haven't actually posted a video in years, but I'd like to get back to that someday.
+
+### [+~icon tumblr~ Tumblr](http://whatisdreampunk.tumblr.com/)
+
+In my experience, this is a mesmerizing time-waster. Good for exploring vibes and aesthetics.
 
 ### [+Threadless](https://dreampunk.threadless.com/)
 
 ### [+Redbubble](https://whatisdreampunk.redbubble.com/)
-
-### [+~icon youtube~ YouTube](https://www.youtube.com/channel/UCu3tev2uZ3Fh5ggVJq5IExA)
-
-### [+~icon tumblr~ Tumblr](http://whatisdreampunk.tumblr.com/)
 
 ---
 

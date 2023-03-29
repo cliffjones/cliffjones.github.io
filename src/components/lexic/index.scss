@@ -1,0 +1,46 @@
+@import '../../tokens.scss';
+
+.Lexic {
+  &-query {
+    display: block;
+    margin: $section-space auto;
+    width: calc(100% - $box-padding*4);
+  }
+
+  &-results {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+    background: $section-bg-color;
+    border: $line-thickness solid $line-color;
+    border-radius: $box-radius;
+    margin: $section-space $box-padding;
+    opacity: 1;
+    padding: $box-padding;
+  }
+
+  &-item {
+    border-bottom: $line-thickness solid $line-color;
+    display: flex;
+    line-height: $small-line-height;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  &-cell {
+    border-right: $line-thickness solid $line-color;
+    padding: $box-padding;
+    width: 50%;
+
+    &:first-child {
+      text-align: right;
+    }
+
+    &:last-child {
+      border-right: 0;
+    }
+  }
+}

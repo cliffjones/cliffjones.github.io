@@ -17,6 +17,7 @@ import {
   faGoodreadsG,
   faInstagram,
   faLinkedinIn,
+  faMastodon,
   faMediumM,
   faPatreon,
   faQuora,
@@ -114,6 +115,13 @@ function Icon({ name, hint = '', action = '', color = '' }) {
       return <a {...props}><FontAwesomeIcon icon={faLinkedinIn} /></a>;
     }
     return <span {...props}><FontAwesomeIcon icon={faLinkedinIn} /></span>;
+  }
+
+  if (name === 'mastodon') {
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faMastodon} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faMastodon} /></span>;
   }
 
   if (name === 'medium') {

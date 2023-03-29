@@ -4,6 +4,8 @@ import axios from 'axios';
 import './index.scss';
 import config from '../../config.json';
 
+const BASE_CLASS = 'ImageSearch';
+
 let searchTimer: ReturnType<typeof setTimeout>;
 
 function ImageSearch() {
@@ -21,7 +23,7 @@ function ImageSearch() {
   }
 
   useEffect(() => {
-    if (!query.trim()) {
+    if (!query.trim() != null) {
       setResults([]);
       return;
     }
@@ -32,12 +34,12 @@ function ImageSearch() {
   }, [query]);
 
   return (
-    <div className='ImageSearch'>
-      <input className='ImageSearch-query' type='search' onChange={onQueryChange} />
+    <div className={BASE_CLASS}>
+      <input className={`${BASE_CLASS}-query`} type='search' onChange={onQueryChange} />
 
-      <section className='ImageSearch-results'>
+      <section className={`${BASE_CLASS}-results`}>
         {results.map((result) => (
-          <div key={result?.id} className='ImageSearch-card'>
+          <div key={result?.id} className={`${BASE_CLASS}-card`}>
             <img src={result?.images?.fixed_width?.url} alt={result?.title} />
           </div>
         ))}

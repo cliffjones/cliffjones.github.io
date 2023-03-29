@@ -17,24 +17,24 @@ function Footer() {
           action='http://www.facebook.com/mrcliffjonesjr'
         />
         <Icon
-          name='twitter'
-          hint='Twitter'
-          action='http://twitter.com/cliffjonesjr'
-        />
-        <Icon
           name='instagram'
           hint='Instagram'
           action='http://instagram.com/cliffjonesjr'
         />
         <Icon
+          name='mastodon'
+          hint='Mastodon'
+          action='https://sfba.social/@cliffjones'
+        />
+        <Icon
+          name='reddit'
+          hint='Reddit'
+          action='https://www.reddit.com/user/whatisdreampunk'
+        />
+        <Icon
           name='amazon'
           hint='Amazon'
           action='https://www.amazon.com/Cliff-Jones-Jr./e/B08LF1PBFY'
-        />
-        <Icon
-          name='wattpad'
-          hint='Wattpad'
-          action='http://www.wattpad.com/user/CliffJonesJr'
         />
         <Icon
           name='goodreads'
