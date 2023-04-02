@@ -8,13 +8,12 @@
   }
 
   &-results {
+    background: $section-bg-color;
+    border-radius: $box-radius;
+    border: $line-thickness solid $line-color;
     display: flex;
     flex-direction: column;
     list-style: none;
-
-    background: $section-bg-color;
-    border: $line-thickness solid $line-color;
-    border-radius: $box-radius;
     margin: $section-space $box-padding;
     opacity: 1;
     padding: $box-padding;
@@ -22,18 +21,26 @@
 
   &-item {
     border-bottom: $line-thickness solid $line-color;
-    display: flex;
     line-height: $small-line-height;
 
     &:last-child {
       border-bottom: 0;
     }
+
+    ol {
+      display: grid;
+      grid-auto-columns: 1fr;
+      grid-auto-flow: column;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
   }
 
   &-cell {
     border-right: $line-thickness solid $line-color;
+    overflow-x: auto;
     padding: $box-padding;
-    width: 50%;
 
     &:first-child {
       text-align: right;

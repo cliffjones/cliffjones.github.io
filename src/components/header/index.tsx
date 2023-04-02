@@ -21,7 +21,7 @@ function Header() {
           color='blue'
         />
         <Icon
-          name='note'
+          name='book'
           hint='Writing'
           action='/writing'
           color='brown'

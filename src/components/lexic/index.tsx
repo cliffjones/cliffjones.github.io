@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import axios from 'axios';
 import compact from 'lodash/compact';
 import union from 'lodash/union';
@@ -31,20 +31,18 @@ function Lexic() {
   const [query, setQuery] = useState<string>('');
   const [results, setResults] = useState<any[]>([]);
 
+  // Determine which voaculary lists to use.
   // TODO: Make this URL-dependent.
   useEffect(() => {
-    setDictPaths(['basics-en', 'basics-alo']);
+    setDictPaths([
+      'basics-en',
+      'basics-alo',
+      'basics-yili',
+      'basics-yomba',
+      'basics-calda',
+      'basics-gowee',
+    ]);
   }, []);
-
-  const onQueryChange: React.ChangeEventHandler = (event) => {
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => {
-      const target = event?.target as HTMLInputElement;
-      if (target?.value != null) {
-        setQuery(target.value.toLocaleLowerCase().trim().replace(/\s\s+/g, ' '));
-      }
-    }, config.delays.debounceTyping);
-  }
 
   // Load the specified vocabulary lists.
   useEffect(() => {
@@ -65,30 +63,54 @@ function Lexic() {
   }, [dictPaths, dicts]);
 
   useEffect(() => {
-    if (!query || dictPaths.length < 2 || !dicts[dictPaths[0]] || !dicts[dictPaths[1]]) {
+    if (!query || !dictPaths.length) {
+      setResults([]);
+      return;
+    }
+    const isComplete = dictPaths.reduce((acc, dictPath) => acc && dicts[dictPath], true);
+    if (!isComplete) {
       setResults([]);
       return;
     }
 
-    const newResults = union(
-      getResults(query, dicts[dictPaths[0]]),
-      getResults(query, dicts[dictPaths[1]]),
-    );
+    const resultsFromDicts = dictPaths.map(dictPath => getResults(query, dicts[dictPath]));
+    const newResults = union(...resultsFromDicts);
     if (newResults.length > MAX_RESULTS) {
       newResults.length = MAX_RESULTS;
     }
     setResults(newResults);
   }, [dictPaths, dicts, query]);
 
-  // Convert the fetched results to JSX, skipping any items without both sides.
-  const resultsEls = results.map((id: string) => dicts[dictPaths[0]][id] && dicts[dictPaths[1]][id]
-    ? <li key={id} className={`${BASE_CLASS}-item`}>
-      <span className={`${BASE_CLASS}-cell`}>{dicts[dictPaths[0]][id].forms.join(' / ')}</span>
-      <span className={`${BASE_CLASS}-cell`}>{dicts[dictPaths[1]][id].forms.join(' / ')}</span>
-    </li>
-    : <></>
-  );
+  // Whenever the query field is edited, wait for the typing to stop, then update.
+  const onQueryChange: React.ChangeEventHandler = useCallback((event) => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      const target = event?.target as HTMLInputElement;
+      if (target?.value != null) {
+        setQuery(target.value.toLocaleLowerCase().trim().replace(/\s\s+/g, ' '));
+      }
+    }, config.delays.debounceTyping);
+  }, []);
 
+  // Convert the fetched results to JSX, skipping any incomplete items.
+  const resultsEls = results.map((id: string) => {
+    const isComplete = dictPaths.reduce((acc, dictPath) => acc && dicts[dictPath][id], true);
+    if (!isComplete) {
+      return <></>;
+    }
+
+    return <li key={id} className={`${BASE_CLASS}-item`}>
+      <ol>
+        {dictPaths.map(dictPath => {
+          return <li key={`${id}_${dictPath}`} className={`${BASE_CLASS}-cell`}>
+            {dicts[dictPath][id].forms.join(' / ')}
+          </li>;
+        })}
+      </ol>
+    </li>;
+  });
+
+  // Build the component.
   return <div className={BASE_CLASS}>
     <input className={`${BASE_CLASS}-query`} type='search' onChange={onQueryChange} />
     {resultsEls.length

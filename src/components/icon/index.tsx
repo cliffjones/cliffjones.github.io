@@ -1,15 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faComment,
-  faEdit,
-  faEye,
-  faKeyboard,
-  faLightbulb,
-  faStar,
-  faUser,
-} from '@fortawesome/free-regular-svg-icons';
-import {
   faAmazon,
   faCodepen,
   faFacebookF,
@@ -26,6 +17,18 @@ import {
   faTwitter,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
+import {
+  faEdit,
+  faEye,
+  faKeyboard,
+  faLightbulb,
+  faStar,
+  faUser,
+} from '@fortawesome/free-regular-svg-icons';
+import {
+  faBookBookmark,
+  faComment,
+} from '@fortawesome/free-solid-svg-icons';
 
 import './index.scss';
 
@@ -61,6 +64,10 @@ function Icon({ name, hint = '', action = '', color = '' }) {
       return <a {...props}><FontAwesomeIcon icon={faAmazon} /></a>;
     }
     return <span {...props}><FontAwesomeIcon icon={faAmazon} /></span>;
+  }
+
+  if (name === 'book') {
+    return <NavLink {...props}><FontAwesomeIcon icon={faBookBookmark} /></NavLink>;
   }
 
   if (name === 'codepen') {
