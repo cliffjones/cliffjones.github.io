@@ -1,0 +1,18 @@
+@import '../../tokens.scss';
+$base-class: 'Ticker';
+
+.#{$base-class} {
+  background: $section-bg-color;
+  border: $line-thickness solid $line-color;
+  border-radius: $box-radius;
+  margin: $section-space auto;
+  max-width: $max-width;
+  opacity: 1;
+  padding: $box-padding;
+  transition: opacity $fade-time;
+  width: calc(100% - ($box-padding * 2));
+
+  ul {
+    margin: 0;
+  }
+}
