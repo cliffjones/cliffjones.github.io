@@ -2,13 +2,17 @@
 
 ## News and Networking
 
-### [+~icon facebook~ Facebook](http://www.facebook.com/mrcliffjonesjr)
+### [+~icon substack~ Substack](https://cliffjones.substack.com/)
 
-A decent place to keep in touch with family and friends, particularly the older ones. I also have a [+dreampunk group](https://www.facebook.com/groups/dreampunk) here.
+This is my primary social media these days. My posts here are mostly free, but I also include short stories and special goodies for paid subscribers.
 
 ### [+~icon mastodon~ Mastodon](https://sfba.social/@cliffjones)
 
 A decentralized, open-source microblogging system that many people (myself included) flocked to after Twitter went downhill. Always free to use and free of ads.
+
+### [+~icon facebook~ Facebook](http://www.facebook.com/mrcliffjonesjr)
+
+For all its flaws, still a decent place to keep in touch with family and friends, particularly the older ones. I also have a [+dreampunk group](https://www.facebook.com/groups/dreampunk) here.
 
 ### [+~icon reddit~ Reddit](https://www.reddit.com/user/whatisdreampunk)
 

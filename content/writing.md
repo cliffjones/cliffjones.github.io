@@ -34,13 +34,15 @@ A somewhat modern retelling of the ancient Welsh folk tale of Elidyr. Elements o
 
 Look for “Eli and the Golden Caves” in *Mirror Mirror*, available through [+Amazon](https://www.amazon.com/Mirror-Compendium-Fractured-Fairytales-ebook/dp/B09NTZP38F), [+Barnes & Noble](https://www.barnesandnoble.com/w/mirror-mirror-emily-barnett-kudeviz/1140801185), [+Walmart](https://www.walmart.com/ip/Mirror-Mirror-Paperback-9781737920724/664166059), and others. Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/59893301-mirror-mirror).
 
+You can also read [+“Eli and the Golden Caves”](https://cliffjones.substack.com/p/eli-and-the-golden-caves) on Substack.
+
 ---
 
 ## ![>cover of Amaretto](covers/amaretto) Amaretto
 
 A young couple return from a week-long second honeymoon in Japan expecting to come home and pick up life right where they left off. But something strange happened while they were in the air. The world has moved on without them.
 
-Read [+“Amaretto”](https://www.wattpad.com/story/120747081-amaretto) for free on Wattpad!
+Read [+“Amaretto”](https://cliffjones.substack.com/p/amaretto) on Substack.
 
 ---
 
@@ -48,4 +50,4 @@ Read [+“Amaretto”](https://www.wattpad.com/story/120747081-amaretto) for fre
 
 A student visits the home of a renowned professor who has made an offer to tutor the boy in mathematics. Over an unusual cup of tea, the two begin discussing geometry as planned, but things escalate quickly.
 
-Read [+“Sacred Geometry”](https://www.wattpad.com/story/52489413-sacred-geometry) for free on Wattpad!
+Read [+“Sacred Geometry”](https://cliffjones.substack.com/p/sacred-geometry) on Substack.
