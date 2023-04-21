@@ -12,7 +12,17 @@ $base-class: 'Ticker';
   transition: opacity $fade-time;
   width: calc(100% - ($box-padding * 2));
 
-  ul {
-    margin: 0;
+  &-row {
+    display: flex;
+
+    ul {
+      list-style: none;
+      margin: 0 0 0 $cell-padding;
+      padding: 0;
+    }
+
+    li {
+      display: inline;
+    }
   }
 }

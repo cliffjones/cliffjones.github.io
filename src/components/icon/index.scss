@@ -84,6 +84,17 @@
     background-color: #ff5700;
   }
 
+  &--substack {
+    background-color: $text-color;
+    background-image: url('https://ik.imagekit.io/cliff/icons/substack');
+    background-size: cover;
+
+    &:focus,
+    &:hover {
+      background-color: $link-focus-color;
+    }
+  }
+
   &--tumblr {
     background-color: #2c4762;
   }

@@ -175,6 +175,13 @@ function Icon({ name, hint = '', action = '', color = '' }) {
     return <span {...props}><FontAwesomeIcon icon={faStar} spin /></span>;
   }
 
+  if (name === 'substack') {
+    if (props.href) {
+      return <a {...props}><span className={HIDDEN_CLASS}>{hint}</span></a>;
+    }
+    return <span {...props}></span>;
+  }
+
   if (name === 'tumblr') {
     if (props.href) {
       return <a {...props}><FontAwesomeIcon icon={faTumblr} /></a>;

@@ -15,16 +15,16 @@ function Header() {
 
       <nav className='Header-icons'>
         <Icon
-          name='keyboard'
-          hint='Coding'
-          action='/coding'
-          color='blue'
-        />
-        <Icon
           name='book'
           hint='Writing'
           action='/writing'
           color='brown'
+        />
+        <Icon
+          name='keyboard'
+          hint='Coding'
+          action='/coding'
+          color='blue'
         />
         <Icon
           name='speech'
