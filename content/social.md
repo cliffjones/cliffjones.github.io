@@ -44,19 +44,25 @@ In my experience, this is a mesmerizing time-waster. Good for exploring vibes an
 
 ### [+Threadless](https://dreampunk.threadless.com/)
 
+Buy some merch, like T-shirts I designed.
+
 ### [+Redbubble](https://whatisdreampunk.redbubble.com/)
+
+An alternative merch source.
 
 ---
 
 ## Reading and Writing
 
+### [+~icon goodreads~ Goodreads](https://www.goodreads.com/cliffjones)
+
 ### [+~icon amazon~ Amazon](https://www.amazon.com/Cliff-Jones-Jr/e/B08LF1PBFY)
 
-### [+~icon wattpad~ Wattpad](http://www.wattpad.com/user/CliffJonesJr)
+### [+~icon patreon~ Patreon](https://www.patreon.com/cliffjonesjr)
 
 <!-- ### [+~icon medium~ Medium](https://medium.com/@cliffjonesjr) -->
 
-### [+~icon goodreads~ Goodreads](https://www.goodreads.com/cliffjones)
+### [+~icon wattpad~ Wattpad](http://www.wattpad.com/user/CliffJonesJr)
 
 ---
 
@@ -76,16 +82,14 @@ In my experience, this is a mesmerizing time-waster. Good for exploring vibes an
 
 ### [+Dwitter](https://www.dwitter.net/u/CliffJonesJr)
 
----
+<!-- ---
 
 ## Funding
 
-<!-- ### [+Venmo](https://venmo.com/CliffJonesJr) -->
-
-<!-- ### [+Patreon](https://www.patreon.com/cliffjonesjr) -->
+### [+Venmo](https://venmo.com/CliffJonesJr)
 
 ### [+Buy Me a Coffee](https://www.buymeacoffee.com/vI4gqOS)
 
 ### [+Ko-fi](https://ko-fi.com/cliff)
 
-### [+Flattr](https://flattr.com/@CliffJones)
+### [+Flattr](https://flattr.com/@CliffJones) -->
