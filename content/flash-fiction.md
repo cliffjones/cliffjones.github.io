@@ -1,6 +1,6 @@
 # Flash Fiction
 
-## Barefoot
+## ![}cover of Barefoot](covers/barefoot) Barefoot
 
 Read [+“Barefoot” on Substack](https://cliffjones.substack.com/p/barefoot) or [+Patreon](https://www.patreon.com/posts/barefoot-82213447).
 
@@ -24,6 +24,6 @@ Read [+“Sunset in La La Land” on Substack](https://cliffjones.substack.com/p
 
 ---
 
-## How Terra Stole the Sun
+## ![}cover of How Terra Stole the Sun](covers/how-terra-stole-the-sun) How Terra Stole the Sun
 
 Read [+“How Terra Stole the Sun” on Substack](https://cliffjones.substack.com/p/how-terra-stole-the-sun) or [+Patreon](https://www.patreon.com/posts/how-terra-stole-82213442).
