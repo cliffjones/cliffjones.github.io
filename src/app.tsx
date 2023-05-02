@@ -34,17 +34,20 @@ function App() {
   });
 
   return (
-    <div className='App'>
+    <div className="App">
       <Header />
-      <main className='App-main'>
+      <main className="App-main">
         <Routes>
           {Object.keys(content.pages).map((path) => (
             <Route key={path} path={`/${path}`} element={<Page path={path} />} />
           ))}
-          <Route path='/lexic' element={<Lexic />} />
-          <Route path='/ticker' element={<Ticker />} />
-          <Route path='/image-search' element={<ImageSearch />} />
-          <Route path='/asl/writing' element={<Navigate to='/rasl' replace />} />
+          <Route path="/lexic" element={<Lexic />} />
+          <Route path="/ticker" element={<Ticker />} />
+          <Route path="/image-search" element={<ImageSearch />} />
+
+          {/* Redirect old paths. */}
+          <Route path="/asl/writing" element={<Navigate to="/rasl" replace />} />
+          <Route path="/dreampunk/anthology" element={<Navigate to="/mirrormaze" replace />} />
         </Routes>
       </main>
       <Footer />

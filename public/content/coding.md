@@ -8,7 +8,7 @@ While doing some research on [+William S. Burroughs](https://en.wikipedia.org/wi
 
 ---
 
-### [![>a still of an animated eye](fv-eye-capture) Floravision](/floravision)
+### [![}a still of an animated eye](fv-eye-capture) Floravision](/floravision)
 
 I found myself wondering, *What if instead of square pixels, we used overlapping circles in a [+Flower of Life](https://en.wikipedia.org/wiki/Overlapping_circles_grid) configuration?* So I tried it, and it’s mesmerizing.
 
@@ -16,7 +16,7 @@ Making new animations is just a matter of dropping different images onto the pag
 
 ---
 
-### [+![>a screen shot of a swirly animation](dwitter-swirl) Dwitter](https://www.dwitter.net/u/CliffJonesJr)
+### [+![}a screen shot of a swirly animation](dwitter-swirl) Dwitter](https://www.dwitter.net/u/CliffJonesJr)
 
 My Dwitter feed hosts a variety of trippy canvas-based JavaScript animations, all 140 characters or less! (Don’t look here for good coding style though. It’s all about keeping under that character limit.)
 
@@ -30,7 +30,7 @@ A simple painting tool using overlapping hexagons. They slowly fade, so it’s s
 
 ---
 
-### [+![>a screen shot of a key-painted character](key-painter-crazy-hair) Key Painter](https://www.khanacademy.org/computer-programming/key-painter/5578510789246976)
+### [+![}a screen shot of a key-painted character](key-painter-crazy-hair) Key Painter](https://www.khanacademy.org/computer-programming/key-painter/5578510789246976)
 
 This is a fun little app I put together for Khan Academy that lets you paint with your mouse while selecting colors with your keyboard. Colors can be blended and adjusted in real time.
 
@@ -62,6 +62,6 @@ This is a simple introductory programming lesson I designed for use with my daug
 
 ---
 
-### [+![>a screen shot of the presentation](phonological-features) Phonological Features as Overlapping Elements](https://www.khanacademy.org/computer-programming/phonological-features-as-overlapping-elements/6163632156573696)
+### [+![}a screen shot of the presentation](phonological-features) Phonological Features as Overlapping Elements](https://www.khanacademy.org/computer-programming/phonological-features-as-overlapping-elements/6163632156573696)
 
 This is my contribution to Khan Academy’s linguistics section. Several methods of phonological analysis are illustrated in parallel, including my own system, which I developed while working on [+my master’s thesis](https://lscmontgomerycac.com/wp-content/uploads/2012/01/developmentalvariation_cliffjones.pdf "Developmental Variation in Children’s Acquisition of Metrical Structures").

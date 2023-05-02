@@ -21,6 +21,8 @@ const BASE_CLASS = 'Content';
 const LOADING_CLASS = `${BASE_CLASS}--loading`;
 const HEADING_CLASS = `${BASE_CLASS}-heading`;
 const BLOCK_CLASS = `${BASE_CLASS}-block`;
+const BLOCK_LEFT_CLASS = `${BLOCK_CLASS}--left`;
+const BLOCK_RIGHT_CLASS = `${BLOCK_CLASS}--right`;
 const BLOCK_CENTER_CLASS = `${BLOCK_CLASS}--center`;
 const LIST_CLASS = `${BASE_CLASS}-list`;
 const QUOTE_CLASS = `${BASE_CLASS}-quote`;
@@ -38,6 +40,11 @@ function addClassName(props: any, className: string) {
   props.className = props.className ? `${props.className} ${className}` : className;
 }
 
+// Determines whether a given node is a string starting with a given character.
+function nodeStartsWith(node: any, prefix: string) {
+  return typeof node === 'string' && node.startsWith(prefix);
+}
+
 // Customizes heading formatting in Markdown content.
 function formatHeading({ node, children, ...props }) {
   const newProps = { ...props };
@@ -52,29 +59,39 @@ function formatHeading({ node, children, ...props }) {
 
 // Customizes paragraph and figure formatting in Markdown content.
 function formatBlock({ node, children, ...props }) {
-  const newChildren = Children.toArray(children);
+  let newChildren = Children.toArray(children);
   if (!newChildren.length) {
-    return null;
+    return <></>;
   }
 
   // Make sure the first child isn't an embedded component.
   const firstChild = (typeof newChildren[0] === 'object') ? newChildren[0] as any : null;
-  if (firstChild?.props.node?.tagName === 'del') {
+  if (firstChild?.props?.node?.tagName === 'del') {
     return <>{newChildren}</>;
   }
 
+  // Handle the special case of block quotes (which must start with a quotation mark).
   const newProps = { ...props };
   addClassName(newProps, BLOCK_CLASS);
 
-  // Center blocks starting with a caret.
-  if (typeof newChildren[0] === 'string' && newChildren[0].startsWith('^')) {
-    newChildren[0] = newChildren[0].slice(1);
-    addClassName(newProps, BLOCK_CENTER_CLASS);
+  // Align blocks starting with a left brace or a caret.
+  const leftAlign = nodeStartsWith(newChildren[0], '{');
+  const rightAlign = nodeStartsWith(newChildren[0], '}');
+  const centerAlign = !leftAlign && nodeStartsWith(newChildren[0], '^');
+  if (leftAlign || rightAlign || centerAlign) {
+    if (leftAlign) {
+      addClassName(newProps, BLOCK_LEFT_CLASS);
+    } else if (rightAlign) {
+      addClassName(newProps, BLOCK_RIGHT_CLASS);
+    } else {
+      addClassName(newProps, BLOCK_CENTER_CLASS);
+    }
+    newChildren[0] = (newChildren[0] as string).slice(1);
   }
 
   // If an exclamation point starts the block, this should be a figure.
-  if (typeof newChildren[0] === 'string' && newChildren[0].startsWith('!')) {
-    newChildren[0] = newChildren[0].slice(1);
+  if (nodeStartsWith(newChildren[0], '!')) {
+    newChildren[0] = (newChildren[0] as string).slice(1);
 
     // Find the first plain text child and start the caption there.
     const captionStart = newChildren.findIndex((el) => (typeof el === 'string' && el.trim()));
@@ -91,6 +108,10 @@ function formatBlock({ node, children, ...props }) {
 
 // Customizes list formatting in Markdown content.
 function formatList({ node, children, ...props }) {
+  if (!children.length) {
+    return <></>;
+  }
+
   const newProps = { ...props };
   delete newProps.ordered; // Remove this auto-generated nonstandard attribute.
   addClassName(newProps, LIST_CLASS);
@@ -106,7 +127,11 @@ function formatList({ node, children, ...props }) {
 
 // Customizes block quote formatting in Markdown content.
 function formatQuote({ node, children, ...props }) {
-  let newChildren = Children.toArray(children);
+  const newChildren = Children.toArray(children);
+  if (!newChildren.length) {
+    return <></>;
+  }
+
   const newProps = { ...props };
   addClassName(newProps, QUOTE_CLASS);
 
@@ -118,15 +143,15 @@ function formatQuote({ node, children, ...props }) {
 function formatLink({ node, children, ...props }) {
   const newChildren = Children.toArray(children);
   if (!newChildren.length) {
-    return null;
+    return <></>;
   }
 
   const newProps = { ...props };
   addClassName(newProps, LINK_CLASS);
 
-  if (typeof newChildren[0] === 'string' && newChildren[0].startsWith('+')) {
+  if (nodeStartsWith(newChildren[0], '+')) {
     // Make links starting with "+" open in a new tab.
-    newChildren[0] = newChildren[0].slice(1);
+    newChildren[0] = (newChildren[0] as string).slice(1);
     newProps.target = '_blank';
     newProps.rel = 'noopener';
     addClassName(newProps, LINK_EXTERNAL_CLASS);
@@ -146,10 +171,10 @@ function formatImage({ node, ...props }) {
   addClassName(newProps, IMAGE_CLASS);
 
   // Add an alignment class based on special starting characters in the alt text.
-  if (newProps.alt.startsWith('<')) {
+  if (newProps.alt.startsWith('{')) {
     addClassName(newProps, IMAGE_LEFT_CLASS);
     newProps.alt = newProps.alt.slice(1);
-  } else if (newProps.alt.startsWith('>')) {
+  } else if (newProps.alt.startsWith('}')) {
     addClassName(newProps, IMAGE_RIGHT_CLASS);
     newProps.alt = newProps.alt.slice(1);
   } else if (newProps.alt.startsWith('^')) {
@@ -180,7 +205,7 @@ function addComponent({ node, children }) {
   if (children.length === 1 && typeof children[0] === 'string') {
     const command = children[0].split(' ');
     if (!command.length || !command[0]) {
-      return null;
+      return <></>;
     }
 
     if (command.length > 1 && command[0] === 'floravision') {
@@ -202,7 +227,7 @@ function addComponent({ node, children }) {
       return <Stroboscope triggerText={command.slice(1).join(' ')} />;
     }
   }
-  return null;
+  return <></>;
 }
 
 const mdConfig: any = {

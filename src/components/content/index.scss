@@ -38,6 +38,19 @@ $base-class: 'Content';
   &-block {
     margin: $block-space 0;
 
+    &--left {
+      float: left;
+      margin-top: 0;
+      max-width: 50%;
+    }
+
+    &--right {
+      float: right;
+      margin-top: 0;
+      max-width: 50%;
+      text-align: right;
+    }
+
     &--center {
       text-align: center;
     }
@@ -45,6 +58,15 @@ $base-class: 'Content';
 
   figure.#{$base-class}-block {
     padding: $box-padding;
+
+    &--left {
+      padding: 0 $box-padding 0 0;
+    }
+
+    &--right {
+      padding: 0 0 0 $box-padding;
+      text-align: right;
+    }
 
     figcaption {
       font-size: $small-font-size;

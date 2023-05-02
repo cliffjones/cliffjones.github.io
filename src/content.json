@@ -15,10 +15,6 @@
       "title": "Artwork by *",
       "content": ["art"]
     },
-    "rasl": {
-      "title": "Romanized ASL, A Writing System by *",
-      "content": ["rasl"]
-    },
     "character-types": {
       "title": "Character Types by *",
       "content": ["character-types"]
@@ -99,6 +95,10 @@
       "title": "Core Vocabulary Across Languages (*)",
       "content": ["core-vocabulary", "core-vocabulary-contributing"]
     },
+    "dreampunk": {
+      "title": "What Is Dreampunk? (*)",
+      "content": ["dreampunk"]
+    },
     "editing-guidelines": {
       "title": "Editing Guidelines by *",
       "content": ["editing-guidelines"]
@@ -118,6 +118,10 @@
     "language": {
       "title": "Language Resources by *",
       "content": ["language-study", "linguistics"]
+    },
+    "rasl": {
+      "title": "Romanized ASL, A Writing System by *",
+      "content": ["rasl"]
     },
     "social": {
       "title": "*’s Social Networks",
@@ -242,6 +246,11 @@
       "text": "A list of 200 basic vocabulary items with translations.",
       "color": "green"
     },
+    "dreampunk": {
+      "title": "What Is Dreampunk?",
+      "text": "My roundabout answer to what defines this fledgling genre.",
+      "color": "brown"
+    },
     "editing-guidelines": {
       "title": "Editing Guidelines",
       "text": "A handy checklist to help prepare your submissions.",
@@ -318,6 +327,6 @@
     "rasl": ["language"],
     "social": [""],
     "stroboscope": ["coding"],
-    "writing": ["editing-guidelines", "character-types", ""]
+    "writing": ["dreampunk", "editing-guidelines", "character-types", ""]
   }
 }
