@@ -1,6 +1,6 @@
 # What Is Dreampunk?
 
-![}-a Venn diagram for dreampunk](dreampunk-venn)
+}![-a Venn diagram for dreampunk](dreampunk-venn)
 
 [+Cyberpunk](https://en.wikipedia.org/wiki/Cyberpunk), [+dieselpunk](https://en.wikipedia.org/wiki/Dieselpunk), [+steampunk](https://en.wikipedia.org/wiki/Steampunk)&hellip; [+*dreampunk*](https://whatisdreampunk.com)? Unlike its better established siblings, this fledgling genre is not rooted in technology or the reimagining of a different era. It&rsquo;s a trippy subgenre of [+speculative fiction](https://en.wikipedia.org/wiki/Speculative_fiction) focused on dreamlike states and their interaction with consensus reality. It often overlaps with [+irrealism](https://en.wikipedia.org/wiki/Irrealism_(the_arts)) and sometimes with cyberpunk.
 

@@ -24,7 +24,7 @@ Coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpubli
 
 ---
 
-## Somniscope
+## Somniscope: A Dreampunk Convergence
 
 Coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/)!
 
