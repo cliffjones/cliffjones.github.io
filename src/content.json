@@ -119,6 +119,10 @@
       "title": "Language Resources by *",
       "content": ["language-study", "linguistics"]
     },
+    "mirrormaze": {
+      "title": "Mirrormaze: A Dreampunk Anthology, Edited by *",
+      "content": ["mirrormaze"]
+    },
     "rasl": {
       "title": "Romanized ASL, A Writing System by *",
       "content": ["rasl"]
@@ -276,6 +280,11 @@
       "text": "Projects and articles on various linguistic topics.",
       "color": "green"
     },
+    "mirrormaze": {
+      "title": "Mirrormaze",
+      "text": "A collection of dreampunk stories from 22 authors.",
+      "color": "brown"
+    },
     "rasl": {
       "title": "Romanized ASL",
       "text": "A system for writing ASL using the Roman alphabet.",
@@ -319,11 +328,13 @@
     "core-turkish-vocabulary": ["core-vocabulary"],
     "core-ukrainian-vocabulary": ["core-vocabulary"],
     "core-vocabulary": ["core-danish-vocabulary", "core-dutch-vocabulary", "core-esperanto-vocabulary", "core-french-vocabulary", "core-german-vocabulary", "core-hungarian-vocabulary", "core-irish-vocabulary", "core-italian-vocabulary", "core-japanese-vocabulary", "core-mandarin-vocabulary", "core-norwegian-vocabulary", "core-polish-vocabulary", "core-portuguese-vocabulary", "core-russian-vocabulary", "core-spanish-vocabulary", "core-turkish-vocabulary", "core-ukrainian-vocabulary", "language"],
+    "dreampunk": ["mirrormaze", "writing"],
     "editing-guidelines": ["writing"],
     "floravision": ["coding"],
     "hexagraph": ["coding"],
     "ideas": [""],
     "language": ["core-vocabulary", "rasl", ""],
+    "mirrormaze": ["dreampunk"],
     "rasl": ["language"],
     "social": [""],
     "stroboscope": ["coding"],
