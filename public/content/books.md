@@ -2,7 +2,7 @@
 
 ## ![}cover of Mirrormaze: A Dreampunk Anthology](covers/mirrormaze) Mirrormaze: A Dreampunk Anthology
 
-“We find ourselves in a very strange place.” A 22-author collection spanning multiple traditional genres, [*Mirrormaze*](https://whatisdreampunk.com/mirrormaze) takes you on a mind-bending journey through the collective unconscious.
+“We find ourselves in a very strange place.” A 22-author collection spanning multiple traditional genres, [*Mirrormaze*](/mirrormaze) takes you on a mind-bending journey through the collective unconscious.
 
 I have several stories in this one:
 

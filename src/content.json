@@ -328,16 +328,16 @@
     "core-turkish-vocabulary": ["core-vocabulary"],
     "core-ukrainian-vocabulary": ["core-vocabulary"],
     "core-vocabulary": ["core-danish-vocabulary", "core-dutch-vocabulary", "core-esperanto-vocabulary", "core-french-vocabulary", "core-german-vocabulary", "core-hungarian-vocabulary", "core-irish-vocabulary", "core-italian-vocabulary", "core-japanese-vocabulary", "core-mandarin-vocabulary", "core-norwegian-vocabulary", "core-polish-vocabulary", "core-portuguese-vocabulary", "core-russian-vocabulary", "core-spanish-vocabulary", "core-turkish-vocabulary", "core-ukrainian-vocabulary", "language"],
-    "dreampunk": ["mirrormaze", "writing"],
+    "dreampunk": ["writing"],
     "editing-guidelines": ["writing"],
     "floravision": ["coding"],
     "hexagraph": ["coding"],
     "ideas": [""],
     "language": ["core-vocabulary", "rasl", ""],
-    "mirrormaze": ["dreampunk"],
+    "mirrormaze": ["writing"],
     "rasl": ["language"],
     "social": [""],
     "stroboscope": ["coding"],
-    "writing": ["dreampunk", "editing-guidelines", "character-types", ""]
+    "writing": ["mirrormaze", "dreampunk", "editing-guidelines", "character-types", ""]
   }
 }

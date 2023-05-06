@@ -32,7 +32,7 @@ For example, the ASL word [+*vranu*](https://asldict.com/word/vranu) means somet
 
 The “primary” handshape is the one used by the dominant hand at the start of a sign. RASL does not record all the possible handshape distinctions made by ASL, but with a total of 36, it comes pretty close. The following table shows how to spell the various handshapes.
 
-<table class="Content-table Content-table--left">
+<table class="Content-table Content-table--grid Content-table--left">
   <tr>
     <th></th>
     <th scope="col">t/s</th>

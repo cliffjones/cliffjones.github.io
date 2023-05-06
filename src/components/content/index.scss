@@ -196,6 +196,29 @@ $base-class: 'Content';
     border-spacing: $line-thickness;
     margin: $block-space auto;
 
+    &--grid {
+      th[scope='col'] {
+        text-align: center;
+      }
+
+      .#{$base-class}-table-cell {
+        background-color: $cell-bg-color;
+        color: $line-color;
+        text-align: center;
+
+        &:hover {
+          background-color: $cell-bg-hover-color;
+        }
+
+        &--empty {
+          &,
+          &:hover {
+            background-color: $empty-cell-bg-color;
+          }
+        }
+      }
+    }
+
     &--left {
       @media (min-width: $large-width) {
         float: left;
@@ -215,6 +238,7 @@ $base-class: 'Content';
     th {
       color: $special-color;
       padding: $cell-padding;
+      text-align: left;
 
       &[scope='row'] {
         text-align: right;
@@ -223,23 +247,6 @@ $base-class: 'Content';
 
     td {
       padding: $cell-padding;
-    }
-
-    &-cell {
-      background-color: $cell-bg-color;
-      color: $line-color;
-      text-align: center;
-
-      &:hover {
-        background-color: $cell-bg-hover-color;
-      }
-
-      &--empty {
-        &,
-        &:hover {
-          background-color: $empty-cell-bg-color;
-        }
-      }
     }
   }
 }

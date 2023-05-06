@@ -34,6 +34,7 @@ const IMAGE_RIGHT_CLASS = `${IMAGE_CLASS}--right`;
 const IMAGE_CENTER_CLASS = `${IMAGE_CLASS}--center`;
 const IMAGE_NO_BORDER_CLASS = `${IMAGE_CLASS}--no-border`;
 const IMAGE_NO_MAX_CLASS = `${IMAGE_CLASS}--no-max`;
+const TABLE_CLASS = `${BASE_CLASS}-table`;
 
 // Adds a given class to a supplied props object.
 function addClassName(props: any, className: string) {
@@ -127,15 +128,10 @@ function formatList({ node, children, ...props }) {
 
 // Customizes block quote formatting in Markdown content.
 function formatQuote({ node, children, ...props }) {
-  const newChildren = Children.toArray(children);
-  if (!newChildren.length) {
-    return <></>;
-  }
-
   const newProps = { ...props };
   addClassName(newProps, QUOTE_CLASS);
 
-  return <blockquote {...newProps}>{newChildren}</blockquote>;
+  return <blockquote {...newProps}>{children}</blockquote>;
 }
 
 // Customizes link formatting in Markdown content.
@@ -200,6 +196,14 @@ function formatImage({ node, ...props }) {
   return <Image {...newProps} />;
 }
 
+// Customizes table formatting in Markdown content.
+function formatTable({ node, children, ...props }) {
+  const newProps = { ...props };
+  addClassName(newProps, TABLE_CLASS);
+
+  return <table {...newProps}>{children}</table>;
+}
+
 // Uses special syntax to drop in a specified component.
 function addComponent({ node, children }) {
   if (children.length === 1 && typeof children[0] === 'string') {
@@ -242,6 +246,7 @@ const mdConfig: any = {
   blockquote: formatQuote,
   a: formatLink,
   img: formatImage,
+  table: formatTable,
   del: addComponent,
 };
 
