@@ -49,7 +49,7 @@ Here’s a salty portrait of the great [+Django Reinhardt](https://en.wikipedia.
 Here are a couple of variations on the [+Flower of Life](https://en.wikipedia.org/wiki/Overlapping_circles_grid) pattern.
 
 ^!![animated Versailles labyrinth star](anim/versailles-star)
-This is a weird little animation I put together for [the *Mirrormaze* anthology](https://whatisdreampunk.com/mirrormaze) based on [+the labyrinth of Versailles](https://en.wikipedia.org/wiki/The_labyrinth_of_Versailles).
+This is a weird little animation I put together for [the *Mirrormaze* anthology](/mirrormaze) based on [+the labyrinth of Versailles](https://en.wikipedia.org/wiki/The_labyrinth_of_Versailles).
 
 ^!![Cliff smoking a pipe](anim/cliff-pipe-colors)
 And finally, here’s me smoking a pipe in the woods.
