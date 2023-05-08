@@ -6,11 +6,11 @@
 
 I have several stories in this one:
 
-- [+“Pipe Dream”](https://cliffjones.substack.com/p/pipe-dream)
-- [+“Angel in the Cave”](https://cliffjones.substack.com/p/angel-in-the-cave)
-- [+“A Bottle of Jinn”](https://cliffjones.substack.com/p/a-bottle-of-jinn)
-- [+“Dorothy in the Land of Poppies”](https://cliffjones.substack.com/p/dorothy-in-the-land-of-poppies)
-- [+“So Long”](https://cliffjones.substack.com/p/so-long)
+- [“Pipe Dream”](https://cliffjones.substack.com/p/pipe-dream)
+- [“Angel in the Cave”](https://cliffjones.substack.com/p/angel-in-the-cave)
+- [“A Bottle of Jinn”](https://cliffjones.substack.com/p/a-bottle-of-jinn)
+- [“Dorothy in the Land of Poppies”](https://cliffjones.substack.com/p/dorothy-in-the-land-of-poppies)
+- [“So Long”](https://cliffjones.substack.com/p/so-long)
 
 Plus I did the lettering for the cover and designed the labyrinth inside. This book is my baby!
 

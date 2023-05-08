@@ -131,6 +131,10 @@
       "title": "*’s Social Networks",
       "content": ["social"]
     },
+    "somniscope": {
+      "title": "Somniscope: A Dreampunk Convergence, Edited by *",
+      "content": ["somniscope"]
+    },
     "stroboscope": {
       "title": "Stroboscope, A Meditation Aid by *",
       "content": ["stroboscope"]
@@ -294,6 +298,11 @@
       "title": "Follow or Contact",
       "text": "Find me on various social networks."
     },
+    "somniscope": {
+      "title": "Somniscope",
+      "text": "A second dreampunk collection from 27 authors.",
+      "color": "brown"
+    },
     "stroboscope": {
       "title": "Stroboscope",
       "text": "A flicker generator intended for use in meditation.",
@@ -337,7 +346,8 @@
     "mirrormaze": ["writing"],
     "rasl": ["language"],
     "social": [""],
+    "somniscope": ["writing"],
     "stroboscope": ["coding"],
-    "writing": ["mirrormaze", "dreampunk", "editing-guidelines", "character-types", ""]
+    "writing": ["mirrormaze", "somniscope", "dreampunk", "editing-guidelines", "character-types", ""]
   }
 }
