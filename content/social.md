@@ -2,7 +2,7 @@
 
 ## News and Networking
 
-### [+~icon substack~ Substack](https://cliffjones.substack.com/)
+### [~icon substack~ Substack](https://cliffjones.substack.com/)
 
 This is my primary social media these days. My posts here are mostly free, but I also include short stories and special goodies for paid subscribers.
 
@@ -42,14 +42,6 @@ I haven't actually posted a video in years, but I'd like to get back to that som
 
 In my experience, this is a mesmerizing time-waster. Good for exploring vibes and aesthetics.
 
-### [+Threadless](https://dreampunk.threadless.com/)
-
-Buy some merch, like T-shirts I designed.
-
-### [+Redbubble](https://whatisdreampunk.redbubble.com/)
-
-An alternative merch source.
-
 ---
 
 ## Reading and Writing
@@ -81,6 +73,18 @@ An alternative merch source.
 ### [+Khan Academy](https://www.khanacademy.org/profile/CliffJones)
 
 ### [+Dwitter](https://www.dwitter.net/u/CliffJonesJr)
+
+---
+
+## Shopping
+
+### [+Threadless](https://dreampunk.threadless.com/)
+
+Buy some merch, like T-shirts and stickers I designed.
+
+### [+Redbubble](https://whatisdreampunk.redbubble.com/)
+
+An alternative merch source that I hear works better outside the United States.
 
 <!-- ---
 

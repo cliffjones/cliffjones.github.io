@@ -6,10 +6,10 @@
 Inspired by the classic story [+“The Electric Ant”](https://en.wikipedia.org/wiki/The_Electric_Ant) and my own novella *Dreck* (due out in August), this is acrylic on cardboard with some digital manipulation.
 
 ^!![white rabbit holding a candle](tyrro-rabbit-painting)
-I painted this for my still-in-progress novel [*The Lasting Lands*](https://ozghard.com/books). This is a character named Tyrro, sort of like the White Rabbit of Wonderland… but not really.
+I painted this for my still-in-progress novel *The Lasting Lands*. This is a character named Tyrl, sort of like the White Rabbit of Wonderland… but not really.
 
 ^!![Adelaide with a dress made of sky](adelaide-sky)
-And this is Adelaide, the main character of [the story](https://ozghard.com/books). It still needs a lot of work, but you get the idea.
+And this is Adelaide, the main character of the story. It still needs a lot of work, but you get the idea.
 
 ^!![Philip K. Dick portrait: "The Empire Never Ended"](pkd-tene)
 This portrait of [+Philip K. Dick](https://en.wikipedia.org/wiki/Philip_K._Dick) was based on my somewhat impromptu entry in El Paso’s 2014 [+Chalk the Block](http://www.chalktheblock.com/) festival. The line is from [+*VALIS*](https://en.wikipedia.org/wiki/Valis_(novel)).
