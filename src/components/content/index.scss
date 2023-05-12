@@ -27,6 +27,10 @@ $base-class: 'Content';
     opacity: 0.5;
   }
 
+  &-container {
+    overflow-x: auto;
+  }
+
   &-heading {
     color: $special-color;
     font-family: $heading-font;
@@ -195,6 +199,7 @@ $base-class: 'Content';
     border-collapse: separate;
     border-spacing: $line-thickness;
     margin: $block-space auto;
+    overflow-x: auto;
 
     &--grid {
       th[scope='col'] {

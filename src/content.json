@@ -99,6 +99,10 @@
       "title": "What Is Dreampunk? (*)",
       "content": ["dreampunk"]
     },
+    "dreck": {
+      "title": "Dreck, by *",
+      "content": ["dreck"]
+    },
     "editing-guidelines": {
       "title": "Editing Guidelines by *",
       "content": ["editing-guidelines"]
@@ -117,7 +121,7 @@
     },
     "language": {
       "title": "Language Resources by *",
-      "content": ["language-study", "linguistics"]
+      "content": ["linguistics", "language-study"]
     },
     "mirrormaze": {
       "title": "Mirrormaze: A Dreampunk Anthology, Edited by *",
@@ -259,6 +263,11 @@
       "text": "My roundabout answer to what defines this fledgling genre.",
       "color": "brown"
     },
+    "dreck": {
+      "title": "Dreck",
+      "text": "My solo literary debut, a novella in three parts.",
+      "color": "brown"
+    },
     "editing-guidelines": {
       "title": "Editing Guidelines",
       "text": "A handy checklist to help prepare your submissions.",
@@ -338,6 +347,7 @@
     "core-ukrainian-vocabulary": ["core-vocabulary"],
     "core-vocabulary": ["core-danish-vocabulary", "core-dutch-vocabulary", "core-esperanto-vocabulary", "core-french-vocabulary", "core-german-vocabulary", "core-hungarian-vocabulary", "core-irish-vocabulary", "core-italian-vocabulary", "core-japanese-vocabulary", "core-mandarin-vocabulary", "core-norwegian-vocabulary", "core-polish-vocabulary", "core-portuguese-vocabulary", "core-russian-vocabulary", "core-spanish-vocabulary", "core-turkish-vocabulary", "core-ukrainian-vocabulary", "language"],
     "dreampunk": ["writing"],
+    "dreck": ["writing"],
     "editing-guidelines": ["writing"],
     "floravision": ["coding"],
     "hexagraph": ["coding"],
@@ -348,6 +358,6 @@
     "social": [""],
     "somniscope": ["writing"],
     "stroboscope": ["coding"],
-    "writing": ["mirrormaze", "somniscope", "dreampunk", "editing-guidelines", "character-types", ""]
+    "writing": ["mirrormaze", "dreck", "somniscope", "dreampunk", "editing-guidelines", "character-types", ""]
   }
 }

@@ -19,6 +19,7 @@ import Stroboscope from '../stroboscope';
 
 const BASE_CLASS = 'Content';
 const LOADING_CLASS = `${BASE_CLASS}--loading`;
+const CONTAINER_CLASS = `${BASE_CLASS}-container`;
 const HEADING_CLASS = `${BASE_CLASS}-heading`;
 const BLOCK_CLASS = `${BASE_CLASS}-block`;
 const BLOCK_LEFT_CLASS = `${BLOCK_CLASS}--left`;
@@ -201,7 +202,7 @@ function formatTable({ node, children, ...props }) {
   const newProps = { ...props };
   addClassName(newProps, TABLE_CLASS);
 
-  return <table {...newProps}>{children}</table>;
+  return <div className={CONTAINER_CLASS}><table {...newProps}>{children}</table></div>;
 }
 
 // Uses special syntax to drop in a specified component.

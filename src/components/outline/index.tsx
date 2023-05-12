@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import './index.scss';
@@ -13,22 +13,22 @@ function Outline({ mod = '' }) {
     setTimeout(() => setLoading(false), 200);
   }, []);
 
+  const listRef = useRef();
+
   let className = BASE_CLASS;
   if (mod) {
     className = `${className} ${BASE_CLASS}--${mod}`;
   }
 
   let headings = [];
-  if (!loading) {
+  if (!loading && listRef.current) {
     // TODO: This should be able to work with H2s and optionally H4s as well.
-    headings = Array.from(document.querySelectorAll('h3'));
-  }
-  if (!headings?.length) {
-    return null;
+    const listEl = listRef.current as Element;
+    headings = Array.from(listEl.parentNode.querySelectorAll('h3'));
   }
 
   return (
-    <ol className={className}>
+    <ol className={className} ref={listRef}>
       {headings.map((node: any) => {
         let label = node.innerText.trim();
         if (label.endsWith('#')) {

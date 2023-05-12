@@ -119,7 +119,7 @@ Using this terminology, The 1 handshape (<span class="Text--asl">1</span>) is â€
 
 For two-handed signs where the non-dominant hand does *not* use the primary handshape, a secondary handshape must be specified. In this situation, however, only a limited repertoire of handshapes are used. The following table shows a bit more flexibility than the first one, which reflects the reduced importance of the secondary hand in ASL.
 
-<table class="Content-table Content-table--left">
+<table class="Content-table Content-table--grid Content-table--left">
   <tr>
     <th></th>
     <th scope="col">s</th>
