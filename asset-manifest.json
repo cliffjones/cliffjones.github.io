@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "https://cliffjones.github.io/static/css/main.7e525413.css",
-    "main.js": "https://cliffjones.github.io/static/js/main.d92d01a8.js",
-    "static/media/consolas.ttf": "https://cliffjones.github.io/static/media/consolas.871b1e7abbc74e435045.ttf",
-    "static/media/lucida-grande.ttf": "https://cliffjones.github.io/static/media/lucida-grande.e3a5361b34465d3fa3d5.ttf",
-    "static/media/righteous.ttf": "https://cliffjones.github.io/static/media/righteous.fd0110471f2228c1808a.ttf",
-    "static/media/asl-font.ttf": "https://cliffjones.github.io/static/media/asl-font.909c4bec685629233b98.ttf",
-    "index.html": "https://cliffjones.github.io/index.html",
-    "main.7e525413.css.map": "https://cliffjones.github.io/static/css/main.7e525413.css.map",
-    "main.d92d01a8.js.map": "https://cliffjones.github.io/static/js/main.d92d01a8.js.map"
+    "main.css": "https://cliffjonesjr.com/static/css/main.6999acd7.css",
+    "main.js": "https://cliffjonesjr.com/static/js/main.d90d69de.js",
+    "static/media/consolas.ttf": "https://cliffjonesjr.com/static/media/consolas.871b1e7abbc74e435045.ttf",
+    "static/media/lucida-grande.ttf": "https://cliffjonesjr.com/static/media/lucida-grande.e3a5361b34465d3fa3d5.ttf",
+    "static/media/righteous.ttf": "https://cliffjonesjr.com/static/media/righteous.fd0110471f2228c1808a.ttf",
+    "static/media/asl-font.ttf": "https://cliffjonesjr.com/static/media/asl-font.909c4bec685629233b98.ttf",
+    "index.html": "https://cliffjonesjr.com/index.html",
+    "main.6999acd7.css.map": "https://cliffjonesjr.com/static/css/main.6999acd7.css.map",
+    "main.d90d69de.js.map": "https://cliffjonesjr.com/static/js/main.d90d69de.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e525413.css",
-    "static/js/main.d92d01a8.js"
+    "static/css/main.6999acd7.css",
+    "static/js/main.d90d69de.js"
   ]
 }

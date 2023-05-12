@@ -20,22 +20,22 @@ Available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublish
 
 ## Dreck
 
-Coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/)!
+[*Dreck*](/dreck) is my solo literary debut, a tech-centric twist on [+the legend of Faust](https://en.wikipedia.org/wiki/Faust) told in three parts. Coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/)!
 
 ---
 
 ## Somniscope: A Dreampunk Convergence
 
-Coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/)!
+[*Somniscope*](/somniscope) is a 27-author follow-up to *Mirrormaze* coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/)!
 
 ---
 
 ## The Lasting Lands
 
-In progress since 2015.
+The big fat science fantasy novel I’ve had in progress since 2014.
 
 ---
 
 ## Two-Headed Lamb
 
-In progress since 2017.
+A [+transrealist](https://en.wikipedia.org/wiki/Transrealism_(literature)) novel drawing from my own life and the life of [+Philip K. Dick](https://en.wikipedia.org/wiki/Philip_K._Dick). In progress since 2017.

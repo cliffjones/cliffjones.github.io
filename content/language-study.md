@@ -1,8 +1,10 @@
 # Language Study
 
+~outline right~
+
 <!-- [+95 Core Concepts Across Languages](https://www.duolingo.com/comment/4571123) ([+and 105 More](https://www.duolingo.com/comment/4664475)) -->
 
-[Core Vocabulary Across Languages](/core-vocabulary)
+- [Core Vocabulary Across Languages](/core-vocabulary)
 
 <!-- [+Learning Romance Languages in Parallel](https://www.duolingo.com/comment/3611036) -->
 
@@ -10,19 +12,19 @@
 
 ## American Sign Language
 
-[Writing in Romanized ASL](/rasl)
+- [Writing in Romanized ASL](/rasl)
 
 ---
 
 ## Danish
 
-[Core Vocabulary in Danish](/core-danish-vocabulary)
+- [Core Vocabulary in Danish](/core-danish-vocabulary)
 
 ---
 
 ## Dutch
 
-[Core Vocabulary in Dutch](/core-dutch-vocabulary)
+- [Core Vocabulary in Dutch](/core-dutch-vocabulary)
 
 <!-- --- -->
 
@@ -48,19 +50,19 @@
 
 ## Esperanto
 
-[Core Vocabulary in Esperanto](/core-esperanto-vocabulary)
+- [Core Vocabulary in Esperanto](/core-esperanto-vocabulary)
 
 ---
 
 ## French
 
-[Core Vocabulary in French](/core-french-vocabulary)
+- [Core Vocabulary in French](/core-french-vocabulary)
 
 ---
 
 ## German
 
-[Core Vocabulary in German](/core-german-vocabulary)
+- [Core Vocabulary in German](/core-german-vocabulary)
 
 <!--<a href="http://vokation.com/2009/07/essential-german-vocabulary.html" target="_blank">Essential German Vocabulary</a>-->
 
@@ -68,25 +70,25 @@
 
 ## Hungarian
 
-[Core Vocabulary in Hungarian](/core-hungarian-vocabulary)
+- [Core Vocabulary in Hungarian](/core-hungarian-vocabulary)
 
 ---
 
 ## Irish
 
-[Core Vocabulary in Irish](/core-irish-vocabulary)
+- [Core Vocabulary in Irish](/core-irish-vocabulary)
 
 ---
 
 ## Italian
 
-[Core Vocabulary in Italian](/core-italian-vocabulary)
+- [Core Vocabulary in Italian](/core-italian-vocabulary)
 
 ---
 
 ## Japanese
 
-[Core Vocabulary in Japanese](/core-japanese-vocabulary)
+- [Core Vocabulary in Japanese](/core-japanese-vocabulary)
 
 <!--<a href="http://vokation.com/2008/06/japanese-for-english-teachers-part-1.html" target="_blank">Japanese for English Teachers</a>-->
 
@@ -96,7 +98,7 @@
 
 ## Mandarin Chinese
 
-[Core Vocabulary in Mandarin](/core-mandarin-vocabulary)
+- [Core Vocabulary in Mandarin](/core-mandarin-vocabulary)
 
 <!--<a href="http://vokation.com/2009/10/jones-romanization-mandarin-chinese.html" target="_blank">Jones Romanization: Mandarin Chinese</a>-->
 
@@ -104,31 +106,31 @@
 
 ## Norwegian
 
-[Core Vocabulary in Norwegian](/core-norwegian-vocabulary)
+- [Core Vocabulary in Norwegian](/core-norwegian-vocabulary)
 
 ---
 
 ## Polish
 
-[Core Vocabulary in Polish](/core-polish-vocabulary)
+- [Core Vocabulary in Polish](/core-polish-vocabulary)
 
 ---
 
 ## Portuguese
 
-[Core Vocabulary in Portuguese](/core-portuguese-vocabulary)
+- [Core Vocabulary in Portuguese](/core-portuguese-vocabulary)
 
 ---
 
 ## Russian
 
-[Core Vocabulary in Russian](/core-russian-vocabulary)
+- [Core Vocabulary in Russian](/core-russian-vocabulary)
 
 ---
 
 ## Spanish
 
-[Core Vocabulary in Spanish](/core-spanish-vocabulary)
+- [Core Vocabulary in Spanish](/core-spanish-vocabulary)
 
 <!-- [+The Most Useful Spanish Cognates](https://www.duolingo.com/comment/5508808) -->
 
@@ -140,10 +142,10 @@
 
 ## Turkish
 
-[Core Vocabulary in Turkish](/core-turkish-vocabulary)
+- [Core Vocabulary in Turkish](/core-turkish-vocabulary)
 
 ---
 
 ## Ukrainian
 
-[Core Vocabulary in Ukrainian](/core-ukrainian-vocabulary)
+- [Core Vocabulary in Ukrainian](/core-ukrainian-vocabulary)
