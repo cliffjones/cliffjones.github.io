@@ -3,10 +3,10 @@ $large-width: 800px;
 $max-width: 1200px;
 
 @font-face {
-  font-family: 'Lucida Grande';
-  src: url('./fonts/lucida-grande.ttf');
+  font-family: 'Roboto Slab';
+  src: url('./fonts/roboto-slab.ttf');
 }
-$lucida-font: 'Lucida Grande', sans-serif;
+$slab-font: 'Roboto Slab', sans-serif;
 
 @font-face {
   font-family: 'Righteous';
@@ -26,7 +26,7 @@ $consolas-font: 'Consolas', monospace;
 }
 $asl-font: 'ASL-Font', sans-serif;
 
-$normal-font: $lucida-font;
+$normal-font: $slab-font;
 $heading-font: $righteous-font;
 $code-font: $consolas-font;
 $normal-font-size: calc(1rem + 1vmin);
