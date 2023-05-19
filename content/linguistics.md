@@ -30,7 +30,7 @@
 
 ## Writing Systems
 
-- [Writing in Romanized ASL](/rasl): A method I invented for using the Roman alphabet to write American Sign Language without resorting to English glosses.
+- [Writing in Romanized ASL](/rasl): A method I developed for using the Roman alphabet to write American Sign Language without resorting to English glosses.
 
 - [+Geometric Phoenician](https://codepen.io/cliffjones/pen/QWKGgQO): A simple, logical writing system I designed.
 
