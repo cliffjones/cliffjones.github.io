@@ -35,7 +35,7 @@ At the end of the story, it becomes clear that her adventure in the Looking-Glas
 }!![Alice asleep dreaming of Wonderland](alice-dreaming)
 From [+*Alice in Wonderland*](https://www.imdb.com/title/tt0043274/)
 
-Philip K. Dick described himself as an “acosmic pantheist.” He believed there was no such thing as a true external reality, only the endlessly complex mind of God. What that’s essentially saying is that the Tweedles were right: “Life is but a dream.”
+Philip K. Dick described himself as an “acosmic panentheist.” He believed there was no such thing as a true physical universe, only the endlessly complex mind of God. What that’s essentially saying is that the Tweedles were right: “Life is but a dream.”
 
 If that’s all a bit much to unpack, don’t worry; it’s meant to be. The goal of dreampunk fiction is not to feed people a particular ideology but to make them feel just uncomfortable enough with their own assumptions that they take a fresh look around with honest curiosity.
 

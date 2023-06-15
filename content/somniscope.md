@@ -59,4 +59,4 @@ Chapter | Title                                | Author
 
 ---
 
-Coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/)! Watch this space for updates, or join my [mailing list](https://cliffjones.substack.com/).
+Coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/)! Watch this space for updates, or join my [mailing list](https://cliffjones.substack.com/). In the meantime, check out the first-ever dreampunk anthology, [*Mirrormaze*](/mirrormaze).
