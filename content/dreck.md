@@ -10,9 +10,9 @@
 
 ## Buy the Book!
 
-Now available as a paperback from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/catalog/dreck). Ebook format is coming soon. Watch this space for updates, or join my [mailing list](https://cliffjones.substack.com/).
+Now available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/catalog/dreck) through the following retailers:
 
-- [+Amazon](https://www.amazon.com/dp/B0C7T7V5HV)
+- [+Amazon](https://www.amazon.com/dp/B0C7T7V5HV) / [+Kindle](https://www.amazon.com/Dreck-Cliff-Jones-Jr-ebook/dp/B0C9XDQZRT)
 - [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/dreck-cliff-jones-jr/1143655642)
 - [+Bookshop.org](https://bookshop.org/p/books/dreck-jr-cliff-jones/20168839)
 - [+Alibris](https://www.alibris.com/search/books/isbn/9798887850214)
