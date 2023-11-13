@@ -12,7 +12,7 @@ Millennia in the making, the time has come for the first-ever [dreampunk](/dream
 
 ^![-Mirrormaze](mirrormaze-title-sunset)
 
-*Mirrormaze* is now available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze-a-dreampunk-anthology). Also available through [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131), [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743), [+Bookshop.org](https://bookshop.org/p/books/mirrormaze-a-dreampunk-anthology-cliff-jones/15863537), and [others](#buy-the-book-section).
+*Mirrormaze* is now available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze-a-dreampunk-anthology). Also available through [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131), [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743), [+Bookshop.org](https://bookshop.org/p/books/mirrormaze-a-dreampunk-anthology-cliff-jones/15863537), and [others](#buy-the-book-section). See [what people are saying](https://cliffjones.substack.com/p/enter-the-mirrormaze) about this book on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze) and [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/product-reviews/1735217131/)!
 
 ---
 

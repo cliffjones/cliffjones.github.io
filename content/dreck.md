@@ -6,6 +6,8 @@
 
 *Dreck* embodies the surrealistic spirit of [dreampunk](/dreampunk), a growing subgenre of speculative fiction that blends elements of science fiction, fantasy, and psychological horror. A tech-centric twist on [+the legend of Faust](https://en.wikipedia.org/wiki/Faust), it asks how much we are all willing to trade for the digital interconnectedness we enjoy today.
 
+See [what people are saying](https://cliffjones.substack.com/p/pure-dreck) about this book on [+Goodreads](https://www.goodreads.com/book/show/177804435-dreck) and [+Amazon](https://www.amazon.com/Dreck-Cliff-Jones-Jr/product-reviews/B0C7T7V5HV/)!
+
 ---
 
 ## Buy the Book!

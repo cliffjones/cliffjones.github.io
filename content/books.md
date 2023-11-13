@@ -1,16 +1,16 @@
 # Books
 
-## ![}cover of Dreck](covers/dreck) Dreck
+## ![}cover of Dreck](covers/dreck) [Dreck](/dreck)
 
-[*Dreck*](/dreck) is my solo literary debut, a tech-centric twist on [+the legend of Faust](https://en.wikipedia.org/wiki/Faust) told in three parts.
+My solo literary debut, a tech-centric twist on [+the legend of Faust](https://en.wikipedia.org/wiki/Faust) told in three parts.
 
 Now available on [+Amazon](https://www.amazon.com/dp/B0C7T7V5HV), [+Barnes & Noble](https://www.barnesandnoble.com/w/dreck-cliff-jones-jr/1143655642), [+Bookshop.org](https://bookshop.org/p/books/dreck-jr-cliff-jones/20168839), and [others](/dreck#buy-the-book-section). Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/177804435-dreck)!
 
 ---
 
-## ![}cover of Mirrormaze: A Dreampunk Anthology](covers/mirrormaze) Mirrormaze: A Dreampunk Anthology
+## ![}cover of Mirrormaze: A Dreampunk Anthology](covers/mirrormaze) [Mirrormaze: A Dreampunk Anthology](/mirrormaze)
 
-“We find ourselves in a very strange place.” A 22-author collection spanning multiple traditional genres, [*Mirrormaze*](/mirrormaze) takes you on a mind-bending journey through the collective unconscious.
+“We find ourselves in a very strange place.” A 22-author collection spanning multiple traditional genres, *Mirrormaze* takes you on a mind-bending journey through the collective unconscious.
 
 I have several stories in this one:
 
@@ -26,13 +26,13 @@ Available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublish
 
 ---
 
-## Somniscope: A Dreampunk Convergence
+## [Somniscope: A Dreampunk Convergence](/somniscope)
 
-[*Somniscope*](/somniscope) is a 27-author follow-up to *Mirrormaze* coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/)!
+A 27-author follow-up to *Mirrormaze* coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/)!
 
 ---
 
-## The Lasting Lands
+## [The Lasting Lands](/the-lasting-lands)
 
 The big fat science fantasy novel I’ve had in progress since 2014.
 

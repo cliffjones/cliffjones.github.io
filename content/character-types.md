@@ -31,11 +31,11 @@ Using the system in this way allows for 64 distinct characters right off the bat
 
 **Example characters:**
 
+- [+Samwise Gamgee](https://en.wikipedia.org/wiki/Samwise_Gamgee)
 - [+Dr. Leonard “Bones” McCoy](https://en.wikipedia.org/wiki/)
 - [+Emma Woodhouse](https://en.wikipedia.org/wiki/Emma_Woodhouse)
-- [+Peeta Mellark](https://en.wikipedia.org/wiki/Peeta_Mellark)
-- [+Rubeus Hagrid](https://en.wikipedia.org/wiki/Rubeus_Hagrid)
-- [+Samwise Gamgee](https://en.wikipedia.org/wiki/Samwise_Gamgee)
+- [Maggie Moon](/dreck)
+- [Adelaide Batiste](/the-lasting-lands)
 
 ---
 
@@ -55,11 +55,11 @@ Using the system in this way allows for 64 distinct characters right off the bat
 **Example characters:**
 
 - [+Dorothy Gale](https://en.wikipedia.org/wiki/Dorothy_Gale)
-- [+Fanny Price](https://en.wikipedia.org/wiki/Fanny_Price)
-- [+Harry Potter](https://en.wikipedia.org/wiki/Harry_Potter)
-- [+Jane Bennet](https://en.wikipedia.org/wiki/Bennet_family#Jane_Bennet)
 - [+Marge Simpson](https://en.wikipedia.org/wiki/Marge_Simpson)
 - [+Mister Rogers](https://en.wikipedia.org/wiki/Fred_Rogers)
+- [+Fanny Price](https://en.wikipedia.org/wiki/Fanny_Price)
+- [+Jane Bennet](https://en.wikipedia.org/wiki/Bennet_family#Jane_Bennet)
+- [Sylvia Batiste](/the-lasting-lands)
 
 ---
 
@@ -78,11 +78,12 @@ Using the system in this way allows for 64 distinct characters right off the bat
 
 **Example characters:**
 
-- [+Apu Nahasapeemapetilon](https://en.wikipedia.org/wiki/Apu_Nahasapeemapetilon)
 - [+Bilbo Baggins](https://en.wikipedia.org/wiki/Bilbo_Baggins)
 - [+C-3PO](https://en.wikipedia.org/wiki/C-3PO)
 - [+Marilla Cuthbert](https://en.wikipedia.org/wiki/Anne_of_Green_Gables#Characters)
 - [+Prince Hamlet](https://en.wikipedia.org/wiki/Prince_Hamlet)
+- [Wayne Park](/dreck)
+- [Eli Nock](/the-lasting-lands)
 
 ---
 
@@ -103,13 +104,13 @@ Using the system in this way allows for 64 distinct characters right off the bat
 
 **Example characters:**
 
+- [+Merlin](https://en.wikipedia.org/wiki/Merlin)
+- [+Sherlock Holmes](https://en.wikipedia.org/wiki/Sherlock_Holmes)
 - [+Fox Mulder](https://en.wikipedia.org/wiki/Fox_Mulder)
-- [+Dr. Gregory House](https://en.wikipedia.org/wiki/Gregory_House)
 - [+Hannibal Lecter](https://en.wikipedia.org/wiki/Hannibal_Lecter)
 - [+Lisbeth Salander](https://en.wikipedia.org/wiki/Lisbeth_Salander)
-- [+Merlin](https://en.wikipedia.org/wiki/Merlin)
-- [+Severus Snape](https://en.wikipedia.org/wiki/Severus_Snape)
-- [+Sherlock Holmes](https://en.wikipedia.org/wiki/Sherlock_Holmes)
+- [Laila Duchamp](/dreck)
+- [Marlena Batiste](/the-lasting-lands)
 
 ---
 
@@ -128,13 +129,14 @@ Using the system in this way allows for 64 distinct characters right off the bat
 
 **Example characters:**
 
-- [+Atticus Finch](https://en.wikipedia.org/wiki/Atticus_Finch)
-- [+Batman](https://en.wikipedia.org/wiki/Batman)
-- [+Hermione Granger](https://en.wikipedia.org/wiki/Hermione_Granger)
-- [+Mary Poppins](https://en.wikipedia.org/wiki/Mary_Poppins_(character))
-- [+Mr. Spock](https://en.wikipedia.org/wiki/Spock)
-- [+Ned Stark](https://en.wikipedia.org/wiki/Ned_Stark)
 - [+Sir Lancelot](https://en.wikipedia.org/wiki/Lancelot)
+- [+Batman](https://en.wikipedia.org/wiki/Batman)
+- [+Mr. Spock](https://en.wikipedia.org/wiki/Spock)
+- [+Mary Poppins](https://en.wikipedia.org/wiki/Mary_Poppins_(character))
+- [+Ned Stark](https://en.wikipedia.org/wiki/Ned_Stark)
+- [+Atticus Finch](https://en.wikipedia.org/wiki/Atticus_Finch)
+- [Neil Conrad](/dreck)
+- [Ada](/the-lasting-lands)
 
 ---
 
@@ -154,13 +156,14 @@ Using the system in this way allows for 64 distinct characters right off the bat
 
 **Example characters:**
 
+- [+Loki](https://en.wikipedia.org/wiki/Loki)
 - [+Alice](https://en.wikipedia.org/wiki/Alice_(Alice%27s_Adventures_in_Wonderland))
 - [+Anne Shirley](https://en.wikipedia.org/wiki/Anne_Shirley)
+- [+Madame Bovary](https://en.wikipedia.org/wiki/Madame_Bovary)
 - [+Blanche DuBois](https://en.wikipedia.org/wiki/Blanche_DuBois)
 - [+Jay Gatsby](https://en.wikipedia.org/wiki/Jay_Gatsby)
-- [+Loki](https://en.wikipedia.org/wiki/Loki)
-- [+Madame Bovary](https://en.wikipedia.org/wiki/Madame_Bovary)
-- [+Marianne Dashwood](https://en.wikipedia.org/wiki/Marianne_Dashwood)
+- [Frederick “Flip” Foster](/dreck)
+- [Pierre Batiste](/the-lasting-lands)
 
 ---
 
@@ -181,12 +184,12 @@ Using the system in this way allows for 64 distinct characters right off the bat
 
 **Example characters:**
 
-- [+Auntie Mame](https://en.wikipedia.org/wiki/Auntie_Mame)
+- [+Peter Pan](https://en.wikipedia.org/wiki/Peter_Pan)
 - [+Holly Golightly](https://en.wikipedia.org/wiki/Breakfast_at_Tiffany%27s_(novella))
 - [+John “Bluto” Blutarsky](https://en.wikipedia.org/wiki/Animal_House)
 - [+Lydia Bennet](https://en.wikipedia.org/wiki/Bennet_family#Lydia_Bennet)
-- [+Peter Pan](https://en.wikipedia.org/wiki/Peter_Pan)
-- [+Sirius Black](https://en.wikipedia.org/wiki/Sirius_Black)
+- [Levi “Lucky” Ferris](/dreck)
+- [Thrako](/the-lasting-lands)
 
 ---
 
@@ -207,9 +210,11 @@ Using the system in this way allows for 64 distinct characters right off the bat
 
 **Example characters:**
 
-- [+Don Draper](https://en.wikipedia.org/wiki/Don_Draper)
-- [+Gaston](https://en.wikipedia.org/wiki/Gaston_(Beauty_and_the_Beast))
-- [+Jo March](https://en.wikipedia.org/wiki/Little_Women#Josephine_"Jo"_March)
 - [+King Arthur](https://en.wikipedia.org/wiki/King_Arthur)
 - [+Othello](https://en.wikipedia.org/wiki/Othello_(character))
+- [+Gaston](https://en.wikipedia.org/wiki/Gaston_(Beauty_and_the_Beast))
+- [+Jo March](https://en.wikipedia.org/wiki/Little_Women#Josephine_"Jo"_March)
 - [+Tony Soprano](https://en.wikipedia.org/wiki/Tony_Soprano)
+- [+Don Draper](https://en.wikipedia.org/wiki/Don_Draper)
+- [Violet Valdez](/dreck)
+- [Isala](/the-lasting-lands)
