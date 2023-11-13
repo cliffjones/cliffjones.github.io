@@ -6,7 +6,7 @@
   },
   "pages": {
     "": {
-      "content": ["welcome", "mirrormaze-blurb"]
+      "content": ["welcome", "dreck-blurb", "mirrormaze-blurb"]
     },
     "*": {
       "content": ["missing"]
@@ -142,6 +142,10 @@
     "stroboscope": {
       "title": "Stroboscope, A Meditation Aid by *",
       "content": ["stroboscope"]
+    },
+    "the-lasting-lands": {
+      "title": "The Lasting Lands, by *",
+      "content": ["the-lasting-lands"]
     },
     "writing": {
       "title": "Books, Stories, and Writing Aids by *",
@@ -317,6 +321,11 @@
       "text": "A flicker generator intended for use in meditation.",
       "color": "blue"
     },
+    "the-lasting-lands": {
+      "title": "The Lasting Lands",
+      "text": "My in-progress dreampunk fantasy novel.",
+      "color": "brown"
+    },
     "writing": {
       "title": "Writing",
       "text": "Books to buy, stories to read, and writing-related musings.",
@@ -346,18 +355,19 @@
     "core-turkish-vocabulary": ["core-vocabulary"],
     "core-ukrainian-vocabulary": ["core-vocabulary"],
     "core-vocabulary": ["core-danish-vocabulary", "core-dutch-vocabulary", "core-esperanto-vocabulary", "core-french-vocabulary", "core-german-vocabulary", "core-hungarian-vocabulary", "core-irish-vocabulary", "core-italian-vocabulary", "core-japanese-vocabulary", "core-mandarin-vocabulary", "core-norwegian-vocabulary", "core-polish-vocabulary", "core-portuguese-vocabulary", "core-russian-vocabulary", "core-spanish-vocabulary", "core-turkish-vocabulary", "core-ukrainian-vocabulary", "language"],
-    "dreampunk": ["writing"],
+    "dreampunk": ["mirrormaze", "somniscope", "writing"],
     "dreck": ["writing"],
     "editing-guidelines": ["writing"],
     "floravision": ["coding"],
     "hexagraph": ["coding"],
     "ideas": [""],
     "language": ["core-vocabulary", "rasl", ""],
-    "mirrormaze": ["writing"],
+    "mirrormaze": ["somniscope", "dreampunk", "writing"],
     "rasl": ["language"],
     "social": [""],
-    "somniscope": ["writing"],
+    "somniscope": ["mirrormaze", "dreampunk", "writing"],
     "stroboscope": ["coding"],
-    "writing": ["mirrormaze", "dreck", "somniscope", "dreampunk", "editing-guidelines", "character-types", ""]
+    "the-lasting-lands": ["writing"],
+    "writing": ["character-types", "dreck", "editing-guidelines", "mirrormaze", "somniscope", "the-lasting-lands", "dreampunk", ""]
   }
 }

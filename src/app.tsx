@@ -7,6 +7,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Page from './components/page';
 import Lexic from './components/lexic';
+import Quotes from './components/quotes';
 import Ticker from './components/ticker';
 import ImageSearch from './components/image-search';
 
@@ -42,6 +43,7 @@ function App() {
             <Route key={path} path={`/${path}`} element={<Page path={path} />} />
           ))}
           <Route path="/lexic" element={<Lexic />} />
+          <Route path="/quotes" element={<Quotes />} />
           <Route path="/ticker" element={<Ticker />} />
           <Route path="/image-search" element={<ImageSearch />} />
 

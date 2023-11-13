@@ -257,12 +257,12 @@ function Content({ path }) {
 
   // Load the specified Markdown file.
   useEffect(() => {
-    console.log('START', startLoading());
+    // console.log('START', startLoading());
     axios.get(`/content/${path}.md`)
       .then((response) => {
         setMdContent(response.data);
         setLoading(false);
-        console.log('STOP', stopLoading());
+        // console.log('STOP', stopLoading());
       });
   }, [path]);
 

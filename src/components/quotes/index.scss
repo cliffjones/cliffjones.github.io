@@ -1,0 +1,50 @@
+@import '../../tokens.scss';
+
+.Quotes {
+  &-query {
+    display: block;
+    margin: $section-space auto;
+    width: calc(100% - $box-padding*4);
+  }
+
+  &-results {
+    background: $section-bg-color;
+    border-radius: $box-radius;
+    border: $line-thickness solid $line-color;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: $section-space $box-padding;
+    opacity: 1;
+    padding: $box-padding;
+  }
+
+  &-item {
+    border-bottom: $line-thickness solid $line-color;
+    line-height: $small-line-height;
+    padding: $box-padding 0;
+
+    &:first-child {
+      padding-top: 0;
+    }
+
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  &-cell {
+    border-right: $line-thickness solid $line-color;
+    overflow-x: auto;
+    padding: $box-padding;
+
+    &:first-child {
+      text-align: right;
+    }
+
+    &:last-child {
+      border-right: 0;
+    }
+  }
+}

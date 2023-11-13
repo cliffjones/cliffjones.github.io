@@ -1,58 +1,74 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import axios from 'axios';
-import compact from 'lodash/compact';
-import union from 'lodash/union';
 
 import './index.scss';
 import config from '../../config.json';
 
-const BASE_CLASS = 'Lexic';
+const BASE_CLASS = 'Quotes';
+const KEY_LENGTH = 100;
 const MAX_RESULTS = 100;
 
 let searchTimer: ReturnType<typeof setTimeout>;
 
-function getResults(query: string, dict: any) {
-  const results: any[][] = [];
-  Object.keys(dict).forEach((id: string) => {
-    const haystack = dict[id].forms.join('  ');
-    if (haystack.includes(query)) {
-      if (!results[haystack.length]) {
-        results[haystack.length] = [];
-      }
-      results[haystack.length].push(id);
-    }
-  });
-  return compact([].concat.apply([], results));
+function makeSimple(text: string) {
+  return text.toLocaleLowerCase().replace(/[^a-z]+/g, ' ').trim();
 }
 
-function Lexic() {
+function makeKey(text: string) {
+  return makeSimple(text).replace(/\s+/g, '').slice(0, KEY_LENGTH);
+}
+
+function getResults(query: string, dict: any[]) {
+  const simpleQuery = makeSimple(query);
+  if (!simpleQuery) {
+    return [];
+  }
+
+  const results: any[] = [];
+  dict.forEach((item: any) => {
+    const itemObject = typeof item === 'string' ? { text: item } : item;
+    const haystackText = makeSimple(itemObject?.text ?? '');
+    if (!haystackText) {
+      return;
+    }
+    let haystackTags = makeSimple(itemObject?.tags ?? '');
+    if (haystackTags) {
+      haystackTags = `  ${haystackTags}  ${haystackTags}  ${haystackTags}`;
+    }
+    const haystack = `${haystackText}${haystackTags}`;
+    const score = (haystack.match(new RegExp(query, 'g')) || []).length / haystack.length;
+    if (score) {
+      itemObject.score = score;
+      results.push(itemObject);
+    }
+  });
+  results.sort((a, b) => b.score - a.score);
+  return results;
+}
+
+function Quotes() {
   const [dictPaths, setDictPaths] = useState<string[]>([]);
   const [dicts, setDicts] = useState<any>({});
   const [query, setQuery] = useState<string>('');
   const [results, setResults] = useState<any[]>([]);
 
-  // Determine which vocabulary lists to use.
+  // Determine which quote lists to use.
   // TODO: Make this URL-dependent.
   useEffect(() => {
     setDictPaths([
-      'basics-en',
-      'basics-alo',
-      'basics-yili',
-      'basics-yomba',
-      'basics-calda',
-      'basics-gowee',
+      'pkd',
     ]);
   }, []);
 
-  // Load the specified vocabulary lists.
+  // Load the specified quote lists.
   useEffect(() => {
-    if (dictPaths.length < 2) {
+    if (dictPaths.length < 1) {
       return;
     }
 
     dictPaths.forEach(dictPath => {
       if (!dicts[dictPath]) {
-        axios.get(`/lexic/${dictPath}.json`)
+        axios.get(`/quotes/${dictPath}.json`)
           .then((response) => {
             const newDicts = { ...dicts };
             newDicts[dictPath] = response.data;
@@ -73,8 +89,8 @@ function Lexic() {
       return;
     }
 
-    const resultsFromDicts = dictPaths.map(dictPath => getResults(query, dicts[dictPath]));
-    const newResults = union(...resultsFromDicts);
+    const dict = dictPaths.reduce((acc, dictPath) => [...acc, ...dicts[dictPath]], []);
+    const newResults = getResults(query, dict);
     if (newResults.length > MAX_RESULTS) {
       newResults.length = MAX_RESULTS;
     }
@@ -93,20 +109,10 @@ function Lexic() {
   }, []);
 
   // Convert the fetched results to JSX, skipping any incomplete items.
-  const resultsEls = results.map((id: string) => {
-    const isComplete = dictPaths.reduce((acc, dictPath) => acc && dicts[dictPath][id], true);
-    if (!isComplete) {
-      return <></>;
-    }
-
-    return <li key={id} className={`${BASE_CLASS}-item`}>
-      <ol>
-        {dictPaths.map(dictPath => {
-          return <li key={`${id}_${dictPath}`} className={`${BASE_CLASS}-cell`}>
-            {dicts[dictPath][id].forms.join(' / ')}
-          </li>;
-        })}
-      </ol>
+  const resultsEls = results.map((item: any) => {
+    return <li key={makeKey(item.text)} className={`${BASE_CLASS}-item`}>
+      “{item.text}”
+      {item.source ? <small>{` (${item.source})`}</small> : ''}
     </li>;
   });
 
@@ -120,4 +126,4 @@ function Lexic() {
   </div>;
 }
 
-export default Lexic;
+export default Quotes;
