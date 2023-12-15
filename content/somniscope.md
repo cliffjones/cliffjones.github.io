@@ -1,5 +1,7 @@
 # Somniscope: A Dreampunk Convergence
 
+}![cover of Somniscope: A Dreampunk Convergence](covers/somniscope)
+
 Another lonely night, another borrowed dream. You know you’ll never get to sleep on your own, so why bother trying? It’ll only waste time, and you’ve got to be up in six hours. Five and a half now.
 
 What is it about other people’s lives that satisfies that gnawing hunger in your chest, if only for a moment? Living in someone else’s skin scratches an itch that can’t be reached any other way. All the little parts of yourself that aggravate like a pebble in your shoe… they’re just gone. Sure, everybody’s got problems, but they don’t have *your* problems, not exactly. It’s this momentary relief that keeps you coming back night after night.
