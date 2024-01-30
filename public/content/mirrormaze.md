@@ -12,7 +12,7 @@ Millennia in the making, the time has come for the first-ever [dreampunk](/dream
 
 ^![-Mirrormaze](mirrormaze-title-sunset)
 
-*Mirrormaze* is now available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze-a-dreampunk-anthology). Also available through [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131), [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743), [+Bookshop.org](https://bookshop.org/p/books/mirrormaze-a-dreampunk-anthology-cliff-jones/15863537), and [others](#buy-the-book-section). See [what people are saying](https://cliffjones.substack.com/p/enter-the-mirrormaze) about this book on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze) and [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/product-reviews/1735217131/)!
+*Mirrormaze* is now available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze:-a-dreampunk-anthology). Also available through [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131), [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743), [+Bookshop.org](https://bookshop.org/p/books/mirrormaze-a-dreampunk-anthology-cliff-jones/15863537), and [others](#buy-the-book-section). See [what people are saying](https://cliffjones.substack.com/p/enter-the-mirrormaze) about this book on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze) and [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/product-reviews/1735217131/)!
 
 ---
 
@@ -68,7 +68,7 @@ Chapter | Title                                | Author
 
 ## Buy the Book!
 
-- [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze-a-dreampunk-anthology)
+- [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze:-a-dreampunk-anthology)
 - [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131) / [+Kindle](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr-ebook/dp/B08KBH5CJ7)
 - [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743) / [+Nook](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743?ean=9781735217147)
 - [+Bookshop.org](https://bookshop.org/p/books/mirrormaze-a-dreampunk-anthology-cliff-jones/15863537)
@@ -83,4 +83,4 @@ Chapter | Title                                | Author
 - [+Walmart](https://www.walmart.com/ip/Mirrormaze-A-Dreampunk-Anthology-Paperback-9781735217130/318621555)
 - [+Waterstones](https://www.waterstones.com/book/mirrormaze/cliff-jones/9781735217130)
 
-Don’t forget to rate and review it on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze)!
+And don’t forget to rate and review it on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze)!

@@ -225,7 +225,7 @@ What are the most basic concepts that virtually all languages express? I’ve do
 ## Other, Secondary
 
 174. it/he/him/she/her/they/them/the = él/ella, ellos/ellas, el/la/los/las
-175. itself/oneself/himself/herself/-self = se, mismo
+175. itself/oneself/himself/herself/themself/-self = se, mismo
 176. that/those = ese/esa/eso/ése/ésa/esos/esas/ésas, aquel/aquella/aquello/aquél/aquélla/aquellos/aquellas/aquéllos/aquéllas
 177. other/another/others = otro/otra, otros/otras
 178. no/none/no-one = no, nada, ninguno/ninguna

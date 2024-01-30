@@ -6,7 +6,7 @@
   },
   "pages": {
     "": {
-      "content": ["welcome", "dreck-blurb", "mirrormaze-blurb"]
+      "content": ["welcome", "somniscope-blurb", "dreck-blurb"]
     },
     "*": {
       "content": ["missing"]

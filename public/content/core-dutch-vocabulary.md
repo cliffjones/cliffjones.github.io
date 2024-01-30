@@ -215,7 +215,7 @@ What are the most basic concepts that virtually all languages express? I’ve do
 167. wet = nat
 168. smooth = glad
 169. sharp = scherp
-170. dull *(not sharp)* = saai
+170. dull *(not sharp)* = bot
 171. dirty = vies
 172. short = kort
 173. round = rond
@@ -224,8 +224,8 @@ What are the most basic concepts that virtually all languages express? I’ve do
 
 ## Other, Secondary
 
-174. it/he/him/she/her/they/them/the = het, hij/ie/hem/'m, ze/zij/haar, ze/zij/hen/hun, de/het/'t
-175. itself/oneself/himself/herself/-self = zich, zichzelf, zelf
+174. it/he/him/she/her/they/them/the = het, hij/hem/'m, ze/zij/haar, ze/zij/hen/hun, de/het/'t
+175. itself/oneself/himself/herself/themself/-self = zich, zichzelf, zelf, hijzelf, haarzelf, hunzelf
 176. that/those = dat/die
 177. other/another/others = ander, anderen
 178. no/none/no-one = nee, geen, niemand
