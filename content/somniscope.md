@@ -10,6 +10,8 @@ So you pull out the device, plug it into the wall beside your bed, slip on the h
 
 ^![-Somniscope](somniscope-title-hard)
 
+*Somniscope* is now available from [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/) and [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/somniscope-cliff-jones-jr/1144751925)!  Ebook versions coming soon.
+
 ---
 
 ## Contents
@@ -61,4 +63,9 @@ Chapter | Title                                | Author
 
 ---
 
-Coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/)! Watch this space for updates, or join my [mailing list](https://cliffjones.substack.com/). In the meantime, check out the first-ever dreampunk anthology, [*Mirrormaze*](/mirrormaze).
+## Buy the Book!
+
+- [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/)
+- [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/somniscope-cliff-jones-jr/1144751925)
+
+And don’t forget to rate and review it on [+Goodreads](https://www.goodreads.com/book/show/206118495-somniscope)! Ebook versions coming soon.

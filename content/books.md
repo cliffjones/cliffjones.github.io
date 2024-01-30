@@ -1,5 +1,15 @@
 # Books
 
+## ![}cover of Somniscope: A Dreampunk Convergence](covers/somniscope) [Somniscope: A Dreampunk Convergence](/somniscope)
+
+A book that defies categorization. Is it a collection of short fiction? Sure. A multi-author novel? That too.
+
+Turn on, tune in, and blast off into a dream like no other! But fair warning: Once you enter the world of *Somniscope*, you may never again feel at home in your waking life.
+
+Available from [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/) and [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/somniscope-cliff-jones-jr/1144751925)! Ebook versions coming soon. Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/206118495-somniscope)!
+
+---
+
 ## ![}cover of Dreck](covers/dreck) [Dreck](/dreck)
 
 My solo literary debut, a tech-centric twist on [+the legend of Faust](https://en.wikipedia.org/wiki/Faust) told in three parts.
@@ -22,13 +32,7 @@ I have several stories in this one:
 
 Plus I did the lettering for the cover and designed the labyrinth inside. This book is my baby!
 
-Available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze-a-dreampunk-anthology), as well as through [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131), [+Barnes & Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743), [+Bookshop.org](https://bookshop.org/p/books/mirrormaze-a-dreampunk-anthology-cliff-jones/15863537), and [others](/mirrormaze#buy-the-book-section). Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze)!
-
----
-
-## [Somniscope: A Dreampunk Convergence](/somniscope)
-
-A 27-author follow-up to *Mirrormaze* coming soon from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/)!
+Available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze:-a-dreampunk-anthology), as well as through [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131), [+Barnes & Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743), [+Bookshop.org](https://bookshop.org/p/books/mirrormaze-a-dreampunk-anthology-cliff-jones/15863537), and [others](/mirrormaze#buy-the-book-section). Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze)!
 
 ---
 
