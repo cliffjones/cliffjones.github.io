@@ -10,7 +10,7 @@ So you pull out the device, plug it into the wall beside your bed, slip on the h
 
 ^![-Somniscope](somniscope-title-hard)
 
-*Somniscope* is now available from [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/) and [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/somniscope-cliff-jones-jr/1144751925)!  Ebook versions coming soon.
+*Somniscope* is available from [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/), [+Bookshop.org](https://bookshop.org/p/books/somniscope-a-dreampunk-convergence-jr-cliff-jones/21099497), and [others](#buy-the-book-section).
 
 ---
 
@@ -65,7 +65,17 @@ Chapter | Title                                | Author
 
 ## Buy the Book!
 
-- [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/)
+- [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/catalog/somniscope%3A-a-dreampunk-convergence)
+- [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/) / [+Kindle](https://www.amazon.com/Somniscope-Convergence-Cliff-Jones-Jr-ebook/dp/B0CW1LM5HC)
+- [+Bookshop.org](https://bookshop.org/p/books/somniscope-a-dreampunk-convergence-jr-cliff-jones/21099497)
+- [+AbeBooks](https://www.abebooks.com/9798887850306/Somniscope-Dreampunk-Convergence-Jones-Cliff/plp)
+- [+Alibris](https://www.alibris.com/search/books/isbn/9798887850306)
 - [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/somniscope-cliff-jones-jr/1144751925)
+- [+Better World Books](https://www.betterworldbooks.com/product/detail/somniscope-a-dreampunk-convergence-9798887850306)
+- [+Books-A-Million](https://www.booksamillion.com/p/Somniscope/Jr-Cliff-Jones/9798887850306)
+- [+Indigo](https://www.indigo.ca/en-ca/somniscope-a-dreampunk-convergence/9798887850306.html)
+- [+ThriftBooks](https://www.thriftbooks.com/w/somniscope-a-dreampunk-convergence_jeff-noon_kristin-jacques/52155844)
+- [+Walmart](https://www.walmart.com/ip/Somniscope-A-Dreampunk-Convergence-Paperback-9798887850306/5291380273)
+- [+Waterstones](https://www.waterstones.com/book/somniscope/cliff-jones/9798887850306)
 
 And don’t forget to rate and review it on [+Goodreads](https://www.goodreads.com/book/show/206118495-somniscope)! Ebook versions coming soon.

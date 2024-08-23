@@ -6,7 +6,7 @@ A book that defies categorization. Is it a collection of short fiction? Sure. A 
 
 Turn on, tune in, and blast off into a dream like no other! But fair warning: Once you enter the world of *Somniscope*, you may never again feel at home in your waking life.
 
-Available from [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/) and [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/somniscope-cliff-jones-jr/1144751925)! Ebook versions coming soon. Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/206118495-somniscope)!
+Available from [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/), [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/somniscope-cliff-jones-jr/1144751925), [+Bookshop.org](https://bookshop.org/p/books/somniscope-a-dreampunk-convergence-jr-cliff-jones/21099497), and [others](/somniscope#buy-the-book-section). Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/206118495-somniscope)!
 
 ---
 
@@ -14,7 +14,7 @@ Available from [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/) and [+Barnes &am
 
 My solo literary debut, a tech-centric twist on [+the legend of Faust](https://en.wikipedia.org/wiki/Faust) told in three parts.
 
-Now available on [+Amazon](https://www.amazon.com/dp/B0C7T7V5HV), [+Barnes & Noble](https://www.barnesandnoble.com/w/dreck-cliff-jones-jr/1143655642), [+Bookshop.org](https://bookshop.org/p/books/dreck-jr-cliff-jones/20168839), and [others](/dreck#buy-the-book-section). Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/177804435-dreck)!
+Available on [+Amazon](https://www.amazon.com/dp/B0C7T7V5HV), [+Bookshop.org](https://bookshop.org/p/books/dreck-jr-cliff-jones/20168839), and [others](/dreck#buy-the-book-section). Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/177804435-dreck)!
 
 ---
 
@@ -32,7 +32,7 @@ I have several stories in this one:
 
 Plus I did the lettering for the cover and designed the labyrinth inside. This book is my baby!
 
-Available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/product-page/mirrormaze:-a-dreampunk-anthology), as well as through [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131), [+Barnes & Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743), [+Bookshop.org](https://bookshop.org/p/books/mirrormaze-a-dreampunk-anthology-cliff-jones/15863537), and [others](/mirrormaze#buy-the-book-section). Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze)!
+Available from [+Fractured Mirror Publishing](https://www.fracturedmirrorpublishing.com/catalog/mirrormaze%3A-a-dreampunk-anthology), as well as through [+Amazon](https://www.amazon.com/Mirrormaze-Dreampunk-Cliff-Jones-Jr/dp/1735217131), [+Barnes & Noble](https://www.barnesandnoble.com/w/mirrormaze-cliff-jones/1138422743), [+Bookshop.org](https://bookshop.org/p/books/mirrormaze-a-dreampunk-anthology-cliff-jones/15863537), and [others](/mirrormaze#buy-the-book-section). Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/55505086-mirrormaze)!
 
 ---
 

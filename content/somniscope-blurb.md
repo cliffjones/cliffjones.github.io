@@ -6,4 +6,4 @@ The visionary minds behind [*Mirrormaze: A Dreampunk Anthology*](/mirrormaze) ar
 
 Turn on, tune in, and blast off into a dream like no other! But fair warning: Once you enter the world of [*Somniscope*](/somniscope), you may never again feel at home in your waking life.
 
-Available from [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/) and [+Barnes &amp; Noble](https://www.barnesandnoble.com/w/somniscope-cliff-jones-jr/1144751925)! Ebook versions coming soon. Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/206118495-somniscope)!
+Available from [+Amazon](https://www.amazon.com/dp/B0CTH2PW42/), [+Bookshop.org](https://bookshop.org/p/books/somniscope-a-dreampunk-convergence-jr-cliff-jones/21099497), and [others](/somniscope#buy-the-book-section). Rate and review it on [+Goodreads](https://www.goodreads.com/book/show/206118495-somniscope)!
