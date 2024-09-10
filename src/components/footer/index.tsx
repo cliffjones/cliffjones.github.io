@@ -17,19 +17,29 @@ function Footer() {
           action='https://cliffjones.substack.com'
         />
         <Icon
+          name='bluesky'
+          hint='Bluesky'
+          action='https://bsky.app/profile/cliffjones.bsky.social'
+        />
+        {/* <Icon
           name='mastodon'
           hint='Mastodon'
           action='https://sfba.social/@cliffjones'
+        /> */}
+        {/* <Icon
+          name='threads'
+          hint='Threads'
+          action='https://www.threads.net/@cliffjonesjr'
+        /> */}
+        <Icon
+          name='instagram'
+          hint='Instagram'
+          action='http://instagram.com/cliffjonesjr'
         />
         <Icon
           name='facebook'
           hint='Facebook'
           action='http://www.facebook.com/mrcliffjonesjr'
-        />
-        <Icon
-          name='instagram'
-          hint='Instagram'
-          action='http://instagram.com/cliffjonesjr'
         />
         <Icon
           name='goodreads'

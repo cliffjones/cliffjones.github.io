@@ -40,6 +40,10 @@
     background-color: #146eb4;
   }
 
+  &--bluesky {
+    background-color: #1185fe;
+  }
+
   &--codepen {
     background-color: #000000;
   }
@@ -95,6 +99,10 @@
     }
   }
 
+  &--threads {
+    background-color: #000000;
+  }
+
   &--tumblr {
     background-color: #2c4762;
   }
@@ -112,6 +120,10 @@
     &:hover {
       background-color: $link-focus-color;
     }
+  }
+
+  &--xtwitter {
+    background-color: #000000;
   }
 
   &--youtube {

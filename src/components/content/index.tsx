@@ -206,9 +206,13 @@ function formatTable({ node, children, ...props }) {
 }
 
 // Uses special syntax to drop in a specified component.
-function addComponent({ node, children }) {
-  if (children.length === 1 && typeof children[0] === 'string') {
-    const command = children[0].split(' ');
+function addComponent({ children }) {
+  let childList: string[] = [];
+  if (typeof children === 'string') {
+    childList = [children];
+  }
+  if (childList.length === 1 && typeof childList[0] === 'string') {
+    const command = childList[0].split(' ');
     if (!command.length || !command[0]) {
       return <></>;
     }
@@ -249,6 +253,7 @@ const mdConfig: any = {
   img: formatImage,
   table: formatTable,
   del: addComponent,
+  icon: addComponent,
 };
 
 function Content({ path }) {

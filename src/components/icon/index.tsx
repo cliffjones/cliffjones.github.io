@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faAmazon,
+  faBluesky,
   faCodepen,
   faFacebookF,
   faGithub,
@@ -13,8 +14,9 @@ import {
   faPatreon,
   faQuora,
   faRedditAlien,
+  faThreads,
   faTumblr,
-  faTwitter,
+  faXTwitter,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
 import {
@@ -64,6 +66,13 @@ function Icon({ name, hint = '', action = '', color = '' }) {
       return <a {...props}><FontAwesomeIcon icon={faAmazon} /></a>;
     }
     return <span {...props}><FontAwesomeIcon icon={faAmazon} /></span>;
+  }
+
+  if (name === 'bluesky') {
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faBluesky} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faBluesky} /></span>;
   }
 
   if (name === 'book') {
@@ -182,6 +191,13 @@ function Icon({ name, hint = '', action = '', color = '' }) {
     return <span {...props}></span>;
   }
 
+  if (name === 'threads') {
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faThreads} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faThreads} /></span>;
+  }
+
   if (name === 'tumblr') {
     if (props.href) {
       return <a {...props}><FontAwesomeIcon icon={faTumblr} /></a>;
@@ -189,18 +205,25 @@ function Icon({ name, hint = '', action = '', color = '' }) {
     return <span {...props}><FontAwesomeIcon icon={faTumblr} /></span>;
   }
 
-  if (name === 'twitter') {
-    if (props.href) {
-      return <a {...props}><FontAwesomeIcon icon={faTwitter} /></a>;
-    }
-    return <span {...props}><FontAwesomeIcon icon={faTwitter} /></span>;
-  }
+  // if (name === 'twitter') {
+  //   if (props.href) {
+  //     return <a {...props}><FontAwesomeIcon icon={faTwitter} /></a>;
+  //   }
+  //   return <span {...props}><FontAwesomeIcon icon={faTwitter} /></span>;
+  // }
 
   if (name === 'wattpad') {
     if (props.href) {
       return <a {...props}><span className={HIDDEN_CLASS}>{hint}</span></a>;
     }
     return <span {...props}></span>;
+  }
+
+  if (name === 'xtwitter') {
+    if (props.href) {
+      return <a {...props}><FontAwesomeIcon icon={faXTwitter} /></a>;
+    }
+    return <span {...props}><FontAwesomeIcon icon={faXTwitter} /></span>;
   }
 
   if (name === 'youtube') {
