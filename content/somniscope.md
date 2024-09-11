@@ -26,7 +26,7 @@ Chapter | Title                                | Author
 6       | Pale Shadows of the Five             | [+Barry Hale](https://www.amazon.com/stores/Barry-Hale/author/B00Q6CAKX8)
 7       | The Red Smoke                        | [+David Pierre](https://david-pierre.com/)
 8       | A Lioness Named Midnight             | [+Yelena Calavera](https://www.yelenacalavera.co/)
-9       | Origin                               | [+Courtney LoCicero](https://www.wattpad.com/user/CocoNichole)
+9       | A Long-Awaited Interview             | [+Courtney LoCicero](https://www.wattpad.com/user/CocoNichole)
 10      | A Kiss to Build a Dream On           | [Cliff Jones Jr.](/writing)
 11      | Parasomnia                           | [+Tessa B. Dick](https://www.amazon.com/stores/Tessa-B.-Dick/author/B002BMDCBE)
 12      | Clayborn                             | [+Igor Goldkind](https://igorgoldkindpoet.com/)

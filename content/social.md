@@ -2,21 +2,17 @@
 
 ## News and Networking
 
-### [~icon substack~ Substack](https://cliffjones.substack.com/)
-
-This is like an extension of my website that allows commenting. My posts here are mostly free, but I also include short stories and special goodies for paid subscribers.
-
 ### [+~icon mastodon~ Mastodon](https://sfba.social/@cliffjones)
 
-A decentralized, open-source microblogging system that many people (myself included) flocked to after Twitter went downhill. Always free to use and free of ads.
+A decentralized, open-source microblogging system that many people flocked to after Twitter went downhill. Always free to use and free of ads.
 
-### [+Bluesky](https://bsky.app/profile/cliffjones.bsky.social)
+### [+~icon bluesky~ Bluesky](https://bsky.app/profile/cliffjones.bsky.social)
 
 Another contender to fill the void left in this post-Twitter world.
 
-### [+Threads](https://www.threads.net/@cliffjonesjr)
+### [+~icon threads~ Threads](https://www.threads.net/@cliffjonesjr)
 
-And yet another, this one backed by Instagram.
+Yet another Twitter replacement, this one backed by Meta (i.e. Facebook/Instagram).
 
 ### [+~icon facebook~ Facebook](http://www.facebook.com/mrcliffjonesjr)
 
@@ -28,11 +24,11 @@ I want to like this one a lot more than I actually do. Pretty good content, but 
 
 ### [+~icon linkedin~ LinkedIn](https://www.linkedin.com/in/cliff-jones-b2567227)
 
-This can be handy when looking for a job, but otherwise it’s like an even more restrictive version of Facebook.
+This can be handy when looking for a job, but that’s about it.
 
-### [+~icon twitter~ Xitter](http://twitter.com/cliffjonesjr)
+### [+~icon xtwitter~ Xitter](http://twitter.com/cliffjonesjr)
 
-Twitter used to be a nice place to network with [+other writers](https://twitter.com/i/lists/1231856887311802368), including the occasional [+celebrity mention](https://twitter.com/CliffJonesJr/status/1143727995351441409). Sadly, “X” has become a nest of bigots, trolls, and spammers. I’m only keeping my account in the hopes that Elon sells it off and the new owner cleans things up somehow.
+Twitter used to be a nice place to network with [+other writers](https://twitter.com/i/lists/1231856887311802368). Sadly, “X” has become a nest of bigots, trolls, and spammers. I’m only keeping my account in the hopes that Elon sells it off and the new owner cleans things up somehow.
 
 ---
 
@@ -54,13 +50,17 @@ In my experience, this is a mesmerizing time-waster. Good for exploring vibes an
 
 ## Reading and Writing
 
+### [~icon substack~ Substack](https://cliffjones.substack.com/)
+
+This is like an extension of my website that allows commenting. My posts here are mostly free, but I also include short stories and special goodies for paid subscribers.
+
+<!-- ### [+~icon patreon~ Patreon](https://www.patreon.com/cliffjonesjr) -->
+
+<!-- ### [+~icon medium~ Medium](https://medium.com/@cliffjonesjr) -->
+
 ### [+~icon goodreads~ Goodreads](https://www.goodreads.com/cliffjones)
 
 ### [+~icon amazon~ Amazon](https://www.amazon.com/Cliff-Jones-Jr/e/B08LF1PBFY)
-
-### [+~icon patreon~ Patreon](https://www.patreon.com/cliffjonesjr)
-
-<!-- ### [+~icon medium~ Medium](https://medium.com/@cliffjonesjr) -->
 
 ### [+~icon wattpad~ Wattpad](http://www.wattpad.com/user/CliffJonesJr)
 
